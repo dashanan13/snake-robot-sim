@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  >
+   
+     <gazebo reference="link_1">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo reference="link_2">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <gazebo reference="link_3">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+
+    <gazebo reference="link_4">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <gazebo reference="link_5">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo reference="link_6">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <gazebo reference="link_7">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+
+    <gazebo reference="link_8">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo reference="link_9">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    <gazebo reference="link_10">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+
+  <ros2_control name="GazeboSystem" type="system">
+    	<hardware>
+            <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    	</hardware>
+
+<!--  ****************************************************** * * * BELOW IS Commented * *************************************************************************************** * * * * * -->
+    <joint name="link_1_2_joint">
+        <command_interface name="effort">
+            <param name="min">0</param>
+            <param name="max">200</param>
+        </command_interface>
+        <state_interface name="position"/>
+
+     
+    </joint>
+    
+    
+    <joint name="link_2_3_joint">
+        <command_interface name="effort">
+            <param name="min">0</param>
+            <param name="max">200</param>
+        </command_interface>
+        <state_interface name="position"/>
+
+    </joint>
+    
+    <joint name="link_3_4_joint">
+        <command_interface name="effort">
+            <param name="min">0</param>
+            <param name="max">200</param>
+        </command_interface>
+        <state_interface name="position"/>
+
+    </joint>
+
+
+    <joint name="link_4_5_joint">
+        <command_interface name="effort">
+            <param name="min">0</param>
+            <param name="max">200</param>
+        </command_interface>
+        <state_interface name="position"/>
+
+    </joint>
+    
+    <joint name="link_5_6_joint">
+        <command_interface name="effort">
+            <param name="min">0</param>
+            <param name="max">200</param>
+        </command_interface>
+        <state_interface name="position"/>
+
+    </joint>
+    
+    <joint name="link_6_7_joint">
+        <command_interface name="effort">
+            <param name="min">0</param>
+            <param name="max">200</param>
+        </command_interface>
+        <state_interface name="position"/>
+
+    </joint>
+    
+    
+    <joint name="link_7_8_joint">
+        <command_interface name="effort">
+            <param name="min">0</param>
+            <param name="max">200</param>
+        </command_interface>
+        <state_interface name="position"/>
+
+    </joint>
+    
+    
+    <joint name="link_8_9_joint">
+        <command_interface name="effort">
+            <param name="min">0</param>
+            <param name="max">200</param>
+        </command_interface>
+        <state_interface name="position"/>
+
+    </joint>
+    
+    
+    <joint name="link_9_10_joint">
+        <command_interface name="effort">
+            <param name="min">0</param>
+            <param name="max">200</param>
+        </command_interface>
+        <state_interface name="position"/>
+    </joint>
+  </ros2_control>
+    
+    
+    <gazebo>
+ 
+            <plugin name="gazebo_ros_planar_move" filename="libgazebo_ros_planar_move.so">
+
+
+          
+                <update_rate>100</update_rate>
+                <publish_rate>10</publish_rate>
+          
+                <!-- output -->
+                <publish_odom>true</publish_odom>
+                <publish_odom_tf>true</publish_odom_tf>
+          
+                <odometry_frame>odom</odometry_frame>
+                <robot_base_frame>base_link</robot_base_frame>
+          
+
+          
+              </plugin>
+    
+
+        
+        <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+        <parameters>$(find snake_bot)/config/controllers.yaml</parameters>
+        
+        </plugin>
+
+
+        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+            <updateRate>100.0</updateRate>
+            <remapping>wrench:=joint_1</remapping>
+            <joint_name>link_1_2_joint</joint_name>
+            <gaussian_noise>0.01</gaussian_noise>
+            <update_rate>1</update_rate>
+        </plugin>
+
+
+
+
+
+    
+    </gazebo>
+
+
+
+
+
+</robot>

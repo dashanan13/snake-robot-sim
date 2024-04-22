@@ -4,7 +4,7 @@
   <name>snake_bot</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="01fe21bee114@kletech.ac.in">jagadeesh</maintainer>
+  <maintainer email="mohit13@outlook.com">mohit</maintainer>
   <license>TODO: License declaration</license>
 
   <build_depend>gazebo_ros</build_depend>

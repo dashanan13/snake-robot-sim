@@ -16,7 +16,7 @@ class Joints(Node):
         self.joint_8_pub_ = self.create_publisher(Float64MultiArray,'/joints8_controllers/commands',10)
         self.joint_9_pub_ = self.create_publisher(Float64MultiArray,'/joints9_controllers/commands',10)
 
-        timer_period =  1/20
+        timer_period =  2
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.count = 0
         self.phase_shift=-30

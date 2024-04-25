@@ -195,7 +195,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>4.950914 -1.408102 0.033266 -0.000001 -0.198203 2.919863</pose>
+        <pose>0.464415 0.082653 2.704524 -0.000774 1.569796 -0.004884</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -217,7 +217,7 @@
           </inertia>
           <pose>0 0 0 0 -0 0</pose>
         </inertial>
-        <pose>-0.52 0 0 0 0 0</pose>
+        <pose>-0.485 -0.1 0 0 0 0</pose>
         <gravity>1</gravity>
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
@@ -318,7 +318,7 @@
           </inertia>
           <pose>0 0 0 0 -0 0</pose>
         </inertial>
-        <pose>0.4 0.2 0 0 -0 0</pose>
+        <pose>0.48 -0.1 0 0 -0 0</pose>
         <gravity>1</gravity>
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>

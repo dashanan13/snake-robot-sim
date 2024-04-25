@@ -38,7 +38,7 @@
     </gazebo>
 
     <gazebo reference="link_10">
-        <material>Gazebo/Orange</material>
+        <material>Gazebo/Pink</material>
     </gazebo>
 
     <ros2_control name="GazeboSystem" type="system">

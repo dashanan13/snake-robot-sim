@@ -14,31 +14,31 @@
     </gazebo>
 
     <gazebo reference="link_4">
-        <material>Gazebo/Blue</material>
+        <material>Gazebo/White</material>
     </gazebo>
 
     <gazebo reference="link_5">
-        <material>Gazebo/Green</material>
+        <material>Gazebo/Yellow</material>
     </gazebo>
 
     <gazebo reference="link_6">
-        <material>Gazebo/Blue</material>
+        <material>Gazebo/Purple</material>
     </gazebo>
 
     <gazebo reference="link_7">
-        <material>Gazebo/Orange</material>
+        <material>Gazebo/Black</material>
     </gazebo>
 
     <gazebo reference="link_8">
-        <material>Gazebo/Green</material>
+        <material>Gazebo/Indigo</material>
     </gazebo>
 
     <gazebo reference="link_9">
-        <material>Gazebo/Blue</material>
+        <material>Gazebo/RedBright</material>
     </gazebo>
 
     <gazebo reference="link_10">
-        <material>Gazebo/Orange</material>
+        <material>Gazebo/Turquoise</material>
     </gazebo>
 
     <ros2_control name="GazeboSystem" type="system">

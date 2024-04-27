@@ -100,7 +100,7 @@
     </gui>
 
 
-    <model name='2obstacles'>
+    <model name='3obstacles'>
       <static>1</static>
       <link name='obstacle_1'>
         <inertial>

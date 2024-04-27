@@ -5,18 +5,12 @@ from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.actions import RegisterEventHandler
 from launch.event_handlers import OnProcessExit
-
-
-
 from launch_ros.actions import Node
 import xacro
 
 
 def generate_launch_description():
-
-
     # Configure the node
-
 
     robot_controller_spawner1 = Node(
         package="controller_manager",
@@ -80,8 +74,6 @@ def generate_launch_description():
     )
     
     
-
-
     # Run the node
     return LaunchDescription([
         RegisterEventHandler(

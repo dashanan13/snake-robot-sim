@@ -5,9 +5,6 @@ from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.actions import RegisterEventHandler
 from launch.event_handlers import OnProcessExit
-
-
-
 from launch_ros.actions import Node
 import xacro
 
@@ -24,8 +21,6 @@ def generate_launch_description():
     xacro_file = os.path.join(get_package_share_directory(pkg_name),file_subpath)
     robot_description_raw = xacro.process_file(xacro_file).toxml()
 
- 
-
 
     # Configure the node
     node_robot_state_publisher = Node(
@@ -35,7 +30,6 @@ def generate_launch_description():
         parameters=[{'robot_description': robot_description_raw,
         'use_sim_time': True}] # add other parameters here if required
     )
-
 
 
     gazebo = IncludeLaunchDescription(
@@ -50,16 +44,9 @@ def generate_launch_description():
                     output='screen')
     
 
-    
-    
-
-
     # Run the node
     return LaunchDescription([
-
         gazebo,
         node_robot_state_publisher,
-        spawn_entity,
-
-        
+        spawn_entity,       
     ])

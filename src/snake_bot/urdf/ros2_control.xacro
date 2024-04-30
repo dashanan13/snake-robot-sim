@@ -294,7 +294,7 @@
         </plugin>
 
 
-        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+        <plugin name="ft_sensor_joint_1" filename="libgazebo_ros_ft_sensor.so">
             <updateRate>100.0</updateRate>
             <remapping>wrench:=joint_1</remapping>
             <joint_name>link_1_2_joint</joint_name>
@@ -302,7 +302,7 @@
             <update_rate>1</update_rate>
         </plugin>
         
-        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+        <plugin name="ft_sensor_joint_2" filename="libgazebo_ros_ft_sensor.so">
             <updateRate>100.0</updateRate>
             <remapping>wrench:=joint_2</remapping>
             <joint_name>link_2_3_joint</joint_name>
@@ -310,7 +310,7 @@
             <update_rate>1</update_rate>
         </plugin>
 
-        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+        <plugin name="ft_sensor_joint_3" filename="libgazebo_ros_ft_sensor.so">
             <updateRate>100.0</updateRate>
             <remapping>wrench:=joint_3</remapping>
             <joint_name>link_3_4_joint</joint_name>
@@ -318,7 +318,7 @@
             <update_rate>1</update_rate>
         </plugin>
 
-        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+        <plugin name="ft_sensor_joint_4" filename="libgazebo_ros_ft_sensor.so">
             <updateRate>100.0</updateRate>
             <remapping>wrench:=joint_4</remapping>
             <joint_name>link_4_5_joint</joint_name>
@@ -326,7 +326,7 @@
             <update_rate>1</update_rate>
         </plugin>
 
-        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+        <plugin name="ft_sensor_joint_5" filename="libgazebo_ros_ft_sensor.so">
             <updateRate>100.0</updateRate>
             <remapping>wrench:=joint_5</remapping>
             <joint_name>link_5_6_joint</joint_name>
@@ -334,7 +334,7 @@
             <update_rate>1</update_rate>
         </plugin>
 
-        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+        <plugin name="ft_sensor_joint_6" filename="libgazebo_ros_ft_sensor.so">
             <updateRate>100.0</updateRate>
             <remapping>wrench:=joint_6</remapping>
             <joint_name>link_6_7_joint</joint_name>
@@ -342,7 +342,7 @@
             <update_rate>1</update_rate>
         </plugin>
 
-        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+        <plugin name="ft_sensor_joint_7" filename="libgazebo_ros_ft_sensor.so">
             <updateRate>100.0</updateRate>
             <remapping>wrench:=joint_7</remapping>
             <joint_name>link_7_8_joint</joint_name>
@@ -350,7 +350,7 @@
             <update_rate>1</update_rate>
         </plugin>
 
-        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+        <plugin name="ft_sensor_joint_8" filename="libgazebo_ros_ft_sensor.so">
             <updateRate>100.0</updateRate>
             <remapping>wrench:=joint_8</remapping>
             <joint_name>link_8_9_joint</joint_name>
@@ -358,7 +358,7 @@
             <update_rate>1</update_rate>
         </plugin>
 
-        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+        <plugin name="ft_sensor_joint_9" filename="libgazebo_ros_ft_sensor.so">
             <updateRate>100.0</updateRate>
             <remapping>wrench:=joint_9</remapping>
             <joint_name>link_9_10_joint</joint_name>

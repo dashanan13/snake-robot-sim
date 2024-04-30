@@ -32,7 +32,7 @@
             </geometry>
             <material name="green"/>
         </visual>
-        <collision>
+        <collision name="link_1_collision">
             <origin xyz="0.0 0.07 0.03" rpy="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.06 0.14 0.06"/>
@@ -65,7 +65,7 @@
                 <box size="0.06 0.14 0.06"/>
             </geometry>
         </visual>
-        <collision>
+        <collision name="link_2_collision">
             <origin xyz="0.0 0.07 0.03" rpy="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.06 0.14 0.06"/>
@@ -99,7 +99,7 @@
                 <box size="0.06 0.14 0.06"/>
             </geometry>
         </visual>
-        <collision>
+        <collision name="link_3_collision">
             <origin xyz="0.0 0.07 0.03" rpy="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.06 0.14 0.06"/>
@@ -133,7 +133,7 @@
                 <box size="0.06 0.14 0.06"/>
             </geometry>
         </visual>
-        <collision>
+        <collision name="link_4_collision">
             <origin xyz="0.0 0.07 0.03" rpy="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.06 0.14 0.06"/>
@@ -166,7 +166,7 @@
                 <box size="0.06 0.14 0.06"/>
             </geometry>
         </visual>
-        <collision>
+        <collision name="link_5_collision">
             <origin xyz="0.0 0.07 0.03" rpy="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.06 0.14 0.06"/>
@@ -198,7 +198,7 @@
                 <box size="0.06 0.14 0.06"/>
             </geometry>
         </visual>
-        <collision>
+        <collision name="link_6_collision">
             <origin xyz="0.0 0.07 0.03" rpy="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.06 0.14 0.06"/>
@@ -230,7 +230,7 @@
                 <box size="0.06 0.14 0.06"/>
             </geometry>
         </visual>
-        <collision>
+        <collision name="link_7_collision">
             <origin xyz="0.0 0.07 0.03" rpy="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.06 0.14 0.06"/>
@@ -263,7 +263,7 @@
                 <box size="0.06 0.14 0.06"/>
             </geometry>
         </visual>
-        <collision>
+        <collision name="link_8_collision">
             <origin xyz="0.0 0.07 0.03" rpy="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.06 0.14 0.06"/>
@@ -296,7 +296,7 @@
                 <box size="0.06 0.14 0.06"/>
             </geometry>
         </visual>
-        <collision>
+        <collision name="link_9_collision">
             <origin xyz="0.0 0.07 0.03" rpy="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.06 0.14 0.06"/>
@@ -328,7 +328,7 @@
                 <box size="0.06 0.14 0.06"/>
             </geometry>
         </visual>
-        <collision>
+        <collision name="link_10_collision">
             <origin xyz="0.0 0.07 0.03" rpy="0.0 0.0 0.0"/>
             <geometry>
                 <box size="0.06 0.14 0.06"/>

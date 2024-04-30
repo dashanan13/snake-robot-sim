@@ -3,50 +3,191 @@
    
     <gazebo reference="link_1">
         <material>Gazebo/Green</material>
+        <sensor name="link1_contact_sensor" type="contact">
+            <always_on>true</always_on>
+            <contact>
+                <collision>link_1_collision_collision</collision>
+            </contact>
+            <update_rate>1</update_rate>
+            <plugin name="link1_bumper_plugin" filename="libgazebo_ros_bumper.so">
+                <frame_name>world</frame_name>
+                <bumperTopicName>link1_bumper</bumperTopicName>
+                <ros>
+                    <remapping>bumper_states:=link1_bumper_states</remapping>
+                </ros>
+            </plugin>
+        </sensor>
     </gazebo>
 
     <gazebo reference="link_2">
         <material>Gazebo/Blue</material>
+        <sensor name="link2_contact_sensor" type="contact">
+            <always_on>true</always_on>
+            <contact>
+                <collision>link_2_collision_collision</collision>
+            </contact>
+            <update_rate>1</update_rate>
+            <plugin name="link2_bumper_plugin" filename="libgazebo_ros_bumper.so">
+                <frame_name>world</frame_name>
+                <bumperTopicName>link2_bumper</bumperTopicName>
+                <ros>
+                    <remapping>bumper_states:=link2_bumper_states</remapping>
+                </ros>
+            </plugin>
+        </sensor>
     </gazebo>
 
     <gazebo reference="link_3">
         <material>Gazebo/Orange</material>
+        <sensor name="link3_contact_sensor" type="contact">
+            <always_on>true</always_on>
+            <contact>
+                <collision>link_3_collision_collision</collision>
+            </contact>
+            <update_rate>1</update_rate>
+            <plugin name="link3_bumper_plugin" filename="libgazebo_ros_bumper.so">
+                <frame_name>world</frame_name>
+                <bumperTopicName>link3_bumper</bumperTopicName>
+                <ros>
+                    <remapping>bumper_states:=link3_bumper_states</remapping>
+                </ros>
+            </plugin>
+        </sensor>
     </gazebo>
 
     <gazebo reference="link_4">
         <material>Gazebo/Blue</material>
+        <sensor name="link4_contact_sensor" type="contact">
+            <always_on>true</always_on>
+            <contact>
+                <collision>link_4_collision_collision</collision>
+            </contact>
+            <update_rate>1</update_rate>
+            <plugin name="link4_bumper_plugin" filename="libgazebo_ros_bumper.so">
+                <frame_name>world</frame_name>
+                <bumperTopicName>link4_bumper</bumperTopicName>
+                <ros>
+                    <remapping>bumper_states:=link4_bumper_states</remapping>
+                </ros>
+            </plugin>
+        </sensor>
     </gazebo>
 
     <gazebo reference="link_5">
         <material>Gazebo/Green</material>
+        <sensor name="link5_contact_sensor" type="contact">
+            <always_on>true</always_on>
+            <contact>
+                <collision>link_5_collision_collision</collision>
+            </contact>
+            <update_rate>1</update_rate>
+            <plugin name="link5_bumper_plugin" filename="libgazebo_ros_bumper.so">
+                <frame_name>world</frame_name>
+                <bumperTopicName>link5_bumper</bumperTopicName>
+                <ros>
+                    <remapping>bumper_states:=link5_bumper_states</remapping>
+                </ros>
+            </plugin>
+        </sensor>
     </gazebo>
 
     <gazebo reference="link_6">
         <material>Gazebo/Blue</material>
+        <sensor name="link6_contact_sensor" type="contact">
+            <always_on>true</always_on>
+            <contact>
+                <collision>link_6_collision_collision</collision>
+            </contact>
+            <update_rate>1</update_rate>
+            <plugin name="link6_bumper_plugin" filename="libgazebo_ros_bumper.so">
+                <frame_name>world</frame_name>
+                <bumperTopicName>link6_bumper</bumperTopicName>
+                <ros>
+                    <remapping>bumper_states:=link6_bumper_states</remapping>
+                </ros>
+            </plugin>
+        </sensor>
     </gazebo>
 
     <gazebo reference="link_7">
         <material>Gazebo/Orange</material>
+        <sensor name="link7_contact_sensor" type="contact">
+            <always_on>true</always_on>
+            <contact>
+                <collision>link_7_collision_collision</collision>
+            </contact>
+            <update_rate>1</update_rate>
+            <plugin name="link7_bumper_plugin" filename="libgazebo_ros_bumper.so">
+                <frame_name>world</frame_name>
+                <bumperTopicName>link7_bumper</bumperTopicName>
+                <ros>
+                    <remapping>bumper_states:=link7_bumper_states</remapping>
+                </ros>
+            </plugin>
+        </sensor>
     </gazebo>
 
     <gazebo reference="link_8">
         <material>Gazebo/Green</material>
+        <sensor name="link8_contact_sensor" type="contact">
+            <always_on>true</always_on>
+            <contact>
+                <collision>link_8_collision_collision</collision>
+            </contact>
+            <update_rate>1</update_rate>
+            <plugin name="link8_bumper_plugin" filename="libgazebo_ros_bumper.so">
+                <frame_name>world</frame_name>
+                <bumperTopicName>link8_bumper</bumperTopicName>
+                <ros>
+                    <remapping>bumper_states:=link8_bumper_states</remapping>
+                </ros>
+            </plugin>
+        </sensor>
     </gazebo>
 
     <gazebo reference="link_9">
         <material>Gazebo/Blue</material>
+        <sensor name="link9_contact_sensor" type="contact">
+            <always_on>true</always_on>
+            <contact>
+                <collision>link_9_collision_collision</collision>
+            </contact>
+            <update_rate>1</update_rate>
+            <plugin name="link9_bumper_plugin" filename="libgazebo_ros_bumper.so">
+                <frame_name>world</frame_name>
+                <bumperTopicName>link9_bumper</bumperTopicName>
+                <ros>
+                    <remapping>bumper_states:=link9_bumper_states</remapping>
+                </ros>
+            </plugin>
+        </sensor>
     </gazebo>
 
     <gazebo reference="link_10">
         <material>Gazebo/Orange</material>
+        <sensor name="link10_contact_sensor" type="contact">
+            <always_on>true</always_on>
+            <contact>
+                <collision>link_10_collision_collision</collision>
+            </contact>
+            <update_rate>1</update_rate>
+            <plugin name="link10_bumper_plugin" filename="libgazebo_ros_bumper.so">
+                <frame_name>world</frame_name>
+                <bumperTopicName>link10_bumper</bumperTopicName>
+                <ros>
+                    <remapping>bumper_states:=link10_bumper_states</remapping>
+                </ros>
+            </plugin>
+        </sensor>
     </gazebo>
+
 
     <ros2_control name="GazeboSystem" type="system">
     	<hardware>
             <plugin>gazebo_ros2_control/GazeboSystem</plugin>
     	</hardware>
 
-<!--  ****************************************************** * * * BELOW IS Commented * *************************************************************************************** * * * * * -->
+
         <joint name="link_1_2_joint">
             <command_interface name="effort">
                 <param name="min">0</param>
@@ -157,6 +298,70 @@
             <updateRate>100.0</updateRate>
             <remapping>wrench:=joint_1</remapping>
             <joint_name>link_1_2_joint</joint_name>
+            <gaussian_noise>0.01</gaussian_noise>
+            <update_rate>1</update_rate>
+        </plugin>
+        
+        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+            <updateRate>100.0</updateRate>
+            <remapping>wrench:=joint_2</remapping>
+            <joint_name>link_2_3_joint</joint_name>
+            <gaussian_noise>0.01</gaussian_noise>
+            <update_rate>1</update_rate>
+        </plugin>
+
+        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+            <updateRate>100.0</updateRate>
+            <remapping>wrench:=joint_3</remapping>
+            <joint_name>link_3_4_joint</joint_name>
+            <gaussian_noise>0.01</gaussian_noise>
+            <update_rate>1</update_rate>
+        </plugin>
+
+        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+            <updateRate>100.0</updateRate>
+            <remapping>wrench:=joint_4</remapping>
+            <joint_name>link_4_5_joint</joint_name>
+            <gaussian_noise>0.01</gaussian_noise>
+            <update_rate>1</update_rate>
+        </plugin>
+
+        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+            <updateRate>100.0</updateRate>
+            <remapping>wrench:=joint_5</remapping>
+            <joint_name>link_5_6_joint</joint_name>
+            <gaussian_noise>0.01</gaussian_noise>
+            <update_rate>1</update_rate>
+        </plugin>
+
+        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+            <updateRate>100.0</updateRate>
+            <remapping>wrench:=joint_6</remapping>
+            <joint_name>link_6_7_joint</joint_name>
+            <gaussian_noise>0.01</gaussian_noise>
+            <update_rate>1</update_rate>
+        </plugin>
+
+        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+            <updateRate>100.0</updateRate>
+            <remapping>wrench:=joint_7</remapping>
+            <joint_name>link_7_8_joint</joint_name>
+            <gaussian_noise>0.01</gaussian_noise>
+            <update_rate>1</update_rate>
+        </plugin>
+
+        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+            <updateRate>100.0</updateRate>
+            <remapping>wrench:=joint_8</remapping>
+            <joint_name>link_8_9_joint</joint_name>
+            <gaussian_noise>0.01</gaussian_noise>
+            <update_rate>1</update_rate>
+        </plugin>
+
+        <plugin name="ft_sensor" filename="libgazebo_ros_ft_sensor.so">
+            <updateRate>100.0</updateRate>
+            <remapping>wrench:=joint_9</remapping>
+            <joint_name>link_9_10_joint</joint_name>
             <gaussian_noise>0.01</gaussian_noise>
             <update_rate>1</update_rate>
         </plugin>

@@ -56,7 +56,7 @@
     </gazebo>
 
     <gazebo reference="link_4">
-        <material>Gazebo/Blue</material>
+        <material>Gazebo/White</material>
         <sensor name="link4_contact_sensor" type="contact">
             <always_on>true</always_on>
             <contact>
@@ -74,7 +74,7 @@
     </gazebo>
 
     <gazebo reference="link_5">
-        <material>Gazebo/Green</material>
+        <material>Gazebo/Yellow</material>
         <sensor name="link5_contact_sensor" type="contact">
             <always_on>true</always_on>
             <contact>
@@ -92,7 +92,7 @@
     </gazebo>
 
     <gazebo reference="link_6">
-        <material>Gazebo/Blue</material>
+        <material>Gazebo/Purple</material>
         <sensor name="link6_contact_sensor" type="contact">
             <always_on>true</always_on>
             <contact>
@@ -110,7 +110,7 @@
     </gazebo>
 
     <gazebo reference="link_7">
-        <material>Gazebo/Orange</material>
+        <material>Gazebo/Black</material>
         <sensor name="link7_contact_sensor" type="contact">
             <always_on>true</always_on>
             <contact>
@@ -128,7 +128,7 @@
     </gazebo>
 
     <gazebo reference="link_8">
-        <material>Gazebo/Green</material>
+        <material>Gazebo/Indigo</material>
         <sensor name="link8_contact_sensor" type="contact">
             <always_on>true</always_on>
             <contact>
@@ -146,7 +146,7 @@
     </gazebo>
 
     <gazebo reference="link_9">
-        <material>Gazebo/Blue</material>
+        <material>Gazebo/RedBright</material>
         <sensor name="link9_contact_sensor" type="contact">
             <always_on>true</always_on>
             <contact>
@@ -164,7 +164,7 @@
     </gazebo>
 
     <gazebo reference="link_10">
-        <material>Gazebo/Orange</material>
+        <material>Gazebo/Turquoise</material>
         <sensor name="link10_contact_sensor" type="contact">
             <always_on>true</always_on>
             <contact>

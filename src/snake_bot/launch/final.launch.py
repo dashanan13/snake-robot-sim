@@ -19,15 +19,10 @@ def generate_launch_description():
 
     rviz_file = os.path.join(get_package_share_directory(pkg_name),file_subpath)
 
-
-
-
     snake_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([os.path.join(
             get_package_share_directory('snake_bot'), 'launch'), '/wave.launch.py']),
         )
-    
-
     
     manager_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([os.path.join(
@@ -42,24 +37,34 @@ def generate_launch_description():
         output='screen'
     )
 
-    sensor_node = Node(
+    sensor_node_10sec = Node(
         package='snake_bot',
-        executable='sensor',
-        name='sensor',
+        executable='sensor10sec',
+        name='sensor10sec',
+        output='screen'
+    )
+
+    sensor_node_altime = Node(
+        package='snake_bot',
+        executable='sensoralltime',
+        name='sensoralltime',
+        output='screen'
+    )
+
+    sensor_node_contact = Node(
+        package='snake_bot',
+        executable='sensorcontact',
+        name='sensorcontact',
         output='screen'
     )
 
 
-
-
     # Run the node
     return LaunchDescription([
-
         snake_launch,
         manager_launch,
         rviz_node,
-        sensor_node,
-
-
-        
+        #sensor_node_10sec,
+        #sensor_node_altime,
+        #sensor_node_contact,
     ])

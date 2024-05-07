@@ -1,0 +1,875 @@
+<sdf version='1.7'>
+  <model name='snakebot'>
+    <link name='base_link'>
+      <inertial>
+        <pose>-0.035 0.060622 0.03 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.0016</ixx>
+          <ixy>0.00057735</ixy>
+          <ixz>2.1684e-19</ixz>
+          <iyy>0.000933334</iyy>
+          <iyz>0</iyz>
+          <izz>0.00193333</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_fixed_joint_lump__link_1_collision_collision'>
+        <pose>-0.035 0.060622 0.03 0 -0 0.523599</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='base_link_fixed_joint_lump__link_1_visual'>
+        <pose>-0.035 0.060622 0.03 0 -0 0.523599</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Green</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <sensor name='link1_contact_sensor' type='contact'>
+        <always_on>1</always_on>
+        <contact>
+          <collision>link_1_collision_collision</collision>
+          <topic>__default_topic__</topic>
+        </contact>
+        <update_rate>1</update_rate>
+        <plugin name='link1_bumper_plugin' filename='libgazebo_ros_bumper.so'>
+          <frame_name>world</frame_name>
+          <bumperTopicName>link1_bumper</bumperTopicName>
+          <ros>
+            <remapping>bumper_states:=link1_bumper_states</remapping>
+          </ros>
+        </plugin>
+        <pose>0 0 0 0 -0 0.523599</pose>
+      </sensor>
+    </link>
+    <joint name='link_1_2_joint' type='revolute'>
+      <pose relative_to='base_link'>-0.0875 0.151554 0 0 -0 0.349066</pose>
+      <parent>base_link</parent>
+      <child>link_2</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.785398</lower>
+          <upper>0.785398</upper>
+          <effort>1000</effort>
+          <velocity>50</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='link_2'>
+      <pose relative_to='link_1_2_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.00193333</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0006</iyy>
+          <iyz>0</iyz>
+          <izz>0.00193333</izz>
+        </inertia>
+      </inertial>
+      <collision name='link_2_collision_collision'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='link_2_visual'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Blue</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <sensor name='link2_contact_sensor' type='contact'>
+        <always_on>1</always_on>
+        <contact>
+          <collision>link_2_collision_collision</collision>
+          <topic>__default_topic__</topic>
+        </contact>
+        <update_rate>1</update_rate>
+        <plugin name='link2_bumper_plugin' filename='libgazebo_ros_bumper.so'>
+          <frame_name>world</frame_name>
+          <bumperTopicName>link2_bumper</bumperTopicName>
+          <ros>
+            <remapping>bumper_states:=link2_bumper_states</remapping>
+          </ros>
+        </plugin>
+      </sensor>
+    </link>
+    <joint name='link_2_3_joint' type='revolute'>
+      <pose relative_to='link_2'>0 0.175 0 0 0 -0.174533</pose>
+      <parent>link_2</parent>
+      <child>link_3</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.785398</lower>
+          <upper>0.785398</upper>
+          <effort>1000</effort>
+          <velocity>50</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='link_3'>
+      <pose relative_to='link_2_3_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.00193333</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0006</iyy>
+          <iyz>0</iyz>
+          <izz>0.00193333</izz>
+        </inertia>
+      </inertial>
+      <collision name='link_3_collision_collision'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='link_3_visual'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Orange</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <sensor name='link3_contact_sensor' type='contact'>
+        <always_on>1</always_on>
+        <contact>
+          <collision>link_3_collision_collision</collision>
+          <topic>__default_topic__</topic>
+        </contact>
+        <update_rate>1</update_rate>
+        <plugin name='link3_bumper_plugin' filename='libgazebo_ros_bumper.so'>
+          <frame_name>world</frame_name>
+          <bumperTopicName>link3_bumper</bumperTopicName>
+          <ros>
+            <remapping>bumper_states:=link3_bumper_states</remapping>
+          </ros>
+        </plugin>
+      </sensor>
+    </link>
+    <joint name='link_3_4_joint' type='revolute'>
+      <pose relative_to='link_3'>0 0.175 0 0 0 -0.174533</pose>
+      <parent>link_3</parent>
+      <child>link_4</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.785398</lower>
+          <upper>0.785398</upper>
+          <effort>1000</effort>
+          <velocity>50</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='link_4'>
+      <pose relative_to='link_3_4_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.00193333</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0006</iyy>
+          <iyz>0</iyz>
+          <izz>0.00193333</izz>
+        </inertia>
+      </inertial>
+      <collision name='link_4_collision_collision'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='link_4_visual'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/White</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <sensor name='link4_contact_sensor' type='contact'>
+        <always_on>1</always_on>
+        <contact>
+          <collision>link_4_collision_collision</collision>
+          <topic>__default_topic__</topic>
+        </contact>
+        <update_rate>1</update_rate>
+        <plugin name='link4_bumper_plugin' filename='libgazebo_ros_bumper.so'>
+          <frame_name>world</frame_name>
+          <bumperTopicName>link4_bumper</bumperTopicName>
+          <ros>
+            <remapping>bumper_states:=link4_bumper_states</remapping>
+          </ros>
+        </plugin>
+      </sensor>
+    </link>
+    <joint name='link_4_5_joint' type='revolute'>
+      <pose relative_to='link_4'>0 0.175 0 0 0 -0.174533</pose>
+      <parent>link_4</parent>
+      <child>link_5</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.785398</lower>
+          <upper>0.785398</upper>
+          <effort>1000</effort>
+          <velocity>50</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='link_5'>
+      <pose relative_to='link_4_5_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.00193333</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0006</iyy>
+          <iyz>0</iyz>
+          <izz>0.00193333</izz>
+        </inertia>
+      </inertial>
+      <collision name='link_5_collision_collision'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='link_5_visual'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Yellow</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <sensor name='link5_contact_sensor' type='contact'>
+        <always_on>1</always_on>
+        <contact>
+          <collision>link_5_collision_collision</collision>
+          <topic>__default_topic__</topic>
+        </contact>
+        <update_rate>1</update_rate>
+        <plugin name='link5_bumper_plugin' filename='libgazebo_ros_bumper.so'>
+          <frame_name>world</frame_name>
+          <bumperTopicName>link5_bumper</bumperTopicName>
+          <ros>
+            <remapping>bumper_states:=link5_bumper_states</remapping>
+          </ros>
+        </plugin>
+      </sensor>
+    </link>
+    <joint name='link_5_6_joint' type='revolute'>
+      <pose relative_to='link_5'>0 0.175 0 0 0 -0.174533</pose>
+      <parent>link_5</parent>
+      <child>link_6</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.785398</lower>
+          <upper>0.785398</upper>
+          <effort>1000</effort>
+          <velocity>50</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='link_6'>
+      <pose relative_to='link_5_6_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.00193333</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0006</iyy>
+          <iyz>0</iyz>
+          <izz>0.00193333</izz>
+        </inertia>
+      </inertial>
+      <collision name='link_6_collision_collision'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='link_6_visual'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Purple</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <sensor name='link6_contact_sensor' type='contact'>
+        <always_on>1</always_on>
+        <contact>
+          <collision>link_6_collision_collision</collision>
+          <topic>__default_topic__</topic>
+        </contact>
+        <update_rate>1</update_rate>
+        <plugin name='link6_bumper_plugin' filename='libgazebo_ros_bumper.so'>
+          <frame_name>world</frame_name>
+          <bumperTopicName>link6_bumper</bumperTopicName>
+          <ros>
+            <remapping>bumper_states:=link6_bumper_states</remapping>
+          </ros>
+        </plugin>
+      </sensor>
+    </link>
+    <joint name='link_6_7_joint' type='revolute'>
+      <pose relative_to='link_6'>0 0.175 0 0 0 -0.174533</pose>
+      <parent>link_6</parent>
+      <child>link_7</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.785398</lower>
+          <upper>0.785398</upper>
+          <effort>1000</effort>
+          <velocity>50</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='link_7'>
+      <pose relative_to='link_6_7_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.00193333</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0006</iyy>
+          <iyz>0</iyz>
+          <izz>0.00193333</izz>
+        </inertia>
+      </inertial>
+      <collision name='link_7_collision_collision'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='link_7_visual'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Black</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <sensor name='link7_contact_sensor' type='contact'>
+        <always_on>1</always_on>
+        <contact>
+          <collision>link_7_collision_collision</collision>
+          <topic>__default_topic__</topic>
+        </contact>
+        <update_rate>1</update_rate>
+        <plugin name='link7_bumper_plugin' filename='libgazebo_ros_bumper.so'>
+          <frame_name>world</frame_name>
+          <bumperTopicName>link7_bumper</bumperTopicName>
+          <ros>
+            <remapping>bumper_states:=link7_bumper_states</remapping>
+          </ros>
+        </plugin>
+      </sensor>
+    </link>
+    <joint name='link_7_8_joint' type='revolute'>
+      <pose relative_to='link_7'>0 0.175 0 0 -0 0.174533</pose>
+      <parent>link_7</parent>
+      <child>link_8</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.785398</lower>
+          <upper>0.785398</upper>
+          <effort>1000</effort>
+          <velocity>50</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='link_8'>
+      <pose relative_to='link_7_8_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.00193333</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0006</iyy>
+          <iyz>0</iyz>
+          <izz>0.00193333</izz>
+        </inertia>
+      </inertial>
+      <collision name='link_8_collision_collision'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='link_8_visual'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Indigo</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <sensor name='link8_contact_sensor' type='contact'>
+        <always_on>1</always_on>
+        <contact>
+          <collision>link_8_collision_collision</collision>
+          <topic>__default_topic__</topic>
+        </contact>
+        <update_rate>1</update_rate>
+        <plugin name='link8_bumper_plugin' filename='libgazebo_ros_bumper.so'>
+          <frame_name>world</frame_name>
+          <bumperTopicName>link8_bumper</bumperTopicName>
+          <ros>
+            <remapping>bumper_states:=link8_bumper_states</remapping>
+          </ros>
+        </plugin>
+      </sensor>
+    </link>
+    <joint name='link_8_9_joint' type='revolute'>
+      <pose relative_to='link_8'>0 0.175 0 0 -0 0.174533</pose>
+      <parent>link_8</parent>
+      <child>link_9</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.785398</lower>
+          <upper>0.785398</upper>
+          <effort>1000</effort>
+          <velocity>50</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='link_9'>
+      <pose relative_to='link_8_9_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.00193333</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0006</iyy>
+          <iyz>0</iyz>
+          <izz>0.00193333</izz>
+        </inertia>
+      </inertial>
+      <collision name='link_9_collision_collision'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='link_9_visual'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/RedBright</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <sensor name='link9_contact_sensor' type='contact'>
+        <always_on>1</always_on>
+        <contact>
+          <collision>link_9_collision_collision</collision>
+          <topic>__default_topic__</topic>
+        </contact>
+        <update_rate>1</update_rate>
+        <plugin name='link9_bumper_plugin' filename='libgazebo_ros_bumper.so'>
+          <frame_name>world</frame_name>
+          <bumperTopicName>link9_bumper</bumperTopicName>
+          <ros>
+            <remapping>bumper_states:=link9_bumper_states</remapping>
+          </ros>
+        </plugin>
+      </sensor>
+    </link>
+    <joint name='link_9_10_joint' type='revolute'>
+      <pose relative_to='link_9'>0 0.175 0 0 -0 0.174533</pose>
+      <parent>link_9</parent>
+      <child>link_10</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.785398</lower>
+          <upper>0.785398</upper>
+          <effort>1000</effort>
+          <velocity>50</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='link_10'>
+      <pose relative_to='link_9_10_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.00193333</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0006</iyy>
+          <iyz>0</iyz>
+          <izz>0.00193333</izz>
+        </inertia>
+      </inertial>
+      <collision name='link_10_collision_collision'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='link_10_visual'>
+        <pose>0 0.07 0.03 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.06 0.14 0.06</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Turquoise</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <visual name='link_10_fixed_joint_lump__camera_link_visual_1'>
+        <pose>0 0.14 0.03 0 -0.174533 1.5708</pose>
+        <geometry>
+          <box>
+            <size>0.01 0.01 0.01</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Red</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+      <sensor name='link10_contact_sensor' type='contact'>
+        <always_on>1</always_on>
+        <contact>
+          <collision>link_10_collision_collision</collision>
+          <topic>__default_topic__</topic>
+        </contact>
+        <update_rate>1</update_rate>
+        <plugin name='link10_bumper_plugin' filename='libgazebo_ros_bumper.so'>
+          <frame_name>world</frame_name>
+          <bumperTopicName>link10_bumper</bumperTopicName>
+          <ros>
+            <remapping>bumper_states:=link10_bumper_states</remapping>
+          </ros>
+        </plugin>
+      </sensor>
+      <sensor name='camera' type='camera'>
+        <visualize>1</visualize>
+        <update_rate>10</update_rate>
+        <camera>
+          <horizontal_fov>1.089</horizontal_fov>
+          <image>
+            <format>R8G8B8</format>
+            <width>640</width>
+            <height>480</height>
+          </image>
+          <clip>
+            <near>0.05</near>
+            <far>8</far>
+          </clip>
+        </camera>
+        <plugin name='camera_controller' filename='libgazebo_ros_camera.so'>
+          <frame_name>camera_link_optical</frame_name>
+        </plugin>
+        <pose>0 0.14 0.03 0 -0.174533 1.5708</pose>
+      </sensor>
+    </link>
+    <static>0</static>
+    <plugin name='gazebo_ros_planar_move' filename='libgazebo_ros_planar_move.so'>
+      <update_rate>100</update_rate>
+      <publish_rate>10</publish_rate>
+      <publish_odom>1</publish_odom>
+      <publish_odom_tf>1</publish_odom_tf>
+      <odometry_frame>odom</odometry_frame>
+      <robot_base_frame>base_link</robot_base_frame>
+    </plugin>
+    <plugin name='gazebo_ros2_control' filename='libgazebo_ros2_control.so'>
+      <parameters>/home/mohit/GITHUBRepos/snake-robot-sim/install/snake_bot/share/snake_bot/config/controllers.yaml</parameters>
+    </plugin>
+    <plugin name='ft_sensor_joint_1' filename='libgazebo_ros_ft_sensor.so'>
+      <updateRate>100.0</updateRate>
+      <remapping>wrench:=joint_1</remapping>
+      <joint_name>link_1_2_joint</joint_name>
+      <gaussian_noise>0.01</gaussian_noise>
+      <update_rate>1</update_rate>
+    </plugin>
+    <plugin name='ft_sensor_joint_2' filename='libgazebo_ros_ft_sensor.so'>
+      <updateRate>100.0</updateRate>
+      <remapping>wrench:=joint_2</remapping>
+      <joint_name>link_2_3_joint</joint_name>
+      <gaussian_noise>0.01</gaussian_noise>
+      <update_rate>1</update_rate>
+    </plugin>
+    <plugin name='ft_sensor_joint_3' filename='libgazebo_ros_ft_sensor.so'>
+      <updateRate>100.0</updateRate>
+      <remapping>wrench:=joint_3</remapping>
+      <joint_name>link_3_4_joint</joint_name>
+      <gaussian_noise>0.01</gaussian_noise>
+      <update_rate>1</update_rate>
+    </plugin>
+    <plugin name='ft_sensor_joint_4' filename='libgazebo_ros_ft_sensor.so'>
+      <updateRate>100.0</updateRate>
+      <remapping>wrench:=joint_4</remapping>
+      <joint_name>link_4_5_joint</joint_name>
+      <gaussian_noise>0.01</gaussian_noise>
+      <update_rate>1</update_rate>
+    </plugin>
+    <plugin name='ft_sensor_joint_5' filename='libgazebo_ros_ft_sensor.so'>
+      <updateRate>100.0</updateRate>
+      <remapping>wrench:=joint_5</remapping>
+      <joint_name>link_5_6_joint</joint_name>
+      <gaussian_noise>0.01</gaussian_noise>
+      <update_rate>1</update_rate>
+    </plugin>
+    <plugin name='ft_sensor_joint_6' filename='libgazebo_ros_ft_sensor.so'>
+      <updateRate>100.0</updateRate>
+      <remapping>wrench:=joint_6</remapping>
+      <joint_name>link_6_7_joint</joint_name>
+      <gaussian_noise>0.01</gaussian_noise>
+      <update_rate>1</update_rate>
+    </plugin>
+    <plugin name='ft_sensor_joint_7' filename='libgazebo_ros_ft_sensor.so'>
+      <updateRate>100.0</updateRate>
+      <remapping>wrench:=joint_7</remapping>
+      <joint_name>link_7_8_joint</joint_name>
+      <gaussian_noise>0.01</gaussian_noise>
+      <update_rate>1</update_rate>
+    </plugin>
+    <plugin name='ft_sensor_joint_8' filename='libgazebo_ros_ft_sensor.so'>
+      <updateRate>100.0</updateRate>
+      <remapping>wrench:=joint_8</remapping>
+      <joint_name>link_8_9_joint</joint_name>
+      <gaussian_noise>0.01</gaussian_noise>
+      <update_rate>1</update_rate>
+    </plugin>
+    <plugin name='ft_sensor_joint_9' filename='libgazebo_ros_ft_sensor.so'>
+      <updateRate>100.0</updateRate>
+      <remapping>wrench:=joint_9</remapping>
+      <joint_name>link_9_10_joint</joint_name>
+      <gaussian_noise>0.01</gaussian_noise>
+      <update_rate>1</update_rate>
+    </plugin>
+  </model>
+</sdf>

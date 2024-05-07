@@ -1,0 +1,6730 @@
+header:
+  stamp:
+    sec: 1420
+    nanosec: 725000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/2)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -4.912893433236183
+      y: 15.206834883924142
+      z: 11.299181997624617
+    torque:
+      x: -0.33473769331599823
+      y: -0.1915886569316535
+      z: 0.11230250619119245
+  total_wrench:
+    force:
+      x: -4.912893433236183
+      y: 15.206834883924142
+      z: 11.299181997624617
+    torque:
+      x: -0.33473769331599823
+      y: -0.1915886569316535
+      z: 0.11230250619119245
+  contact_positions:
+  - x: -0.16024899266122472
+    y: 0.8879807873259983
+    z: -7.858367760682494e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 7.858367760717189e-07
+- info: 'Debug:  i: (2/2)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 2.6671960070995337e-39
+      y: 8.616373413846817e-40
+      z: 1.9824211534124837e-39
+    torque:
+      x: -1.1292036049733346e-40
+      y: -1.3948851481536054e-40
+      z: 2.1255284073850787e-40
+  total_wrench:
+    force:
+      x: 2.6671960070995337e-39
+      y: 8.616373413846817e-40
+      z: 1.9824211534124837e-39
+    torque:
+      x: -1.1292036049733346e-40
+      y: -1.3948851481536054e-40
+      z: 2.1255284073850787e-40
+  contact_positions:
+  - x: -0.16025868509146438
+    y: 0.887984320402125
+    z: -6.439163637433909e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 6.439163637433909e-07
+---
+header:
+  stamp:
+    sec: 1421
+    nanosec: 728000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/2)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 11.706290948702687
+      y: -14.259263085896798
+      z: 20.52633937510061
+    torque:
+      x: -1.864621648833948
+      y: -0.9669789097140982
+      z: 0.3916624738322852
+  - force:
+      x: 5.580927021287045
+      y: 1.8048808652657915
+      z: 4.1482041796435105
+    torque:
+      x: 0.34452071853301897
+      y: -0.29187393602791634
+      z: -0.33651846553211895
+  total_wrench:
+    force:
+      x: 17.287217969989733
+      y: -12.454382220631006
+      z: 24.67454355474412
+    torque:
+      x: -1.520100930300929
+      y: -1.2588528457420145
+      z: 0.05514400830016625
+  contact_positions:
+  - x: -0.16039459144657578
+    y: 0.8879853175979177
+    z: -2.941650030473253e-06
+  - x: -0.22412856337687156
+    y: 1.012636754869567
+    z: -9.554131400012951e-08
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.941650030473253e-06
+  - 9.554131400012951e-08
+- info: 'Debug:  i: (2/2)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 2.4408116987082287
+      y: 1.8803304872674467
+      z: 9.937952671274855
+    torque:
+      x: 0.752066601607264
+      y: -0.3713629310994928
+      z: -0.11444690429155269
+  total_wrench:
+    force:
+      x: 2.4408116987082287
+      y: 1.8803304872674467
+      z: 9.937952671274855
+    torque:
+      x: 0.752066601607264
+      y: -0.3713629310994928
+      z: -0.11444690429155269
+  contact_positions:
+  - x: -0.22413992709702255
+    y: 1.0126317907599267
+    z: -2.5080951976501342e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.5080951976536037e-06
+---
+header:
+  stamp:
+    sec: 1422
+    nanosec: 727000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -0.6771855748247075
+      y: -7.781827487954148
+      z: 7.236955089057886
+    torque:
+      x: 0.27313203159542815
+      y: 0.2374242199164781
+      z: 0.28085781487635436
+  - force:
+      x: -2.96898531292493
+      y: 18.063579771511467
+      z: 14.733802866343062
+    torque:
+      x: 1.5732735937893583
+      y: -0.35294452660254283
+      z: 0.7497363650500876
+  total_wrench:
+    force:
+      x: -3.6461708877496375
+      y: 10.281752283557319
+      z: 21.97075795540095
+    torque:
+      x: 1.8464056253847865
+      y: -0.11552030668606472
+      z: 1.030594179926442
+  contact_positions:
+  - x: -0.27758508432180046
+    y: 0.985361346831218
+    z: -2.16811151137683e-06
+  - x: -0.22415970244725272
+    y: 1.0126693780911569
+    z: -1.653385576382035e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.16811151137683e-06
+  - 1.653385576382035e-06
+- info: 'Debug:  i: (2/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -7.2462682021192615
+      y: -2.54178190295755
+      z: 5.560758588206819
+    torque:
+      x: 0.31299964408575104
+      y: 0.38421080370978233
+      z: 0.5834922312370749
+  total_wrench:
+    force:
+      x: -7.2462682021192615
+      y: -2.54178190295755
+      z: 5.560758588206819
+    torque:
+      x: 0.31299964408575104
+      y: 0.38421080370978233
+      z: 0.5834922312370749
+  contact_positions:
+  - x: -0.27758614363213696
+    y: 0.9853652806605862
+    z: -2.2061119048892575e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.2061119048892575e-06
+- info: 'Debug:  i: (3/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 0.5712586594144651
+      y: 2.862185960495493
+      z: 12.095330948428652
+    torque:
+      x: 0.9325387452048701
+      y: 0.3457221686704258
+      z: -0.1258536849738774
+  total_wrench:
+    force:
+      x: 0.5712586594144651
+      y: 2.862185960495493
+      z: 12.095330948428652
+    torque:
+      x: 0.9325387452048701
+      y: 0.3457221686704258
+      z: -0.1258536849738774
+  contact_positions:
+  - x: -0.27758615850583057
+    y: 0.9853734718275697
+    z: -6.504111780374078e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 6.504111780408772e-07
+- info: 'Debug:  i: (4/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 1.77838541717532
+      y: -2.9909639272170208
+      z: 27.733803847616382
+    torque:
+      x: 1.8516373515166362
+      y: 0.7786625529132308
+      z: -0.03475806138576194
+  total_wrench:
+    force:
+      x: 1.77838541717532
+      y: -2.9909639272170208
+      z: 27.733803847616382
+    torque:
+      x: 1.8516373515166362
+      y: 0.7786625529132308
+      z: -0.03475806138576194
+  contact_positions:
+  - x: -0.2775866190783427
+    y: 0.9853740814702915
+    z: -4.965423665716229e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 4.965423665719698e-06
+- info: 'Debug:  i: (5/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 6.563569316209389
+      y: -20.260227930734473
+      z: 15.055495265881067
+    torque:
+      x: 0.4460778306896409
+      y: 0.25475777849015074
+      z: 0.14835698578737738
+  total_wrench:
+    force:
+      x: 6.563569316209389
+      y: -20.260227930734473
+      z: 15.055495265881067
+    torque:
+      x: 0.4460778306896409
+      y: 0.25475777849015074
+      z: 0.14835698578737738
+  contact_positions:
+  - x: -0.277586958430974
+    y: 0.9853745323365576
+    z: -3.534412043364188e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 3.534412043364188e-06
+- info: 'Debug:  i: (6/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -5.297239441807648
+      y: -1.7157513343647866
+      z: 3.937624809875665
+    torque:
+      x: 0.22416119666035275
+      y: 0.2770459275504994
+      z: 0.4222793009574785
+  total_wrench:
+    force:
+      x: -5.297239441807648
+      y: -1.7157513343647866
+      z: 3.937624809875665
+    torque:
+      x: 0.22416119666035275
+      y: 0.2770459275504994
+      z: 0.4222793009574785
+  contact_positions:
+  - x: -0.2776096440547594
+    y: 0.9853853689634685
+    z: -2.0638981246684507e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.0638981246684507e-06
+- info: 'Debug:  i: (7/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 1.6027412247118131e-81
+      y: 5.191712452771889e-82
+      z: 1.19127302257068e-81
+    torque:
+      x: -6.781397422163206e-83
+      y: -1.2344046064233972e-83
+      z: 9.661674837151143e-83
+  - force:
+      x: -2.679715552663461e-57
+      y: 8.272816097682332e-57
+      z: 6.148910216948568e-57
+    torque:
+      x: -1.8223923225593032e-58
+      y: -1.040758399285533e-58
+      z: 6.060439424402755e-59
+  - force:
+      x: -0.8262774306730203
+      y: 2.5508831423653096
+      z: 1.8959869566937662
+    torque:
+      x: 0.20924558123952272
+      y: 0.08166793162100372
+      z: -0.018687074123848103
+  - force:
+      x: -0.08729132885311167
+      y: 0.2694857332175946
+      z: 0.20029982036803318
+    torque:
+      x: 0.022105559422290116
+      y: -0.0033902547454476182
+      z: 0.0141949650162456
+  total_wrench:
+    force:
+      x: -0.9135687595261319
+      y: 2.820368875582904
+      z: 2.0962867770617994
+    torque:
+      x: 0.23135114066181284
+      y: 0.0782776768755561
+      z: -0.004492109107602503
+  contact_positions:
+  - x: -0.21393341546355407
+    y: 0.8607153624123017
+    z: -1.728740590976885e-06
+  - x: -0.16049764006428596
+    y: 0.8880030502487609
+    z: -1.5911396858240184e-06
+  - x: -0.27760468708240993
+    y: 0.985398838339272
+    z: -6.303262521268746e-07
+  - x: -0.22416891168314182
+    y: 1.012686526175731
+    z: -4.927253469740081e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.7287405909734155e-06
+  - 1.591139685820549e-06
+  - 6.303262521234051e-07
+  - 4.927253469705386e-07
+- info: 'Debug:  i: (8/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 10.876358114905097
+      y: -4.950914240386135
+      z: 11.936491562543509
+    torque:
+      x: 0.6870269821664624
+      y: 0.03180400342915177
+      z: -0.6128176408317735
+  total_wrench:
+    force:
+      x: 10.876358114905097
+      y: -4.950914240386135
+      z: 11.936491562543509
+    torque:
+      x: 0.6870269821664624
+      y: 0.03180400342915177
+      z: -0.6128176408317735
+  contact_positions:
+  - x: -0.2776009407276821
+    y: 0.9853934546364661
+    z: -1.710633555189467e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.710633555189467e-07
+- info: 'Debug:  i: (9/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -1.1175276037062853e-47
+      y: 3.450079404686707e-47
+      z: 2.564538807612554e-47
+    torque:
+      x: 2.8302009867348027e-48
+      y: 1.1046199233956515e-48
+      z: -2.527544988116116e-49
+  - force:
+      x: -23.149413505688536
+      y: 27.512786643234023
+      z: 33.131410406316206
+    torque:
+      x: 3.1445823277391582
+      y: -0.2994599070188306
+      z: 2.4458425446952208
+  - force:
+      x: -5.099032332968335e-47
+      y: -1.6517776201477992e-47
+      z: 3.790025944617186e-47
+    torque:
+      x: -3.1485514472763646e-48
+      y: 2.666717483275655e-48
+      z: -3.073789347033488e-48
+  - force:
+      x: -6.072437721445278e-11
+      y: -1.9671020054477536e-11
+      z: 4.5135419837496534e-11
+    torque:
+      x: -3.749609990259075e-12
+      y: 4.676687213086865e-13
+      z: -4.84083700664601e-12
+  total_wrench:
+    force:
+      x: -23.14941350574926
+      y: 27.51278664321435
+      z: 33.13141040636134
+    torque:
+      x: 3.144582327735409
+      y: -0.2994599070183629
+      z: 2.4458425446903798
+  contact_positions:
+  - x: -0.2776383025177769
+    y: 0.9853731475334785
+    z: -5.122784690260451e-06
+  - x: -0.2242027145278465
+    y: 1.0126612023516495
+    z: -4.481767009246549e-06
+  - x: -0.2139661746753148
+    y: 0.8606901089204315
+    z: -8.530548957884664e-07
+  - x: -0.16053058668538445
+    y: 0.8879781637386025
+    z: -2.1203721477456456e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.122784690263921e-06
+  - 4.481767009250019e-06
+  - 8.530548957919359e-07
+  - 2.12037214778034e-07
+- info: 'Debug:  i: (10/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -26.532104931261493
+      y: 0.15749289432313063
+      z: 23.702987211133987
+    torque:
+      x: -1.6544843179496858
+      y: 1.5070527642718645
+      z: -1.8619721320179994
+  total_wrench:
+    force:
+      x: -26.532104931261493
+      y: 0.15749289432313063
+      z: 23.702987211133987
+    torque:
+      x: -1.6544843179496858
+      y: 1.5070527642718645
+      z: -1.8619721320179994
+  contact_positions:
+  - x: -0.21389782167793564
+    y: 0.8606917453290502
+    z: -1.8298543151967772e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.8298543151967772e-06
+- info: 'Debug:  i: (11/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 10.04748041805776
+      y: -31.10727437815592
+      z: 23.1193755589521
+    torque:
+      x: -2.5515745204713247
+      y: -0.9950056793102956
+      z: -0.22989460208063447
+  - force:
+      x: 1.2898686945188861e-23
+      y: -3.993468782489956e-23
+      z: 2.9680036715196686e-23
+    torque:
+      x: -3.2756432048107543e-24
+      y: 5.034404931002342e-25
+      z: 2.1009487209102066e-24
+  total_wrench:
+    force:
+      x: 10.04748041805776
+      y: -31.10727437815592
+      z: 23.1193755589521
+    torque:
+      x: -2.5515745204713247
+      y: -0.9950056793102956
+      z: -0.22989460208063447
+  contact_positions:
+  - x: -0.1603695273624279
+    y: 0.8880398800720126
+    z: -6.4034590014222514e-06
+  - x: -0.2137828803329324
+    y: 0.8607083284353281
+    z: -3.3083754467267585e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 6.4034590014222514e-06
+  - 3.3083754467267585e-06
+- info: 'Debug:  i: (12/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 6.963541239290281
+      y: 2.251339641941798
+      z: 5.175140721605405
+    torque:
+      x: -0.2947196612541244
+      y: -0.3641604588268706
+      z: 0.5549880760085736
+  total_wrench:
+    force:
+      x: 6.963541239290281
+      y: 2.251339641941798
+      z: 5.175140721605405
+    torque:
+      x: -0.2947196612541244
+      y: -0.3641604588268706
+      z: 0.5549880760085736
+  contact_positions:
+  - x: -0.16039379577895604
+    y: 0.8880413001940302
+    z: -2.0887760529206267e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.0887760529553212e-07
+- info: 'Debug:  i: (13/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -7.893427333992162e-84
+      y: -2.5555651728905826e-84
+      z: 5.86689780354576e-84
+    torque:
+      x: 3.3401589106148603e-85
+      y: 4.1280975412613764e-85
+      z: 6.292068685661692e-85
+  - force:
+      x: -2.3479431647914252e-64
+      y: 7.253000204249597e-64
+      z: 5.3910892879031045e-64
+    torque:
+      x: 5.9496625628070545e-65
+      y: -9.129438369335034e-66
+      z: 3.819460276628874e-65
+  - force:
+      x: 4.0974051705944207e-60
+      y: 1.3263408042883855e-60
+      z: 3.0452311854545524e-60
+    torque:
+      x: -1.7337595885316712e-61
+      y: -3.156521955419609e-62
+      z: 2.4702813781295797e-61
+  - force:
+      x: 9.122458016302517
+      y: 18.953587329435067
+      z: 21.029443372439186
+    torque:
+      x: -0.9034534161876924
+      y: -0.9045570416622518
+      z: 1.207179681024229
+  total_wrench:
+    force:
+      x: 9.122458016302517
+      y: 18.953587329435067
+      z: 21.029443372439186
+    torque:
+      x: -0.9034534161876924
+      y: -0.9045570416622518
+      z: 1.207179681024229
+  contact_positions:
+  - x: -0.2775410458828827
+    y: 0.9854141509667198
+    z: -5.887888451471673e-06
+  - x: -0.22410999235705745
+    y: 1.0127110833421131
+    z: -4.468875216329842e-06
+  - x: -0.21384820377301894
+    y: 0.8607416927158775
+    z: -1.6855115113505735e-06
+  - x: -0.16041715024719366
+    y: 0.8880386250912709
+    z: -2.6649827620874196e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.887888451471673e-06
+  - 4.468875216329842e-06
+  - 1.6855115113505735e-06
+  - 2.6649827620874196e-07
+- info: 'Debug:  i: (14/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 6.428212412880643e-52
+      y: 2.0813995047710177e-52
+      z: 4.777125368265368e-52
+    torque:
+      x: -2.7195679063544557e-53
+      y: -4.9532611338458046e-54
+      z: 3.875328837585148e-53
+  total_wrench:
+    force:
+      x: 6.428212412880643e-52
+      y: 2.0813995047710177e-52
+      z: 4.777125368265368e-52
+    torque:
+      x: -2.7195679063544557e-53
+      y: -4.9532611338458046e-54
+      z: 3.875328837585148e-53
+  contact_positions:
+  - x: -0.21384990920006094
+    y: 0.8607399504848944
+    z: -2.3782304466729576e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.3782304466729576e-07
+- info: 'Debug:  i: (15/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 5.375950796710826
+      y: -16.597136283056784
+      z: 12.337028588737436
+    torque:
+      x: -1.3615060897033249
+      y: -0.5313893815634476
+      z: -0.12159753272194536
+  - force:
+      x: -9.653724048389656e-62
+      y: -3.1268552658574655e-62
+      z: 7.175038151182281e-62
+    torque:
+      x: -5.960583285584836e-63
+      y: 5.048628659871579e-63
+      z: -5.819550254115517e-63
+  total_wrench:
+    force:
+      x: 5.375950796710826
+      y: -16.597136283056784
+      z: 12.337028588737436
+    torque:
+      x: -1.3615060897033249
+      y: -0.5313893815634476
+      z: -0.12159753272194536
+  contact_positions:
+  - x: -0.16045522295646925
+    y: 0.8880174622044341
+    z: -3.078320503186599e-06
+  - x: -0.21389107572651173
+    y: 0.8607299259356547
+    z: -1.3124250507869018e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 3.0783205031831296e-06
+  - 1.3124250507834324e-06
+- info: 'Debug:  i: (16/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -27.34721804311718
+      y: -8.85638784093549
+      z: 20.325558162766196
+    torque:
+      x: -1.6884807066217002
+      y: 0.2106497964105301
+      z: -2.179996898246269
+  - force:
+      x: -2.4853436160321528e-79
+      y: 7.673382496261973e-79
+      z: 5.702930336145548e-79
+    torque:
+      x: -1.6900364864232953e-80
+      y: 2.4564821856533124e-80
+      z: -4.041755280101105e-80
+  - force:
+      x: -7.105847530667949
+      y: 21.938972829030497
+      z: 16.305251791045265
+    torque:
+      x: 1.7995368102440812
+      y: -0.27598212781131815
+      z: 1.1555785120176685
+  - force:
+      x: -1.7191775145579514e-40
+      y: 5.307880392505648e-40
+      z: 3.9448668336028616e-40
+    torque:
+      x: 4.353770901273692e-41
+      y: 1.6992133044482482e-41
+      z: -3.88939857561137e-42
+  total_wrench:
+    force:
+      x: -34.45306557378513
+      y: 13.082584988095007
+      z: 36.630809953811465
+    torque:
+      x: 0.11105610362238094
+      y: -0.06533233140078804
+      z: -1.0244183862286005
+  contact_positions:
+  - x: -0.16049155907336513
+    y: 0.8880104876500914
+    z: -9.828518738520808e-06
+  - x: -0.2139263161112207
+    y: 0.8607208057546454
+    z: -8.295315935449612e-06
+  - x: -0.22416748337573866
+    y: 1.0126915874309805
+    z: -5.173807719156619e-06
+  - x: -0.27760224041359427
+    y: 0.9854019055355345
+    z: -3.6406049160854224e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 9.828518738520808e-06
+  - 8.295315935449612e-06
+  - 5.173807719156619e-06
+  - 3.6406049160854224e-06
+- info: 'Debug:  i: (17/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -12.717537818681732
+      y: 1.6501163213950474
+      z: 12.075407053291286
+    torque:
+      x: -0.7957750040885396
+      y: 0.019263922961713698
+      z: -0.8407241576658708
+  total_wrench:
+    force:
+      x: -12.717537818681732
+      y: 1.6501163213950474
+      z: 12.075407053291286
+    torque:
+      x: -0.7957750040885396
+      y: 0.019263922961713698
+      z: -0.8407241576658708
+  contact_positions:
+  - x: -0.16043623743956834
+    y: 0.8880199003620886
+    z: -1.3109157800603177e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.3109157800603177e-07
+- info: 'Debug:  i: (18/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 4.0835432181738153e-81
+      y: 1.3213676649352702e-81
+      z: 3.034929284507124e-81
+    torque:
+      x: -1.7280401996744047e-82
+      y: -2.1355417508042827e-82
+      z: 3.2548905522022514e-82
+  total_wrench:
+    force:
+      x: 4.0835432181738153e-81
+      y: 1.3213676649352702e-81
+      z: 3.034929284507124e-81
+    torque:
+      x: -1.7280401996744047e-82
+      y: -2.1355417508042827e-82
+      z: 3.2548905522022514e-82
+  contact_positions:
+  - x: -0.16041158858487833
+    y: 0.8880198665187367
+    z: -1.9502263233842076e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.9502263233842076e-07
+- info: 'Debug:  i: (19/19)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -6.057220725056375e-83
+      y: -1.960883937556381e-83
+      z: 4.502137615771678e-83
+    torque:
+      x: 2.5632311497732577e-84
+      y: 3.167807502248418e-84
+      z: 4.828319688806376e-84
+  total_wrench:
+    force:
+      x: -6.057220725056375e-83
+      y: -1.960883937556381e-83
+      z: 4.502137615771678e-83
+    torque:
+      x: 2.5632311497732577e-84
+      y: 3.167807502248418e-84
+      z: 4.828319688806376e-84
+  contact_positions:
+  - x: -0.2775573241911809
+    y: 0.9854030843864725
+    z: -9.598353392023529e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 9.598353392023529e-07
+---
+header:
+  stamp:
+    sec: 1423
+    nanosec: 725000000
+  frame_id: world
+states: []
+---
+header:
+  stamp:
+    sec: 1424
+    nanosec: 726000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -22.23606825805652
+      y: -7.1905051078970486
+      z: 16.525635760025178
+    torque:
+      x: 0.941079349964853
+      y: 1.162851120542451
+      z: 1.7722399313008705
+  total_wrench:
+    force:
+      x: -22.23606825805652
+      y: -7.1905051078970486
+      z: 16.525635760025178
+    torque:
+      x: 0.941079349964853
+      y: 1.162851120542451
+      z: 1.7722399313008705
+  contact_positions:
+  - x: -0.2775501168348249
+    y: 0.9852318878651714
+    z: -2.0262162168833975e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.0262162168833975e-06
+- info: 'Debug:  i: (2/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 1.7547844162588102e-84
+      y: 5.675710305749873e-85
+      z: 1.3041115535161552e-84
+    torque:
+      x: 1.0831493966338046e-85
+      y: -1.3520185882279624e-86
+      z: -1.3986204005536632e-85
+  total_wrench:
+    force:
+      x: 1.7547844162588102e-84
+      y: 5.675710305749873e-85
+      z: 1.3041115535161552e-84
+    torque:
+      x: 1.0831493966338046e-85
+      y: -1.3520185882279624e-86
+      z: -1.3986204005536632e-85
+  contact_positions:
+  - x: -0.2775339700714363
+    y: 0.9852491389049417
+    z: -1.8122601958686646e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.8122601958686646e-07
+- info: 'Debug:  i: (3/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 25.338876757596886
+      y: 4.630634923238029
+      z: 36.71710728885526
+    torque:
+      x: 2.709116557917009
+      y: -1.8616795213935642
+      z: -1.6348023253346409
+  - force:
+      x: 3.24284577011243
+      y: -10.052226831347705
+      z: 7.4680348683832385
+    torque:
+      x: 0.2211956358463954
+      y: 0.12675567294812437
+      z: 0.07456760103256127
+  total_wrench:
+    force:
+      x: 28.581722527709317
+      y: -5.421591908109676
+      z: 44.1851421572385
+    torque:
+      x: 2.9303121937634042
+      y: -1.73492384844544
+      z: -1.5602347243020795
+  contact_positions:
+  - x: -0.2241448508091945
+    y: 1.0125169543733437
+    z: -5.365183846580551e-06
+  - x: -0.2775487183028786
+    y: 0.9851668733075493
+    z: -3.8122807286511505e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.365183846580551e-06
+  - 3.8122807286511505e-06
+- info: 'Debug:  i: (4/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 6.44497779045329
+      y: -19.958877114428738
+      z: 14.82790600022331
+    torque:
+      x: 0.43918710658277
+      y: 0.25148784629310045
+      z: 0.14761786810113142
+  total_wrench:
+    force:
+      x: 6.44497779045329
+      y: -19.958877114428738
+      z: 14.82790600022331
+    torque:
+      x: 0.43918710658277
+      y: 0.25148784629310045
+      z: 0.14761786810113142
+  contact_positions:
+  - x: -0.2775541159920472
+    y: 0.9851771124701636
+    z: -4.045247381064682e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 4.045247381064682e-06
+- info: 'Debug:  i: (5/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -2.5170926491275365
+      y: 7.794262875615221
+      z: 5.792180117774674
+    torque:
+      x: 0.6392804945126842
+      y: 0.24927818300706628
+      z: -0.0576314008295288
+  - force:
+      x: -6.419102173962499
+      y: 3.224616006694256
+      z: 7.184243121170271
+    torque:
+      x: 0.599635498682747
+      y: -0.022954228416233305
+      z: 0.5460756323782034
+  - force:
+      x: -6.08058529857497
+      y: -1.9641043292258913
+      z: 4.518813172792127
+    torque:
+      x: -0.37524005197222543
+      y: 0.31798195414101277
+      z: -0.36671784102347094
+  - force:
+      x: -15.764088181721705
+      y: -5.091995642491545
+      z: 11.715150077618166
+    torque:
+      x: -0.9728203747080159
+      y: 0.1214681431231052
+      z: -1.2562460419952635
+  total_wrench:
+    force:
+      x: -30.78086830338671
+      y: 3.9627789105920392
+      z: 29.210386489355237
+    torque:
+      x: -0.10914443348481007
+      y: 0.665774051854951
+      z: -1.1345196514700597
+  contact_positions:
+  - x: -0.27762241206323646
+    y: 0.9851756709069249
+    z: -7.953246605039987e-06
+  - x: -0.2242099624942685
+    y: 1.0125089879198104
+    z: -4.472505017486919e-06
+  - x: -0.21384467247841776
+    y: 0.8605466216484524
+    z: -4.161111895343959e-06
+  - x: -0.1604322229094498
+    y: 0.887879938661338
+    z: -6.80370307790891e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 7.953246605036518e-06
+  - 4.47250501748345e-06
+  - 4.16111189534049e-06
+  - 6.803703077874216e-07
+- info: 'Debug:  i: (6/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -6.77757338972838
+      y: 21.00081358864245
+      z: 15.603582610724768
+    torque:
+      x: -0.46222637509145914
+      y: 0.6714346800135946
+      z: -1.1044545449402599
+  - force:
+      x: -2.1350209152346844e-48
+      y: 6.615520580957267e-48
+      z: 4.915324897400292e-48
+    torque:
+      x: -1.4560712538930207e-49
+      y: -8.34091194649682e-50
+      z: 4.90141533622902e-50
+  total_wrench:
+    force:
+      x: -6.77757338972838
+      y: 21.00081358864245
+      z: 15.603582610724768
+    torque:
+      x: -0.46222637509145914
+      y: 0.6714346800135946
+      z: -1.1044545449402599
+  contact_positions:
+  - x: -0.21380175878288904
+    y: 0.8605483306301368
+    z: -4.012077594390401e-06
+  - x: -0.16039417790963892
+    y: 0.8878911595294294
+    z: -3.9942528309782496e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 4.012077594390401e-06
+  - 3.9942528309782496e-07
+- info: 'Debug:  i: (7/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 20.752803413521626
+      y: 4.8820221673123125
+      z: 16.245867968536473
+    torque:
+      x: -0.9907500927781843
+      y: -0.13520806334955457
+      z: 1.3062355739271452
+  total_wrench:
+    force:
+      x: 20.752803413521626
+      y: 4.8820221673123125
+      z: 16.245867968536473
+    torque:
+      x: -0.9907500927781843
+      y: -0.13520806334955457
+      z: 1.3062355739271452
+  contact_positions:
+  - x: -0.2137672637236072
+    y: 0.8605336972681484
+    z: -4.570452240282297e-08
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 4.570452240282297e-08
+- info: 'Debug:  i: (8/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -2.7149077882904235e-83
+      y: -8.764266575251613e-84
+      z: 2.017428816821245e-83
+    torque:
+      x: 1.149272174517323e-84
+      y: 1.4197009815335017e-84
+      z: 2.1633634490608447e-84
+  - force:
+      x: -1.3393879381703842
+      y: -0.4323812760209346
+      z: 0.9952897240275143
+    torque:
+      x: 0.0566988424012979
+      y: 0.01032294642428614
+      z: 0.0807857173912988
+  - force:
+      x: 5.119743644164444
+      y: -15.859339439523833
+      z: 11.783309489307682
+    torque:
+      x: -1.3006118474372528
+      y: 0.1999069753542972
+      z: 0.834162238277226
+  - force:
+      x: 5.358969371992797
+      y: -13.21442560376708
+      z: 10.791045635137495
+    torque:
+      x: -1.1518059625726373
+      y: -0.48450045021390853
+      z: -0.02130491207351569
+  total_wrench:
+    force:
+      x: 9.139325077986857
+      y: -29.506146319311846
+      z: 23.56964484847269
+    torque:
+      x: -2.395718967608592
+      y: -0.2742705284353252
+      z: 0.8936430435950091
+  contact_positions:
+  - x: -0.2776229965455935
+    y: 0.9851847806733464
+    z: -1.0971946917053693e-05
+  - x: -0.22421508326112338
+    y: 1.0125269603973721
+    z: -8.415075702278635e-06
+  - x: -0.213824577249445
+    y: 0.8605663162003523
+    z: -8.19599051766833e-06
+  - x: -0.1604166639649749
+    y: 0.887908495924378
+    z: -5.639119302893273e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.0971946917053693e-05
+  - 8.415075702278635e-06
+  - 8.19599051766833e-06
+  - 5.639119302893273e-06
+- info: 'Debug:  i: (9/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 1.1190248412604659e-59
+      y: 3.613337196483639e-60
+      z: 8.314580761459345e-60
+    torque:
+      x: -4.736205374076452e-61
+      y: -8.627002953435946e-62
+      z: 6.749172729878173e-61
+  - force:
+      x: 1.047769269332831
+      y: 0.3383252573685789
+      z: 0.7785137458995254
+    torque:
+      x: -0.044346204491909465
+      y: -0.054788490456970686
+      z: 0.08349360657435557
+  total_wrench:
+    force:
+      x: 1.047769269332831
+      y: 0.3383252573685789
+      z: 0.7785137458995254
+    torque:
+      x: -0.044346204491909465
+      y: -0.054788490456970686
+      z: 0.08349360657435557
+  contact_positions:
+  - x: -0.2138339746074571
+    y: 0.8605709666611885
+    z: -1.5506717429593364e-06
+  - x: -0.1604236693111071
+    y: 0.8879084736243178
+    z: -4.5909418743319823e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.5506717429593364e-06
+  - 4.5909418743319823e-07
+- info: 'Debug:  i: (10/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 14.017393867529872
+      y: 4.528384273539133
+      z: 10.416848959559914
+    torque:
+      x: -0.5933278989630203
+      y: -0.7330272848126937
+      z: 1.1170690989332652
+  total_wrench:
+    force:
+      x: 14.017393867529872
+      y: 4.528384273539133
+      z: 10.416848959559914
+    torque:
+      x: -0.5933278989630203
+      y: -0.7330272848126937
+      z: 1.1170690989332652
+  contact_positions:
+  - x: -0.16043466754435595
+    y: 0.8879017444896198
+    z: -4.916855388566177e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 4.916855388531483e-07
+- info: 'Debug:  i: (11/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 9.619066152982846
+      y: 9.117061588564226
+      z: 12.497421267760672
+    torque:
+      x: -0.6013076410863202
+      y: -0.6634946226223057
+      z: 0.9468464783657261
+  - force:
+      x: -3.1815641942120846e-08
+      y: 9.842971284693488e-08
+      z: 7.314497628077675e-08
+    torque:
+      x: 8.073039725062424e-09
+      y: -1.2398800301596777e-09
+      z: 5.179986321356507e-09
+  - force:
+      x: 1.046732255567069e-59
+      y: 3.3832766123430966e-60
+      z: 7.778836308212143e-60
+    torque:
+      x: -4.43020243204557e-61
+      y: -8.065458742375671e-62
+      z: 6.312142805266556e-61
+  - force:
+      x: -1.3123112677295806e-57
+      y: 4.059965896127669e-57
+      z: 3.0170372399117327e-57
+    torque:
+      x: 3.329915836776516e-58
+      y: 1.2988045522923946e-58
+      z: -2.993718814275933e-59
+  total_wrench:
+    force:
+      x: 9.619066121167204
+      y: 9.117061686993939
+      z: 12.497421340905648
+    torque:
+      x: -0.6013076330132805
+      y: -0.6634946238621857
+      z: 0.9468464835457124
+  contact_positions:
+  - x: -0.1604592667119162
+    y: 0.8878742915649567
+    z: -5.242307461062606e-06
+  - x: -0.2242099449187823
+    y: 1.0125171855788728
+    z: -5.225351913588828e-06
+  - x: -0.21387764985119193
+    y: 0.8605525723381711
+    z: -4.111716667972431e-06
+  - x: -0.27762832805805804
+    y: 0.9851954663520872
+    z: -4.094761120498653e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.242307461062606e-06
+  - 5.225351913588828e-06
+  - 4.111716667972431e-06
+  - 4.094761120498653e-06
+- info: 'Debug:  i: (12/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -2.3270871543882103
+      y: 8.018066274342061
+      z: 6.1134057620380995
+    torque:
+      x: 0.6684803915729289
+      y: 0.2532147874927897
+      z: -0.0776458874230875
+  total_wrench:
+    force:
+      x: -2.3270871543882103
+      y: 8.018066274342061
+      z: 6.1134057620380995
+    torque:
+      x: 0.6684803915729289
+      y: 0.2532147874927897
+      z: -0.0776458874230875
+  contact_positions:
+  - x: -0.27762492342753187
+    y: 0.9851934932191074
+    z: -3.1919966510945974e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 3.1919966510945974e-07
+- info: 'Debug:  i: (13/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 13.70617454088818
+      y: -42.386794246942415
+      z: 31.49636038826782
+    torque:
+      x: 0.9331413997704773
+      y: 0.53370557542139
+      z: 0.3121716095460998
+  total_wrench:
+    force:
+      x: 13.70617454088818
+      y: -42.386794246942415
+      z: 31.49636038826782
+    torque:
+      x: 0.9331413997704773
+      y: 0.53370557542139
+      z: 0.3121716095460998
+  contact_positions:
+  - x: -0.27762497354599935
+    y: 0.9851935512016916
+    z: -1.4228842975562428e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.4228842975562428e-06
+- info: 'Debug:  i: (14/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -2.1694163644512825e-55
+      y: -7.013782880565967e-56
+      z: 1.6123942811349886e-55
+    torque:
+      x: 9.182625103775137e-57
+      y: 1.134543193675882e-56
+      z: 1.729004941532878e-56
+  total_wrench:
+    force:
+      x: -2.1694163644512825e-55
+      y: -7.013782880565967e-56
+      z: 1.6123942811349886e-55
+    torque:
+      x: 9.182625103775137e-57
+      y: 1.134543193675882e-56
+      z: 1.729004941532878e-56
+  contact_positions:
+  - x: -0.277643028171475
+    y: 0.9852061756039171
+    z: -4.2655418773518416e-08
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 4.2655418773518416e-08
+- info: 'Debug:  i: (15/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -4.2186904168155355
+      y: 13.06821122022001
+      z: 9.712553562572687
+    torque:
+      x: 1.0719250859866891
+      y: 0.4179373193816468
+      z: -0.09673800742951254
+  - force:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    torque:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  total_wrench:
+    force:
+      x: -4.2186904168155355
+      y: 13.06821122022001
+      z: 9.712553562572687
+    torque:
+      x: 1.0719250859866891
+      y: 0.4179373193816468
+      z: -0.09673800742951254
+  contact_positions:
+  - x: -0.27758187337464757
+    y: 0.9851376563505989
+    z: -5.863161159944813e-06
+  - x: -0.22417236376017097
+    y: 1.012476717384599
+    z: -9.113585946696259e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.863161159944813e-06
+  - 9.113585946696259e-07
+- info: 'Debug:  i: (16/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 5.516035430874754e-62
+      y: -1.707483621718147e-61
+      z: 1.2685264353585264e-61
+    torque:
+      x: 3.757234182355246e-63
+      y: 2.1507686768131495e-63
+      z: 1.2612260635421073e-63
+  total_wrench:
+    force:
+      x: 5.516035430874754e-62
+      y: -1.707483621718147e-61
+      z: 1.2685264353585264e-61
+    torque:
+      x: 3.757234182355246e-63
+      y: 2.1507686768131495e-63
+      z: 1.2612260635421073e-63
+  contact_positions:
+  - x: -0.2775730196453089
+    y: 0.9851342738165579
+    z: -1.9525804485429066e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.9525804485429066e-06
+- info: 'Debug:  i: (17/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -5.209849512997122
+      y: -10.467752732927574
+      z: 11.690697307775505
+    torque:
+      x: 0.5043162295564594
+      y: 0.5070164046231781
+      z: 0.6787220478976259
+  - force:
+      x: -1.4285801132659246e-33
+      y: -4.616921514688999e-34
+      z: 1.0616480909015582e-33
+    torque:
+      x: 6.046460181904226e-35
+      y: 1.1007960670930908e-35
+      z: 8.614984338454794e-35
+  total_wrench:
+    force:
+      x: -5.209849512997122
+      y: -10.467752732927574
+      z: 11.690697307775505
+    torque:
+      x: 0.5043162295564594
+      y: 0.5070164046231781
+      z: 0.6787220478976259
+  contact_positions:
+  - x: -0.27760726960646087
+    y: 0.9851508084089978
+    z: -4.404448377438863e-06
+  - x: -0.22419150537669827
+    y: 1.0124776473014825
+    z: -1.5947143562625977e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 4.404448377438863e-06
+  - 1.5947143562625977e-06
+- info: 'Debug:  i: (18/18)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]       ...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 4.9435111905552184e-58
+      y: -1.5296121896067703e-57
+      z: 1.136487542738997e-57
+    torque:
+      x: 3.366576230352667e-59
+      y: 1.926409271050428e-59
+      z: 1.1283787354316615e-59
+  total_wrench:
+    force:
+      x: 4.9435111905552184e-58
+      y: -1.5296121896067703e-57
+      z: 1.136487542738997e-57
+    torque:
+      x: 3.366576230352667e-59
+      y: 1.926409271050428e-59
+      z: 1.1283787354316615e-59
+  contact_positions:
+  - x: -0.277607293821373
+    y: 0.9851545153007656
+    z: -1.0491454443088688e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.0491454443088688e-06
+---
+header:
+  stamp:
+    sec: 1425
+    nanosec: 727000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/2)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 2.6752488740510666e-95
+      y: -8.280851063297049e-95
+      z: 6.152060041678301e-95
+    torque:
+      x: 1.8221867101856959e-96
+      y: 1.0430433502881711e-96
+      z: 6.115811071533695e-97
+  total_wrench:
+    force:
+      x: 2.6752488740510666e-95
+      y: -8.280851063297049e-95
+      z: 6.152060041678301e-95
+    torque:
+      x: 1.8221867101856959e-96
+      y: 1.0430433502881711e-96
+      z: 6.115811071533695e-97
+  contact_positions:
+  - x: -0.2775504383955703
+    y: 0.9851612521103992
+    z: -1.5010787943227355e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.501078794326205e-06
+- info: 'Debug:  i: (2/2)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -3.7494134975583225e-98
+      y: 1.1594600801294018e-97
+      z: 8.617615817063067e-98
+    torque:
+      x: 9.510711312332349e-99
+      y: 3.71010879438642e-99
+      z: -8.537907920973866e-100
+  - force:
+      x: -3.074604172540292e-36
+      y: 9.50783583240757e-36
+      z: 7.066640573451231e-36
+    torque:
+      x: 7.798999151138131e-37
+      y: -1.1976109202732785e-37
+      z: 5.004573670500472e-37
+  total_wrench:
+    force:
+      x: -3.074604172540292e-36
+      y: 9.50783583240757e-36
+      z: 7.066640573451231e-36
+    torque:
+      x: 7.798999151138131e-37
+      y: -1.1976109202732785e-37
+      z: 5.004573670500472e-37
+  contact_positions:
+  - x: -0.27767142593153454
+    y: 0.9851977891667956
+    z: -5.726507293739302e-07
+  - x: -0.22424943358266772
+    y: 1.012512450677809
+    z: -4.4465652828754335e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.726507293739302e-07
+  - 4.4465652828754335e-07
+---
+header:
+  stamp:
+    sec: 1426
+    nanosec: 726000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/4)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -3.4981229039289277
+      y: -12.338577046578582
+      z: 15.613802912112398
+    torque:
+      x: -1.4631235152452253
+      y: -0.36347040024550364
+      z: -0.6150259146723819
+  - force:
+      x: -11.760786153903403
+      y: -5.5452116317350715
+      z: 10.289654021001983
+    torque:
+      x: 0.5539194325180872
+      y: 0.044133963987042904
+      z: 0.6568986818211869
+  - force:
+      x: 2.3180289553838814e-71
+      y: -7.167880965431787e-71
+      z: 5.327308631838189e-71
+    torque:
+      x: -5.879480331916269e-72
+      y: 9.027839029362948e-73
+      z: 3.7729845583982574e-72
+  - force:
+      x: -4.398682522918744e-59
+      y: -1.4226077125640989e-59
+      z: 3.2684844665663485e-59
+    torque:
+      x: 1.861156812827215e-60
+      y: 2.300150096845529e-60
+      z: 3.505860079812352e-60
+  total_wrench:
+    force:
+      x: -15.25890905783233
+      y: -17.883788678313653
+      z: 25.90345693311438
+    torque:
+      x: -0.9092040827271382
+      y: -0.31933643625846075
+      z: 0.04187276714880506
+  contact_positions:
+  - x: -0.1606516080791958
+    y: 0.8878247919671054
+    z: -6.799775700547239e-06
+  - x: -0.22437669802271498
+    y: 1.0124807701966265
+    z: -4.97451927110389e-06
+  - x: -0.21407559856977149
+    y: 0.8605140391585397
+    z: -2.207139948064761e-06
+  - x: -0.27780068851329065
+    y: 0.9851700173880609
+    z: -3.8188351862141157e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 6.799775700547239e-06
+  - 4.97451927110389e-06
+  - 2.207139948064761e-06
+  - 3.8188351862141157e-07
+- info: 'Debug:  i: (2/4)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -1.2461143927671083e-45
+      y: 3.851979810250014e-45
+      z: 2.8627469308519995e-45
+    torque:
+      x: 3.1595167946714054e-46
+      y: -4.849897614254679e-47
+      z: 2.027874018011982e-46
+  total_wrench:
+    force:
+      x: -1.2461143927671083e-45
+      y: 3.851979810250014e-45
+      z: 2.8627469308519995e-45
+    torque:
+      x: 3.1595167946714054e-46
+      y: -4.849897614254679e-47
+      z: 2.027874018011982e-46
+  contact_positions:
+  - x: -0.22437615562357538
+    y: 1.012481830851946
+    z: -5.508671130256826e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.508671130222131e-07
+- info: 'Debug:  i: (3/4)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -15.414226010045752
+      y: -4.985964867112031
+      z: 11.454760657777266
+    torque:
+      x: 0.652254300031049
+      y: 0.11878396056805382
+      z: 0.9294168746898432
+  total_wrench:
+    force:
+      x: -15.414226010045752
+      y: -4.985964867112031
+      z: 11.454760657777266
+    torque:
+      x: 0.652254300031049
+      y: 0.11878396056805382
+      z: 0.9294168746898432
+  contact_positions:
+  - x: -0.22439012647279863
+    y: 1.012486694010577
+    z: -1.1740904134333041e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.1740904134333041e-07
+- info: 'Debug:  i: (4/4)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -1.60768998889517
+      y: -3.3434471448226954
+      z: 3.7086133253228177
+    torque:
+      x: -0.3599063471172783
+      y: -0.06302770009282933
+      z: -0.21284171356734277
+  - force:
+      x: -16.24393535618187
+      y: -9.016437163981257
+      z: 15.419109543971633
+    torque:
+      x: 0.808844553158576
+      y: 0.024744774366307454
+      z: 0.8665823600132927
+  total_wrench:
+    force:
+      x: -17.85162534507704
+      y: -12.359884308803952
+      z: 19.127722869294452
+    torque:
+      x: 0.44893820604129764
+      y: -0.03828292572652188
+      z: 0.6537406464459499
+  contact_positions:
+  - x: -0.1606368630859414
+    y: 0.8878235558027615
+    z: -7.254179953120055e-06
+  - x: -0.2243513628619971
+    y: 1.0124849471597541
+    z: -2.4348716911333095e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 7.254179953120055e-06
+  - 2.4348716911333095e-06
+---
+header:
+  stamp:
+    sec: 1427
+    nanosec: 728000000
+  frame_id: world
+states: []
+---
+header:
+  stamp:
+    sec: 1428
+    nanosec: 728000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/1)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 3.4417171468241903e-59
+      y: 1.1131639556759356e-59
+      z: 2.5580532438458174e-59
+    torque:
+      x: -1.4566880839892919e-60
+      y: -1.7999311172010016e-60
+      z: 2.7431511894797146e-60
+  total_wrench:
+    force:
+      x: 3.4417171468241903e-59
+      y: 1.1131639556759356e-59
+      z: 2.5580532438458174e-59
+    torque:
+      x: -1.4566880839892919e-60
+      y: -1.7999311172010016e-60
+      z: 2.7431511894797146e-60
+  contact_positions:
+  - x: -0.1603233777696676
+    y: 0.8880338858074711
+    z: -6.934983755209345e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 6.934983755209345e-07
+---
+header:
+  stamp:
+    sec: 1429
+    nanosec: 725000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/3)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 6.92781583389115e-34
+      y: -2.145309811930621e-33
+      z: 1.5939178027406544e-33
+    torque:
+      x: 4.7214951833927334e-35
+      y: 2.703408658054613e-35
+      z: 1.5864583520680433e-35
+  total_wrench:
+    force:
+      x: 6.92781583389115e-34
+      y: -2.145309811930621e-33
+      z: 1.5939178027406544e-33
+    torque:
+      x: 4.7214951833927334e-35
+      y: 2.703408658054613e-35
+      z: 1.5864583520680433e-35
+  contact_positions:
+  - x: -0.2773352673115824
+    y: 0.985227547736638
+    z: -1.4223557117873376e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.4223557117873376e-07
+- info: 'Debug:  i: (2/3)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 5.305969029984395e-55
+      y: 1.7129531225343407e-55
+      z: 3.943170478660195e-55
+    torque:
+      x: -2.2463333983018377e-56
+      y: -2.774741852593375e-56
+      z: 4.2280642577493805e-56
+  total_wrench:
+    force:
+      x: 5.305969029984395e-55
+      y: 1.7129531225343407e-55
+      z: 3.943170478660195e-55
+    torque:
+      x: -2.2463333983018377e-56
+      y: -2.774741852593375e-56
+      z: 4.2280642577493805e-56
+  contact_positions:
+  - x: -0.160235444456969
+    y: 0.8879625498776208
+    z: -2.4974110618691814e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.497411061872651e-06
+- info: 'Debug:  i: (3/3)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -2.924827981444409e-19
+      y: 9.059704275273028e-19
+      z: 6.732091508775786e-19
+    torque:
+      x: 7.430375338724949e-20
+      y: -1.1421790581994084e-20
+      z: 4.765290869592984e-20
+  total_wrench:
+    force:
+      x: -2.924827981444409e-19
+      y: 9.059704275273028e-19
+      z: 6.732091508775786e-19
+    torque:
+      x: 7.430375338724949e-20
+      y: -1.1421790581994084e-20
+      z: 4.765290869592984e-20
+  contact_positions:
+  - x: -0.22404045125917457
+    y: 1.0125690444337225
+    z: -7.41751637049759e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 7.417516370462895e-07
+---
+header:
+  stamp:
+    sec: 1430
+    nanosec: 731000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/1)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -5.3969343317079915e-14
+      y: 1.6747903637160883e-13
+      z: 1.2441386651687797e-13
+    torque:
+      x: -3.684599565033202e-15
+      y: -2.113335695993936e-15
+      z: 1.2465170589526595e-15
+  total_wrench:
+    force:
+      x: -5.3969343317079915e-14
+      y: 1.6747903637160883e-13
+      z: 1.2441386651687797e-13
+    torque:
+      x: -3.684599565033202e-15
+      y: -2.113335695993936e-15
+      z: 1.2465170589526595e-15
+  contact_positions:
+  - x: -0.16004978963907152
+    y: 0.8879457024805306
+    z: -5.361939896808554e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.361939896808554e-07
+---
+header:
+  stamp:
+    sec: 1431
+    nanosec: 729000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/1)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -2.259054270742035
+      y: 7.486889936340189
+      z: 5.631692651026199
+    torque:
+      x: -0.16961178748162858
+      y: -0.10117915140852468
+      z: 0.06647289913826282
+  - force:
+      x: -7.774508231059749
+      y: 19.745654288011306
+      z: 15.924960101057376
+    torque:
+      x: 1.7071168357143556
+      y: -0.24451355609992803
+      z: 1.1365852048145209
+  total_wrench:
+    force:
+      x: -10.033562501801784
+      y: 27.232544224351493
+      z: 21.556652752083576
+    torque:
+      x: 1.537505048232727
+      y: -0.3456927075084527
+      z: 1.2030581039527837
+  contact_positions:
+  - x: -0.16005326044832094
+    y: 0.887893902789255
+    z: -4.027955435255415e-06
+  - x: -0.22392443010461277
+    y: 1.012475095939166
+    z: -3.7419986675663375e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 4.027955435255415e-06
+  - 3.7419986675663375e-06
+---
+header:
+  stamp:
+    sec: 1432
+    nanosec: 730000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/7)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -3.317722315177263
+      y: 10.280296084109219
+      z: 7.639672372201587
+    torque:
+      x: 0.843185948577388
+      y: 0.32872184062136534
+      z: -0.07616832046086792
+  - force:
+      x: -8.54905745915482e-14
+      y: 2.6490113870629435e-13
+      z: 1.9685794010032877e-13
+    torque:
+      x: 2.1727089968211843e-14
+      y: -3.341020965263415e-15
+      z: 1.39313743825972e-14
+  total_wrench:
+    force:
+      x: -3.3177223151773485
+      y: 10.280296084109484
+      z: 7.639672372201784
+    torque:
+      x: 0.8431859485774098
+      y: 0.328721840621362
+      z: -0.07616832046085399
+  contact_positions:
+  - x: -0.27718007166977887
+    y: 0.9852566979877031
+    z: -3.6244359732894027e-06
+  - x: -0.22377369279025616
+    y: 1.012601874736223
+    z: -1.7352377892103891e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 3.6244359732894027e-06
+  - 1.7352377892103891e-06
+- info: 'Debug:  i: (2/7)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -1.6288669420901927
+      y: 5.046869691787925
+      z: 3.750490315938898
+    torque:
+      x: 0.4139404128693609
+      y: 0.16138071774087265
+      z: -0.03738540480732398
+  total_wrench:
+    force:
+      x: -1.6288669420901927
+      y: 5.046869691787925
+      z: 3.750490315938898
+    torque:
+      x: 0.4139404128693609
+      y: 0.16138071774087265
+      z: -0.03738540480732398
+  contact_positions:
+  - x: -0.2771754306469491
+    y: 0.9852538743542374
+    z: -5.615279400836282e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.615279400836282e-07
+- info: 'Debug:  i: (3/7)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -4.0101729600388563e-22
+      y: 1.2424776872886059e-21
+      z: 9.23372758935576e-22
+    torque:
+      x: 1.019104237441486e-22
+      y: 3.973170164818386e-23
+      z: -9.203119898386129e-24
+  total_wrench:
+    force:
+      x: -4.0101729600388563e-22
+      y: 1.2424776872886059e-21
+      z: 9.23372758935576e-22
+    torque:
+      x: 1.019104237441486e-22
+      y: 3.973170164818386e-23
+      z: -9.203119898386129e-24
+  contact_positions:
+  - x: -0.27717245063501605
+    y: 0.9852516687258512
+    z: -5.486554309069858e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.486554309069858e-07
+- info: 'Debug:  i: (4/7)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -1.8961835421933755
+      y: -11.902803089401027
+      z: 14.517304840795068
+    torque:
+      x: 0.6591272461736263
+      y: -0.37863363895805185
+      z: -0.22435124472849508
+  - force:
+      x: -4.067593421496557
+      y: -7.8872598549885495
+      z: 8.873602282684036
+    torque:
+      x: 0.3845343641382272
+      y: 0.3882358711254173
+      z: 0.5213493351544153
+  total_wrench:
+    force:
+      x: -5.9637769636899325
+      y: -19.790062944389575
+      z: 23.390907123479103
+    torque:
+      x: 1.0436616103118534
+      y: 0.009602232167365443
+      z: 0.2969980904259202
+  contact_positions:
+  - x: -0.22387983483880705
+    y: 1.012488792924477
+    z: -1.3897156009821943e-06
+  - x: -0.2772818600731981
+    y: 0.9851351149426508
+    z: -7.365386221578943e-08
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.3897156009821943e-06
+  - 7.365386221578943e-08
+- info: 'Debug:  i: (5/7)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 15.72338499639172
+      y: 2.9458276782199677
+      z: 12.650396982882691
+    torque:
+      x: 0.9739026191483873
+      y: -0.09218964040527047
+      z: -1.1890117800940196
+  total_wrench:
+    force:
+      x: 15.72338499639172
+      y: 2.9458276782199677
+      z: 12.650396982882691
+    torque:
+      x: 0.9739026191483873
+      y: -0.09218964040527047
+      z: -1.1890117800940196
+  contact_positions:
+  - x: -0.27728236534518896
+    y: 0.9851380603192166
+    z: -2.0143104652314836e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.014310465234953e-06
+- info: 'Debug:  i: (6/7)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 2.012075017640618e-41
+      y: 6.490877476496008e-42
+      z: 1.4950880149627676e-41
+    torque:
+      x: -8.51835286179057e-43
+      y: -1.0521489097810157e-42
+      z: 1.603178836643313e-42
+  - force:
+      x: -12.94605891235907
+      y: -4.175978649531721
+      z: 9.617834508031132
+    torque:
+      x: 0.5479690560762268
+      y: 0.09984673212983874
+      z: 0.7809447643791827
+  - force:
+      x: 1.2823674507901568e-42
+      y: -3.975737684828322e-42
+      z: 2.9540069615728786e-42
+    torque:
+      x: -3.2605261785495117e-43
+      y: 5.014918532348161e-44
+      z: 2.090378521001606e-43
+  - force:
+      x: -4.020098673214573e-40
+      y: -1.296753424498029e-40
+      z: 2.9865956895979935e-40
+    torque:
+      x: 1.7015909553691846e-41
+      y: 2.10200830884377e-41
+      z: 3.2030950985996073e-41
+  total_wrench:
+    force:
+      x: -12.94605891235907
+      y: -4.175978649531721
+      z: 9.617834508031132
+    torque:
+      x: 0.5479690560762268
+      y: 0.09984673212983874
+      z: 0.7809447643791827
+  contact_positions:
+  - x: -0.16006308584508974
+    y: 0.8878854505147977
+    z: -4.529073291160979e-06
+  - x: -0.2238855684810777
+    y: 1.0124915928586833
+    z: -3.933815186017668e-06
+  - x: -0.21346571821537427
+    y: 0.8605329579753431
+    z: -1.7356312987650276e-06
+  - x: -0.2772882008513622
+    y: 0.9851391003192287
+    z: -1.140373193621716e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 4.529073291164448e-06
+  - 3.933815186021137e-06
+  - 1.735631298768497e-06
+  - 1.1403731936251855e-06
+- info: 'Debug:  i: (7/7)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 7.1960790920909e-34
+      y: -2.2311946744889846e-33
+      z: 1.657542719367373e-33
+    torque:
+      x: 4.909215012104655e-35
+      y: 2.8138044304748554e-35
+      z: 1.6563286590033327e-35
+  total_wrench:
+    force:
+      x: 7.1960790920909e-34
+      y: -2.2311946744889846e-33
+      z: 1.657542719367373e-33
+    torque:
+      x: 4.909215012104655e-35
+      y: 2.8138044304748554e-35
+      z: 1.6563286590033327e-35
+  contact_positions:
+  - x: -0.27730874379207354
+    y: 0.9851591371545431
+    z: -1.670198915545984e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.670198915545984e-06
+---
+header:
+  stamp:
+    sec: 1433
+    nanosec: 731000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -6.349296550031967e-06
+      y: 1.9700484596563108e-05
+      z: 1.4635792519693801e-05
+    torque:
+      x: 1.6155200142754602e-06
+      y: -2.4859487908985526e-07
+      z: 1.0354652963991314e-06
+  - force:
+      x: -3.5600107358935425e-56
+      y: 1.104593809935007e-55
+      z: 8.206197031095993e-56
+    torque:
+      x: -2.4305564919621684e-57
+      y: -1.393855888560737e-57
+      z: 8.217739146795453e-58
+  total_wrench:
+    force:
+      x: -6.349296550031967e-06
+      y: 1.9700484596563108e-05
+      z: 1.4635792519693801e-05
+    torque:
+      x: 1.6155200142754602e-06
+      y: -2.4859487908985526e-07
+      z: 1.0354652963991314e-06
+  contact_positions:
+  - x: -0.22384853440579455
+    y: 1.012451800386004
+    z: -2.0049125517805633e-06
+  - x: -0.15998982709674353
+    y: 0.8878642187419998
+    z: -1.0480588677747047e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.0049125517805633e-06
+  - 1.0480588677747047e-06
+- info: 'Debug:  i: (2/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -0.24791897692965836
+      y: 11.800259717271967
+      z: 27.890010413997427
+    torque:
+      x: 2.3063085204979754
+      y: -0.8292627431120315
+      z: 0.37136211990323437
+  - force:
+      x: 1.1455466582717592e-19
+      y: -3.551326332187646e-19
+      z: 2.638483891409444e-19
+    torque:
+      x: 7.815408243303126e-21
+      y: 4.478811699413067e-21
+      z: 2.635152388660659e-21
+  - force:
+      x: 5.729803285947691e-39
+      y: 1.848313063248195e-39
+      z: 4.257435072160313e-39
+    torque:
+      x: -2.4257106315377697e-40
+      y: -2.996171507432398e-40
+      z: 4.565356219137853e-40
+  total_wrench:
+    force:
+      x: -0.24791897692965836
+      y: 11.800259717271967
+      z: 27.890010413997427
+    torque:
+      x: 2.3063085204979754
+      y: -0.8292627431120315
+      z: 0.37136211990323437
+  contact_positions:
+  - x: -0.22380531254438657
+    y: 1.0124756958327223
+    z: -3.6998616681077623e-06
+  - x: -0.27720819655771944
+    y: 0.9851236944962471
+    z: -2.304163468970273e-06
+  - x: -0.15998397602241693
+    y: 0.8878689665120765
+    z: -1.557373901819854e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 3.6998616681077623e-06
+  - 2.304163468970273e-06
+  - 1.557373901819854e-07
+- info: 'Debug:  i: (3/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 1.1193358146093417
+      y: 0.36082857278236713
+      z: 0.8316149360317271
+    torque:
+      x: 0.06903790270569203
+      y: -0.058528522519232094
+      z: -0.06752864983918304
+  - force:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    torque:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  - force:
+      x: -7.134608331957747
+      y: -15.939044570924551
+      z: 18.595061902268416
+    torque:
+      x: -1.7798256702865238
+      y: -0.3438136071093205
+      z: -0.9775939203647782
+  - force:
+      x: -7.1416182855148976e-99
+      y: 2.215282852660411e-98
+      z: 1.6458844099559947e-98
+    torque:
+      x: -4.8753423117107e-100
+      y: 7.08013871552244e-100
+      z: -1.1644981357841636e-99
+  total_wrench:
+    force:
+      x: -6.015272517348405
+      y: -15.578215998142184
+      z: 19.426676838300143
+    torque:
+      x: -1.7107877675808318
+      y: -0.4023421296285526
+      z: -1.0451225702039613
+  contact_positions:
+  - x: -0.22386068065454348
+    y: 1.0125865662291686
+    z: -6.535929747048669e-06
+  - x: -0.277258111102219
+    y: 0.9852239197650974
+    z: -6.27534229588316e-06
+  - x: -0.16001450557178393
+    y: 0.8879925618755599
+    z: -3.9992913338677274e-06
+  - x: -0.21341193601945943
+    y: 0.8606299154114887
+    z: -3.7387038827022197e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 6.535929747048669e-06
+  - 6.27534229588316e-06
+  - 3.9992913338677274e-06
+  - 3.7387038827022197e-06
+- info: 'Debug:  i: (4/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 5.20656421880418e-67
+      y: 1.6783911958522894e-67
+      z: 3.868231708638054e-67
+    torque:
+      x: -2.204244837290952e-68
+      y: -2.7224387782326702e-68
+      z: 4.148112311918614e-68
+  total_wrench:
+    force:
+      x: 5.20656421880418e-67
+      y: 1.6783911958522894e-67
+      z: 3.868231708638054e-67
+    torque:
+      x: -2.204244837290952e-68
+      y: -2.7224387782326702e-68
+      z: 4.148112311918614e-68
+  contact_positions:
+  - x: -0.16001434651880905
+    y: 0.8879923361615013
+    z: -1.0163042493960273e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.0163042493960273e-06
+- info: 'Debug:  i: (5/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 32.26384665538131
+      y: 10.405693620170975
+      z: 23.97430394846199
+    torque:
+      x: -1.3660304677872093
+      y: -1.6871445181153
+      z: 2.57064007448182
+  total_wrench:
+    force:
+      x: 32.26384665538131
+      y: 10.405693620170975
+      z: 23.97430394846199
+    torque:
+      x: -1.3660304677872093
+      y: -1.6871445181153
+      z: 2.57064007448182
+  contact_positions:
+  - x: -0.1600508145542462
+    y: 0.8879334814609088
+    z: -1.0751242022107033e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.0751242022141727e-06
+- info: 'Debug:  i: (6/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 1.1605646342276878e-54
+      y: 3.7419092025013226e-55
+      z: 8.623395181373076e-55
+    torque:
+      x: -4.913803866210751e-56
+      y: -6.068712457094992e-56
+      z: 9.246525200344203e-56
+  total_wrench:
+    force:
+      x: 1.1605646342276878e-54
+      y: 3.7419092025013226e-55
+      z: 8.623395181373076e-55
+    torque:
+      x: -4.913803866210751e-56
+      y: -6.068712457094992e-56
+      z: 9.246525200344203e-56
+  contact_positions:
+  - x: -0.16008629959306597
+    y: 0.8878069953559309
+    z: -2.4305536719393395e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.4305536719393395e-07
+- info: 'Debug:  i: (7/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 10.290974080688676
+      y: 3.3193141500142134
+      z: 7.64520920373765
+    torque:
+      x: 0.634744068762062
+      y: -0.07937294630853105
+      z: -0.8199476101486338
+  total_wrench:
+    force:
+      x: 10.290974080688676
+      y: 3.3193141500142134
+      z: 7.64520920373765
+    torque:
+      x: 0.634744068762062
+      y: -0.07937294630853105
+      z: -0.8199476101486338
+  contact_positions:
+  - x: -0.2773530317583628
+    y: 0.9850716451024305
+    z: -5.2499770163139114e-08
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.2499770163139114e-08
+- info: 'Debug:  i: (8/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 10.342364090064848
+      y: -32.084483138076074
+      z: 23.8334804110719
+    torque:
+      x: 0.7058091346327482
+      y: -1.0252753350341006
+      z: -1.6864999804468175
+  total_wrench:
+    force:
+      x: 10.342364090064848
+      y: -32.084483138076074
+      z: 23.8334804110719
+    torque:
+      x: 0.7058091346327482
+      y: -1.0252753350341006
+      z: -1.6864999804468175
+  contact_positions:
+  - x: -0.22400493608526872
+    y: 1.0124287152307998
+    z: -1.0700630030321956e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.0700630030321956e-06
+---
+header:
+  stamp:
+    sec: 1434
+    nanosec: 730000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -2.3340436943482423
+      y: -23.074649523293125
+      z: 21.60075461775581
+    torque:
+      x: -2.204292308941699
+      y: -0.578001327702228
+      z: -0.8556225443031716
+  total_wrench:
+    force:
+      x: -2.3340436943482423
+      y: -23.074649523293125
+      z: 21.60075461775581
+    torque:
+      x: -2.204292308941699
+      y: -0.578001327702228
+      z: -0.8556225443031716
+  contact_positions:
+  - x: -0.16016532047839832
+    y: 0.8878426612977396
+    z: -5.533099935728369e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.533099935693675e-07
+- info: 'Debug:  i: (2/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -5.277556024998998e-38
+      y: 1.6375948338071017e-37
+      z: 1.2165089776696068e-37
+    torque:
+      x: -3.602778342265931e-39
+      y: -2.066260125509129e-39
+      z: 1.2184952839220212e-39
+  total_wrench:
+    force:
+      x: -5.277556024998998e-38
+      y: 1.6375948338071017e-37
+      z: 1.2165089776696068e-37
+    torque:
+      x: -3.602778342265931e-39
+      y: -2.066260125509129e-39
+      z: 1.2184952839220212e-39
+  contact_positions:
+  - x: -0.1601670284510439
+    y: 0.8878484374659144
+    z: -8.116998996242353e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 8.116998996242353e-07
+- info: 'Debug:  i: (3/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -7.227325542288319e-43
+      y: -2.329727647581109e-43
+      z: 5.3696700613364914e-43
+    torque:
+      x: 3.0598507486612095e-44
+      y: 3.779098681087445e-44
+      z: 5.758046173876153e-44
+  - force:
+      x: -23.02926295009483
+      y: -7.423480550907059
+      z: 17.110000521523027
+    torque:
+      x: 0.9749956199793981
+      y: 0.17757787285715534
+      z: 1.389343989979424
+  total_wrench:
+    force:
+      x: -23.02926295009483
+      y: -7.423480550907059
+      z: 17.110000521523027
+    torque:
+      x: 0.9749956199793981
+      y: 0.17757787285715534
+      z: 1.389343989979424
+  contact_positions:
+  - x: -0.27741416819663245
+    y: 0.9850657743853833
+    z: -4.111869380627603e-06
+  - x: -0.22401856667175427
+    y: 1.0124319895469387
+    z: -1.7607253402817727e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 4.111869380627603e-06
+  - 1.7607253402817727e-06
+- info: 'Debug:  i: (4/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -3.0549715565456164e-77
+      y: -9.846227079390262e-78
+      z: 2.269648159982901e-77
+    torque:
+      x: 1.2933668996063216e-78
+      y: 1.5973859149585558e-78
+      z: 2.433866901963637e-78
+  - force:
+      x: -5.761076967708149
+      y: 12.2123677076892
+      z: 10.69841153991275
+    torque:
+      x: 1.115259839024568
+      y: -0.14812003716613767
+      z: 0.7696464189702454
+  total_wrench:
+    force:
+      x: -5.761076967708149
+      y: 12.2123677076892
+      z: 10.69841153991275
+    torque:
+      x: 1.115259839024568
+      y: -0.14812003716613767
+      z: 0.7696464189702454
+  contact_positions:
+  - x: -0.2773843508794616
+    y: 0.9850029160862582
+    z: -1.639574954741263e-06
+  - x: -0.2239896283245239
+    y: 1.012370846253738
+    z: -3.631828509977252e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.639574954741263e-06
+  - 3.631828509977252e-07
+- info: 'Debug:  i: (5/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 1.358728507143479e-72
+      y: -4.2155337966151637e-72
+      z: 3.131334715708532e-72
+    torque:
+      x: 9.272741620114235e-74
+      y: 5.31781862569517e-74
+      z: 3.13550183984115e-74
+  - force:
+      x: 1.3668516355633584
+      y: -4.24073627246535
+      z: 3.1500553312601998
+    torque:
+      x: 0.09328178501425341
+      y: -0.13550720900470659
+      z: -0.22290170266339535
+  total_wrench:
+    force:
+      x: 1.3668516355633584
+      y: -4.24073627246535
+      z: 3.1500553312601998
+    torque:
+      x: 0.09328178501425341
+      y: -0.13550720900470659
+      z: -0.22290170266339535
+  contact_positions:
+  - x: -0.27738422993896533
+    y: 0.985006252941353
+    z: -4.166171696726173e-07
+  - x: -0.22398779868023203
+    y: 1.0123708492074042
+    z: -2.51128031116285e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 4.1661716966914786e-07
+  - 2.5112803111281553e-07
+- info: 'Debug:  i: (6/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -16.28847664555969
+      y: -5.933444518981993
+      z: 12.707995520373313
+    torque:
+      x: 0.7115563508566726
+      y: 0.10741443375559145
+      z: 0.9621900296197193
+  total_wrench:
+    force:
+      x: -16.28847664555969
+      y: -5.933444518981993
+      z: 12.707995520373313
+    torque:
+      x: 0.7115563508566726
+      y: 0.10741443375559145
+      z: 0.9621900296197193
+  contact_positions:
+  - x: -0.22400508596933122
+    y: 1.0123800280702027
+    z: -6.648282863813693e-08
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 6.648282863813693e-08
+- info: 'Debug:  i: (7/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 3.3480016115689195
+      y: -4.843908496138767
+      z: 14.639611731556517
+    torque:
+      x: -1.170090076093119
+      y: -0.5396284002937634
+      z: 0.08904285792566115
+  total_wrench:
+    force:
+      x: 3.3480016115689195
+      y: -4.843908496138767
+      z: 14.639611731556517
+    torque:
+      x: -1.170090076093119
+      y: -0.5396284002937634
+      z: 0.08904285792566115
+  contact_positions:
+  - x: -0.16012386050699712
+    y: 0.8878750486684428
+    z: -3.378955941928108e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 3.378955941928108e-06
+- info: 'Debug:  i: (8/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 3.0419023069283356e-35
+      y: 9.802675099475382e-36
+      z: 2.2599702946098997e-35
+    torque:
+      x: -1.2878989532426678e-36
+      y: -1.5905617804614703e-36
+      z: 2.4234118678340956e-36
+  total_wrench:
+    force:
+      x: 3.0419023069283356e-35
+      y: 9.802675099475382e-36
+      z: 2.2599702946098997e-35
+    torque:
+      x: -1.2878989532426678e-36
+      y: -1.5905617804614703e-36
+      z: 2.4234118678340956e-36
+  contact_positions:
+  - x: -0.16012415183614995
+    y: 0.8878749449087003
+    z: -9.760508049815042e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 9.760508049815042e-07
+- info: 'Debug:  i: (9/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 5.1929321378982256e-11
+      y: 1.6737246914587526e-11
+      z: 3.858359864435941e-11
+    torque:
+      x: -2.1987344976675317e-12
+      y: -2.7153876007002496e-12
+      z: 4.137169903966382e-12
+  total_wrench:
+    force:
+      x: 5.1929321378982256e-11
+      y: 1.6737246914587526e-11
+      z: 3.858359864435941e-11
+    torque:
+      x: -2.1987344976675317e-12
+      y: -2.7153876007002496e-12
+      z: 4.137169903966382e-12
+  contact_positions:
+  - x: -0.1601679875540872
+    y: 0.8878287599830553
+    z: -3.37411850602487e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 3.37411850602487e-06
+---
+header:
+  stamp:
+    sec: 1435
+    nanosec: 732000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/7)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 5.505478415121316
+      y: 1.7769712804089053
+      z: 4.091474525655923
+    torque:
+      x: -0.2330940783836478
+      y: -0.28790858822331705
+      z: 0.4386926274707596
+  total_wrench:
+    force:
+      x: 5.505478415121316
+      y: 1.7769712804089053
+      z: 4.091474525655923
+    torque:
+      x: -0.2330940783836478
+      y: -0.28790858822331705
+      z: 0.4386926274707596
+  contact_positions:
+  - x: -0.16008197693734008
+    y: 0.8879775096116882
+    z: -2.0697725824046775e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.0697725824046775e-06
+- info: 'Debug:  i: (2/7)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 5.402734464936435e-33
+      y: 1.7441622408919047e-33
+      z: 4.0151153825432435e-33
+    torque:
+      x: -2.287332095512697e-34
+      y: -2.8253549542439034e-34
+      z: 4.3051627977230725e-34
+  total_wrench:
+    force:
+      x: 5.402734464936435e-33
+      y: 1.7441622408919047e-33
+      z: 4.0151153825432435e-33
+    torque:
+      x: -2.287332095512697e-34
+      y: -2.8253549542439034e-34
+      z: 4.3051627977230725e-34
+  contact_positions:
+  - x: -0.1600947521831982
+    y: 0.8879711540532766
+    z: -3.363798512269478e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 3.363798512269478e-07
+- info: 'Debug:  i: (3/7)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 1.9493602084525683e-05
+      y: 6.293322830946457e-06
+      z: 1.4487161629316588e-05
+    torque:
+      x: -8.253016291237681e-07
+      y: -1.0194229114152678e-06
+      z: 1.5533518308451921e-06
+  total_wrench:
+    force:
+      x: 1.9493602084525683e-05
+      y: 6.293322830946457e-06
+      z: 1.4487161629316588e-05
+    torque:
+      x: -8.253016291237681e-07
+      y: -1.0194229114152678e-06
+      z: 1.5533518308451921e-06
+  contact_positions:
+  - x: -0.16008068651212465
+    y: 0.8880005355654209
+    z: -2.8742906534734436e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.8742906534734436e-07
+- info: 'Debug:  i: (4/7)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 1.653893098447728e-55
+      y: -5.121347591245282e-55
+      z: 3.8057612314466516e-55
+    torque:
+      x: -4.200437139386241e-56
+      y: -1.6378962989683134e-56
+      z: -3.786791084601754e-57
+  total_wrench:
+    force:
+      x: 1.653893098447728e-55
+      y: -5.121347591245282e-55
+      z: 3.8057612314466516e-55
+    torque:
+      x: -4.200437139386241e-56
+      y: -1.6378962989683134e-56
+      z: -3.786791084601754e-57
+  contact_positions:
+  - x: -0.16010797403470045
+    y: 0.8879715654652331
+    z: -1.5253590162876696e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.5253590162876696e-06
+- info: 'Debug:  i: (5/7)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -9.141370343471361e-95
+      y: -2.9530783949373286e-95
+      z: 6.792848581501663e-95
+    torque:
+      x: 3.86907048856996e-96
+      y: 4.780265677491909e-96
+      z: 7.284882758911146e-96
+  - force:
+      x: -12.103725762344393
+      y: -3.9100539310884512
+      z: 8.994141281492412
+    torque:
+      x: 0.5122882717718141
+      y: 0.09328753442555979
+      z: 0.7299591854314526
+  total_wrench:
+    force:
+      x: -12.103725762344393
+      y: -3.9100539310884512
+      z: 8.994141281492412
+    torque:
+      x: 0.5122882717718141
+      y: 0.09328753442555979
+      z: 0.7299591854314526
+  contact_positions:
+  - x: -0.27729754979590027
+    y: 0.985271137237134
+    z: -2.9602041114358546e-06
+  - x: -0.22388439482890377
+    y: 1.0126030759822595
+    z: -2.0092467046299365e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.9602041114358546e-06
+  - 2.0092467046299365e-06
+- info: 'Debug:  i: (6/7)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 28.46618916356655
+      y: -9.859500199450125
+      z: 29.83327075512476
+    torque:
+      x: 1.792543946875229
+      y: -1.7489837975607399
+      z: -2.288418247433162
+  - force:
+      x: 3.6673601965600295
+      y: 1.1844069451195507
+      z: 2.7253519795886376
+    torque:
+      x: 0.22630684692479125
+      y: -0.028260246509141773
+      z: -0.2922474221127887
+  - force:
+      x: 6.742608273969904e-58
+      y: -2.087842809862349e-57
+      z: 1.551316221017427e-57
+    torque:
+      x: -1.712274197670904e-58
+      y: -6.676731145243257e-59
+      z: -1.5437026378081154e-59
+  - force:
+      x: 4.41261473711947e-50
+      y: -1.3663623300131591e-49
+      z: 1.0152392873275403e-49
+    torque:
+      x: -1.1205762001332274e-50
+      y: 1.7219334408467867e-51
+      z: 7.18791730602312e-51
+  total_wrench:
+    force:
+      x: 32.13354936012658
+      y: -8.675093254330573
+      z: 32.558622734713396
+    torque:
+      x: 2.0188507938000204
+      y: -1.7772440440698816
+      z: -2.580665669545951
+  contact_positions:
+  - x: -0.2238943705979074
+    y: 1.0126329275979653
+    z: -7.900261073719855e-06
+  - x: -0.27730686334823407
+    y: 0.9852996948167775
+    z: -5.9189226980827206e-06
+  - x: -0.16011682729497687
+    y: 0.8880037779563756
+    z: -2.4360974770968704e-06
+  - x: -0.21352932004530356
+    y: 0.8606705451751877
+    z: -4.547591014597365e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 7.900261073716386e-06
+  - 5.918922698079251e-06
+  - 2.436097477093401e-06
+  - 4.5475910145626705e-07
+- info: 'Debug:  i: (7/7)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 3.890478224119048e-77
+      y: -1.2060627337692068e-76
+      z: 8.96221783095828e-77
+    torque:
+      x: -9.891740682978423e-78
+      y: -3.8558088165231976e-78
+      z: -8.948534444242804e-79
+  total_wrench:
+    force:
+      x: 3.890478224119048e-77
+      y: -1.2060627337692068e-76
+      z: 8.96221783095828e-77
+    torque:
+      x: -9.891740682978423e-78
+      y: -3.8558088165231976e-78
+      z: -8.948534444242804e-79
+  contact_positions:
+  - x: -0.16008448477756243
+    y: 0.8879798310917569
+    z: -1.224545111849079e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.224545111849079e-06
+---
+header:
+  stamp:
+    sec: 1436
+    nanosec: 734000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/5)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 3.358429947700509
+      y: -10.396156272012437
+      z: 7.7265971280244115
+    torque:
+      x: -0.8527464871220825
+      y: -0.3325508122717471
+      z: -0.07679459182133662
+  total_wrench:
+    force:
+      x: 3.358429947700509
+      y: -10.396156272012437
+      z: 7.7265971280244115
+    torque:
+      x: -0.8527464871220825
+      y: -0.3325508122717471
+      z: -0.07679459182133662
+  contact_positions:
+  - x: -0.16013262391879837
+    y: 0.8880747133849397
+    z: -1.9130023984591238e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.9130023984591238e-06
+- info: 'Debug:  i: (2/5)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 4.697020301893021
+      y: -14.556449345210954
+      z: 10.81632236550305
+    torque:
+      x: -1.193836045941542
+      y: -0.4654002800218821
+      z: -0.1079020592238172
+  total_wrench:
+    force:
+      x: 4.697020301893021
+      y: -14.556449345210954
+      z: 10.81632236550305
+    torque:
+      x: -1.193836045941542
+      y: -0.4654002800218821
+      z: -0.1079020592238172
+  contact_positions:
+  - x: -0.16019230975660384
+    y: 0.8881154512952273
+    z: -5.051039182815686e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.051039182815686e-07
+- info: 'Debug:  i: (3/5)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 13.887252133642061
+      y: 18.9475630834304
+      z: 23.19619230628104
+    torque:
+      x: -1.0553065689367598
+      y: -1.1125033331976932
+      z: 1.5405345418578562
+  total_wrench:
+    force:
+      x: 13.887252133642061
+      y: 18.9475630834304
+      z: 23.19619230628104
+    torque:
+      x: -1.0553065689367598
+      y: -1.1125033331976932
+      z: 1.5405345418578562
+  contact_positions:
+  - x: -0.16023747855063253
+    y: 0.8881171895054517
+    z: -3.8990163950258783e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 3.8990163950258783e-07
+- info: 'Debug:  i: (4/5)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 4.4986868637794e-31
+      y: 1.4532193180385927e-31
+      z: 3.343324941333084e-31
+    torque:
+      x: -1.904361663521581e-32
+      y: -2.352603541533745e-32
+      z: 3.5850466000571586e-32
+  - force:
+      x: 4.198804067573456e-63
+      y: 1.356347611740771e-63
+      z: 3.1204586555943736e-63
+    torque:
+      x: -1.777416775393831e-64
+      y: -3.235036235937235e-65
+      z: 2.5322585637791877e-64
+  - force:
+      x: 2.237713866093282e-39
+      y: 7.228529384055931e-40
+      z: 1.663019633642901e-39
+    torque:
+      x: 1.3809696250717072e-40
+      y: -1.170220049920854e-40
+      z: -1.3495438247436172e-40
+  total_wrench:
+    force:
+      x: 4.498686886156539e-31
+      y: 1.4532193252671221e-31
+      z: 3.3433249579632806e-31
+    torque:
+      x: -1.904361649711885e-32
+      y: -2.3526035532359455e-32
+      z: 3.5850465865617206e-32
+  contact_positions:
+  - x: -0.1602780621258536
+    y: 0.8880326212635113
+    z: -6.470938056068326e-06
+  - x: -0.21369056328624908
+    y: 0.8606994052310984
+    z: -1.8757014656623292e-06
+  - x: -0.22405556590027204
+    y: 1.012661791097225
+    z: -2.3689016460698012e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 6.470938056068326e-06
+  - 1.8757014656623292e-06
+  - 2.3689016460698012e-07
+- info: 'Debug:  i: (5/5)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -1.042840459484169
+      y: 1.9039235278376647
+      z: 1.8278344778883762
+    torque:
+      x: 0.1850661192873162
+      y: 0.08612024812117636
+      z: 0.01588112632876185
+  total_wrench:
+    force:
+      x: -1.042840459484169
+      y: 1.9039235278376647
+      z: 1.8278344778883762
+    torque:
+      x: 0.1850661192873162
+      y: 0.08612024812117636
+      z: 0.01588112632876185
+  contact_positions:
+  - x: -0.277480940467844
+    y: 0.9853011283124798
+    z: -1.7515772844263477e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.7515772844263477e-06
+---
+header:
+  stamp:
+    sec: 1437
+    nanosec: 734000000
+  frame_id: world
+states: []
+---
+header:
+  stamp:
+    sec: 1438
+    nanosec: 733000000
+  frame_id: world
+states: []
+---
+header:
+  stamp:
+    sec: 1439
+    nanosec: 732000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/3)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 7.685827280679757e-57
+      y: 2.484588804627015e-57
+      z: 5.712325983129001e-57
+    torque:
+      x: -3.2532515468021954e-58
+      y: -4.01944597914263e-58
+      z: 6.1254557378639345e-58
+  total_wrench:
+    force:
+      x: 7.685827280679757e-57
+      y: 2.484588804627015e-57
+      z: 5.712325983129001e-57
+    torque:
+      x: -3.2532515468021954e-58
+      y: -4.01944597914263e-58
+      z: 6.1254557378639345e-58
+  contact_positions:
+  - x: -0.16045503733921515
+    y: 0.8878013782738707
+    z: -1.3996573197949669e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.3996573197949669e-06
+- info: 'Debug:  i: (2/3)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 5.6533147084643565
+      y: 26.6789431092175
+      z: 26.329922369584516
+    torque:
+      x: 2.6434628591474376
+      y: -0.9594971123414645
+      z: 0.40463626368401906
+  - force:
+      x: 9.983209490285724e-06
+      y: 3.227947696822502e-06
+      z: 7.419960001821019e-06
+    torque:
+      x: 6.162356310321452e-07
+      y: -7.689748465394064e-08
+      z: -7.956630952246742e-07
+  - force:
+      x: 4.120378087323061e-39
+      y: 1.332273450732853e-39
+      z: 3.0624460630687904e-39
+    torque:
+      x: -1.744030208928301e-40
+      y: -2.1548472451175534e-40
+      z: 3.283946696346003e-40
+  total_wrench:
+    force:
+      x: 5.653324691673847
+      y: 26.678946337165197
+      z: 26.32992978954452
+    torque:
+      x: 2.6434634753830686
+      y: -0.9594971892389491
+      z: 0.4046354680209238
+  contact_positions:
+  - x: -0.22428219578258504
+    y: 1.0124979288101705
+    z: -6.165729879648724e-06
+  - x: -0.27770374769008155
+    y: 0.9851824060836837
+    z: -3.007654964372883e-06
+  - x: -0.1605459758378545
+    y: 0.88784764099988
+    z: -2.169649055039038e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 6.165729879648724e-06
+  - 3.007654964372883e-06
+  - 2.169649055039038e-06
+- info: 'Debug:  i: (3/3)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 3.050551793454999e-79
+      y: 9.864493755574104e-80
+      z: 2.2673634275223278e-79
+    torque:
+      x: 1.8830892119328517e-80
+      y: -1.5953745662931975e-80
+      z: -1.839451442751275e-80
+  total_wrench:
+    force:
+      x: 3.050551793454999e-79
+      y: 9.864493755574104e-80
+      z: 2.2673634275223278e-79
+    torque:
+      x: 1.8830892119328517e-80
+      y: -1.5953745662931975e-80
+      z: -1.839451442751275e-80
+  contact_positions:
+  - x: -0.22428216401243983
+    y: 1.012487054916672
+    z: -5.753283106244012e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.753283106278706e-07
+---
+header:
+  stamp:
+    sec: 1440
+    nanosec: 732000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -1.3789413286034977e-25
+      y: 4.26489457899522e-25
+      z: 3.169314723584949e-25
+    torque:
+      x: -9.390519328108972e-27
+      y: -5.371120184944369e-27
+      z: 3.1420944367611985e-27
+  - force:
+      x: -2.073639294733302e-45
+      y: 6.413509265006946e-45
+      z: 4.765986349004616e-45
+    torque:
+      x: 5.26024322380532e-46
+      y: -8.077041162813975e-47
+      z: 3.3756002858154016e-46
+  total_wrench:
+    force:
+      x: -1.3789413286034977e-25
+      y: 4.26489457899522e-25
+      z: 3.169314723584949e-25
+    torque:
+      x: -9.390519328108972e-27
+      y: -5.371120184944369e-27
+      z: 3.1420944367611985e-27
+  contact_positions:
+  - x: -0.16027662241334334
+    y: 0.8878268381332993
+    z: -6.960615197108833e-07
+  - x: -0.2240199630577227
+    y: 1.0124734847922652
+    z: -2.842992855391508e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 6.960615197143527e-07
+  - 2.8429928554262024e-07
+- info: 'Debug:  i: (2/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -16.06995628298768
+      y: -13.975008193380237
+      z: 19.761000108557397
+    torque:
+      x: -1.802520253400425
+      y: -0.11073131476709086
+      z: -1.5441471856105442
+  - force:
+      x: 1.103620705883369e-27
+      y: -3.4199480410914516e-27
+      z: 2.5412900345195966e-27
+    torque:
+      x: 7.529186118362803e-29
+      y: -1.0934732221208877e-28
+      z: -1.798518906445791e-28
+  total_wrench:
+    force:
+      x: -16.06995628298768
+      y: -13.975008193380237
+      z: 19.761000108557397
+    torque:
+      x: -1.802520253400425
+      y: -0.11073131476709086
+      z: -1.5441471856105442
+  contact_positions:
+  - x: -0.1602343037446304
+    y: 0.8878156564121653
+    z: -2.321147746418839e-06
+  - x: -0.22403583534798094
+    y: 1.0124325275069845
+    z: -4.227667322319839e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.321147746418839e-06
+  - 4.227667322319839e-07
+- info: 'Debug:  i: (3/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -2.0682440288176007
+      y: 6.4013264591899794
+      z: 4.755735515813634
+    torque:
+      x: -0.14086169233125453
+      y: -0.08062474460988145
+      z: 0.04726271175846815
+  total_wrench:
+    force:
+      x: -2.0682440288176007
+      y: 6.4013264591899794
+      z: 4.755735515813634
+    torque:
+      x: -0.14086169233125453
+      y: -0.08062474460988145
+      z: 0.04726271175846815
+  contact_positions:
+  - x: -0.1602130333805889
+    y: 0.8877995979655036
+    z: -5.489398140653273e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.489398140653273e-06
+- info: 'Debug:  i: (4/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 3.7672253459375207
+      y: -3.5558253188201165
+      z: 4.974218937612787
+    torque:
+      x: -0.4548700851974985
+      y: -0.2622433285065095
+      z: 0.15703101465102265
+  total_wrench:
+    force:
+      x: 3.7672253459375207
+      y: -3.5558253188201165
+      z: 4.974218937612787
+    torque:
+      x: -0.4548700851974985
+      y: -0.2622433285065095
+      z: 0.15703101465102265
+  contact_positions:
+  - x: -0.16021120643317227
+    y: 0.8877920295087751
+    z: -1.2484600166520754e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.24846001668677e-07
+- info: 'Debug:  i: (5/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -6.880113728783639
+      y: 4.766646001183199
+      z: 15.121428708482378
+    torque:
+      x: -0.9155006295582695
+      y: -0.2472394493909628
+      z: -0.3386085809793582
+  total_wrench:
+    force:
+      x: -6.880113728783639
+      y: 4.766646001183199
+      z: 15.121428708482378
+    torque:
+      x: -0.9155006295582695
+      y: -0.2472394493909628
+      z: -0.3386085809793582
+  contact_positions:
+  - x: -0.16021651971798143
+    y: 0.8877920323226562
+    z: -3.1403866190479746e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 3.1403866190479746e-07
+- info: 'Debug:  i: (6/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 1.5736700722365213
+      y: -4.876872394111626
+      z: 3.624335567680313
+    torque:
+      x: -0.40000966156097045
+      y: -0.15594016919750509
+      z: -0.03614926676679252
+  total_wrench:
+    force:
+      x: 1.5736700722365213
+      y: -4.876872394111626
+      z: 3.624335567680313
+    torque:
+      x: -0.40000966156097045
+      y: -0.15594016919750509
+      z: -0.03614926676679252
+  contact_positions:
+  - x: -0.1601267637579559
+    y: 0.8877822538634798
+    z: -1.093768389730937e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.093768389730937e-06
+- info: 'Debug:  i: (7/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -8.776694828410715
+      y: 27.18665132852839
+      z: 20.197112677763833
+    torque:
+      x: -0.5981983475876158
+      y: -0.3426125354805939
+      z: 0.20123090186710255
+  total_wrench:
+    force:
+      x: -8.776694828410715
+      y: 27.18665132852839
+      z: 20.197112677763833
+    torque:
+      x: -0.5981983475876158
+      y: -0.3426125354805939
+      z: 0.20123090186710255
+  contact_positions:
+  - x: -0.16012174993553668
+    y: 0.8877998585930656
+    z: -3.7324440530783765e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 3.7324440530783765e-06
+- info: 'Debug:  i: (8/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 5.713912409398445
+      y: -17.697111132254072
+      z: 13.151292171235822
+    torque:
+      x: -1.4515037859541298
+      y: -0.5659561374190282
+      z: -0.1309394653097317
+  total_wrench:
+    force:
+      x: 5.713912409398445
+      y: -17.697111132254072
+      z: 13.151292171235822
+    torque:
+      x: -1.4515037859541298
+      y: -0.5659561374190282
+      z: -0.1309394653097317
+  contact_positions:
+  - x: -0.16011638100079315
+    y: 0.8877668766969813
+    z: -8.975961611479288e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 8.975961611479288e-07
+- info: 'Debug:  i: (9/9)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 0.30854572696236326
+      y: -8.654585593012365
+      z: 7.563538147911209
+    torque:
+      x: -0.7890852381441559
+      y: -0.23616251624620707
+      z: -0.2380393669030054
+  total_wrench:
+    force:
+      x: 0.30854572696236326
+      y: -8.654585593012365
+      z: 7.563538147911209
+    torque:
+      x: -0.7890852381441559
+      y: -0.23616251624620707
+      z: -0.2380393669030054
+  contact_positions:
+  - x: -0.16013044157421233
+    y: 0.8877804237379231
+    z: -1.1913726724252505e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.1913726724252505e-07
+---
+header:
+  stamp:
+    sec: 1441
+    nanosec: 732000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 3.565535298596401e-17
+      y: 1.1508023059631398e-17
+      z: 2.6496743898947863e-17
+    torque:
+      x: -1.5095313811374087e-18
+      y: -1.8645629065473556e-18
+      z: 2.8411154008064226e-18
+  total_wrench:
+    force:
+      x: 3.565535298596401e-17
+      y: 1.1508023059631398e-17
+      z: 2.6496743898947863e-17
+    torque:
+      x: -1.5095313811374087e-18
+      y: -1.8645629065473556e-18
+      z: 2.8411154008064226e-18
+  contact_positions:
+  - x: -0.16017709702389954
+    y: 0.8879657080861173
+    z: -3.844170966733201e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 3.844170966733201e-06
+- info: 'Debug:  i: (2/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -5.601402907852211
+      y: 17.359407075523187
+      z: 12.896412917299001
+    torque:
+      x: -0.38196669194523397
+      y: -0.21885030028340408
+      z: 0.12868400871604163
+  - force:
+      x: -2.7297157284352088e-92
+      y: 8.459710417177395e-92
+      z: 6.284772182946657e-92
+    torque:
+      x: -1.8614274029094364e-93
+      y: 2.7043463734145575e-93
+      z: -4.448714135057861e-93
+  - force:
+      x: -5.4249661844110836e-30
+      y: 1.681260889733957e-29
+      z: 1.2490193104744128e-29
+    torque:
+      x: 1.3786917842522774e-30
+      y: -2.1195680760999187e-31
+      z: 8.841258998289644e-31
+  total_wrench:
+    force:
+      x: -5.601402907852211
+      y: 17.359407075523187
+      z: 12.896412917299001
+    torque:
+      x: -0.38196669194523397
+      y: -0.21885030028340408
+      z: 0.12868400871604163
+  contact_positions:
+  - x: -0.16022720871593366
+    y: 0.8878993256305673
+    z: -6.6617703868912526e-06
+  - x: -0.21363083328342627
+    y: 0.8605487706207209
+    z: -1.792718757944246e-06
+  - x: -0.22404517015173434
+    y: 1.0125077834725893
+    z: -9.686433586834991e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 6.6617703868912526e-06
+  - 1.792718757944246e-06
+  - 9.686433586834991e-07
+- info: 'Debug:  i: (3/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -2.0575048853128566
+      y: 6.375114604960483
+      z: 4.736339480710069
+    torque:
+      x: -0.14029032550089074
+      y: -0.08036503786191623
+      z: 0.04722809617691413
+  total_wrench:
+    force:
+      x: -2.0575048853128566
+      y: 6.375114604960483
+      z: 4.736339480710069
+    torque:
+      x: -0.14029032550089074
+      y: -0.08036503786191623
+      z: 0.04722809617691413
+  contact_positions:
+  - x: -0.1602287162553252
+    y: 0.8878805383550348
+    z: -2.977649032169516e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.977649032169516e-07
+- info: 'Debug:  i: (4/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -0.6493102024389399
+      y: 2.013596862143375
+      z: 1.4959700230934296
+    torque:
+      x: 0.1651258074808412
+      y: -0.025399794619634635
+      z: 0.10585962003502691
+  total_wrench:
+    force:
+      x: -0.6493102024389399
+      y: 2.013596862143375
+      z: 1.4959700230934296
+    torque:
+      x: 0.1651258074808412
+      y: -0.025399794619634635
+      z: 0.10585962003502691
+  contact_positions:
+  - x: -0.22400209748744354
+    y: 1.01243885262935
+    z: -6.445311155137134e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 6.445311155137134e-07
+- info: 'Debug:  i: (5/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -17.754452461419135
+      y: -5.728247468147957
+      z: 13.191710278966992
+    torque:
+      x: 0.7515722954832518
+      y: 0.9283848822115834
+      z: 1.4146590963437793
+  - force:
+      x: -1.7540615524877128
+      y: -0.5659255709995741
+      z: 1.303282760320249
+    torque:
+      x: 0.07425202609243037
+      y: 0.013523363765023881
+      z: 0.10580654154415288
+  total_wrench:
+    force:
+      x: -19.508514013906847
+      y: -6.294173039147531
+      z: 14.494993039287241
+    torque:
+      x: 0.8258243215756822
+      y: 0.9419082459766073
+      z: 1.5204656378879322
+  contact_positions:
+  - x: -0.2774057911261527
+    y: 0.9851080664838813
+    z: -7.5879023188028805e-06
+  - x: -0.22400356817837833
+    y: 1.012461358425645
+    z: -5.54221351497241e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 7.5879023188028805e-06
+  - 5.54221351497241e-06
+- info: 'Debug:  i: (6/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -7.334048263805204e-63
+      y: -2.3666953510248816e-63
+      z: 5.449481459402931e-63
+    torque:
+      x: 3.1046284162745834e-64
+      y: 3.8350589169624416e-64
+      z: 5.843842389971102e-64
+  total_wrench:
+    force:
+      x: -7.334048263805204e-63
+      y: -2.3666953510248816e-63
+      z: 5.449481459402931e-63
+    torque:
+      x: 3.1046284162745834e-64
+      y: 3.8350589169624416e-64
+      z: 5.843842389971102e-64
+  contact_positions:
+  - x: -0.2773995679018482
+    y: 0.9851188647483792
+    z: -7.931989857747068e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 7.931989857747068e-07
+---
+header:
+  stamp:
+    sec: 1442
+    nanosec: 734000000
+  frame_id: world
+states: []
+---
+header:
+  stamp:
+    sec: 1443
+    nanosec: 733000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -2.526942924247604
+      y: 7.826118820161489
+      z: 5.8153604669185786
+    torque:
+      x: 0.6418587972891453
+      y: -0.09865252628012935
+      z: 0.41166956930217713
+  total_wrench:
+    force:
+      x: -2.526942924247604
+      y: 7.826118820161489
+      z: 5.8153604669185786
+    torque:
+      x: 0.6418587972891453
+      y: -0.09865252628012935
+      z: 0.41166956930217713
+  contact_positions:
+  - x: -0.22405479431815029
+    y: 1.0125649018852987
+    z: -2.737238854015611e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.737238854015611e-07
+- info: 'Debug:  i: (2/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -10.657512889270656
+      y: 9.442763044370519
+      z: 13.789754304597793
+    torque:
+      x: 1.2485656926529614
+      y: -0.0939672424598142
+      z: 1.0293087935800618
+  total_wrench:
+    force:
+      x: -10.657512889270656
+      y: 9.442763044370519
+      z: 13.789754304597793
+    torque:
+      x: 1.2485656926529614
+      y: -0.0939672424598142
+      z: 1.0293087935800618
+  contact_positions:
+  - x: -0.22404867855337726
+    y: 1.0125624765499248
+    z: -8.093127495598096e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 8.09312749563279e-07
+- info: 'Debug:  i: (3/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 4.394958902976808
+      y: -13.60881480434187
+      z: 10.110905172943628
+    torque:
+      x: 0.2994989179757976
+      y: 0.17147838809900473
+      z: 0.10061732092187979
+  total_wrench:
+    force:
+      x: 4.394958902976808
+      y: -13.60881480434187
+      z: 10.110905172943628
+    torque:
+      x: 0.2994989179757976
+      y: 0.17147838809900473
+      z: 0.10061732092187979
+  contact_positions:
+  - x: -0.2774588232610366
+    y: 0.9852275930244686
+    z: -5.619350391672384e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.619350391707079e-07
+- info: 'Debug:  i: (4/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -5.640454437126471
+      y: 7.233173772027812
+      z: 8.317563506158242
+    torque:
+      x: 0.7992246585919114
+      y: 0.41874053829854174
+      z: 0.1778365974380184
+  - force:
+      x: -13.119754345389735
+      y: 15.706710710430215
+      z: 31.818292905534143
+    torque:
+      x: 2.6984818247002953
+      y: -0.5609561568043305
+      z: 1.3895841254901862
+  total_wrench:
+    force:
+      x: -18.760208782516205
+      y: 22.939884482458027
+      z: 40.13585641169239
+    torque:
+      x: 3.4977064832922067
+      y: -0.1422156185057888
+      z: 1.5674207229282047
+  contact_positions:
+  - x: -0.27747569886665635
+    y: 0.9852495120661754
+    z: -6.5079301398880685e-06
+  - x: -0.2240653949935062
+    y: 1.012587021809844
+    z: -5.415877621657386e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 6.5079301398880685e-06
+  - 5.415877621657386e-06
+- info: 'Debug:  i: (5/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -0.7171196414069771
+      y: -2.486067472577199
+      z: 19.401241449135203
+    torque:
+      x: -1.4326689256167813
+      y: -0.5605236542318465
+      z: -0.12478039907580439
+  total_wrench:
+    force:
+      x: -0.7171196414069771
+      y: -2.486067472577199
+      z: 19.401241449135203
+    torque:
+      x: -1.4326689256167813
+      y: -0.5605236542318465
+      z: -0.12478039907580439
+  contact_positions:
+  - x: -0.16032050345349438
+    y: 0.8880298219160359
+    z: -7.243420972607995e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 7.243420972642689e-07
+- info: 'Debug:  i: (6/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 9.894766194113712
+      y: 3.1930943169532027
+      z: 7.351915716445613
+    torque:
+      x: 0.6104269296597891
+      y: -0.07628551433004269
+      z: -0.788426463096556
+  - force:
+      x: 4.160960945993987
+      y: 1.3427644968126198
+      z: 3.0916378996977083
+    torque:
+      x: 0.256697587883218
+      y: -0.21757796537075058
+      z: -0.25098433131520037
+  - force:
+      x: 7.697866924751023e-53
+      y: 2.4841430962468733e-53
+      z: 5.71959637215593e-53
+    torque:
+      x: -3.25847453163509e-54
+      y: -5.934811657785279e-55
+      z: 4.6432639184516556e-54
+  - force:
+      x: 9.142991080933325e-60
+      y: 2.9504924409279596e-60
+      z: 6.793338872749043e-60
+    torque:
+      x: -3.8701894786459486e-61
+      y: -4.780898986104709e-61
+      z: 7.285241488931724e-61
+  total_wrench:
+    force:
+      x: 14.055727140107699
+      y: 4.535858813765822
+      z: 10.443553616143321
+    torque:
+      x: 0.8671245175430071
+      y: -0.2938634797007933
+      z: -1.0394107944117563
+  contact_positions:
+  - x: -0.27753332921984813
+    y: 0.9852976052610927
+    z: -4.019296459260857e-06
+  - x: -0.22412731347389558
+    y: 1.0126434912764315
+    z: -3.5960245286212817e-06
+  - x: -0.21372626187010849
+    y: 0.8606835685251766
+    z: -1.8732415007180814e-06
+  - x: -0.1603202461241559
+    y: 0.8880294545405154
+    z: -1.4499695700785064e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 4.019296459260857e-06
+  - 3.5960245286212817e-06
+  - 1.8732415007180814e-06
+  - 1.4499695700785064e-06
+- info: 'Debug:  i: (7/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -0.8730976960850455
+      y: 2.70427423580571
+      z: 2.0093931497160686
+    torque:
+      x: 0.22178574755429623
+      y: -0.034088863608930715
+      z: 0.1422450658001246
+  total_wrench:
+    force:
+      x: -0.8730976960850455
+      y: 2.70427423580571
+      z: 2.0093931497160686
+    torque:
+      x: 0.22178574755429623
+      y: -0.034088863608930715
+      z: 0.1422450658001246
+  contact_positions:
+  - x: -0.22415933201978686
+    y: 1.0125712667095004
+    z: -4.814048958426409e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 4.814048958426409e-07
+- info: 'Debug:  i: (8/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -0.000531383492954532
+      y: 0.001645582200831234
+      z: 0.0012229454694356668
+    torque:
+      x: 0.00013497364888543376
+      y: -2.0746859294434044e-05
+      z: 8.656431053175434e-05
+  - force:
+      x: -1.8735507548328333e-85
+      y: 5.801990117089767e-85
+      z: 4.311858455822674e-85
+    torque:
+      x: 4.758897954202806e-86
+      y: 1.8556227631966508e-86
+      z: -4.291115067439435e-87
+  total_wrench:
+    force:
+      x: -0.000531383492954532
+      y: 0.001645582200831234
+      z: 0.0012229454694356668
+    torque:
+      x: 0.00013497364888543376
+      y: -2.0746859294434044e-05
+      z: 8.656431053175434e-05
+  contact_positions:
+  - x: -0.22415555292593287
+    y: 1.0125548855246946
+    z: -1.397442243703667e-06
+  - x: -0.27756598526562587
+    y: 0.9852176267505716
+    z: -1.3365614128281586e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.397442243703667e-06
+  - 1.3365614128281586e-06
+---
+header:
+  stamp:
+    sec: 1444
+    nanosec: 732000000
+  frame_id: world
+states: []
+---
+header:
+  stamp:
+    sec: 1445
+    nanosec: 732000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/1)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 8.584905066206065e-40
+      y: -2.6583592495473017e-39
+      z: 1.9751457299800467e-39
+    torque:
+      x: 5.85094236121842e-41
+      y: 3.349965670078329e-41
+      z: 1.965644202297671e-41
+  - force:
+      x: -6.213325481692379
+      y: 2.5842469991718673
+      z: 19.818781200123542
+    torque:
+      x: 1.4648420939838054
+      y: -0.4081636715529348
+      z: 0.5124601936936227
+  total_wrench:
+    force:
+      x: -6.213325481692379
+      y: 2.5842469991718673
+      z: 19.818781200123542
+    torque:
+      x: 1.4648420939838054
+      y: -0.4081636715529348
+      z: 0.5124601936936227
+  contact_positions:
+  - x: -0.2775015517299786
+    y: 0.9851441480013102
+    z: -1.8692673899034506e-07
+  - x: -0.22408980485158664
+    y: 1.0124788383304382
+    z: -9.064766446240327e-08
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.869267389938145e-07
+  - 9.064766446587272e-08
+---
+header:
+  stamp:
+    sec: 1446
+    nanosec: 732000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/1)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 9.652881930907922e-35
+      y: 3.1206953140943456e-35
+      z: 7.172672312716054e-35
+    torque:
+      x: 5.957079213129538e-36
+      y: -7.440628854575611e-37
+      z: -7.693225945863842e-36
+  total_wrench:
+    force:
+      x: 9.652881930907922e-35
+      y: 3.1206953140943456e-35
+      z: 7.172672312716054e-35
+    torque:
+      x: 5.957079213129538e-36
+      y: -7.440628854575611e-37
+      z: -7.693225945863842e-36
+  contact_positions:
+  - x: -0.27755322692976275
+    y: 0.9853749771317002
+    z: -1.1787725431727791e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.1787725431727791e-06
+---
+header:
+  stamp:
+    sec: 1447
+    nanosec: 734000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/1)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -2.0843036723778908e-98
+      y: 6.452074717085054e-98
+      z: 4.795053587196223e-98
+    torque:
+      x: 5.292159926162873e-99
+      y: 2.063807177872232e-99
+      z: -4.766098444609904e-100
+  - force:
+      x: -1.7646258594414403e-47
+      y: 5.462494762016799e-47
+      z: 4.059617448987446e-47
+    torque:
+      x: 4.480480642896249e-48
+      y: -6.884974768638024e-49
+      z: 2.873986530214047e-48
+  total_wrench:
+    force:
+      x: -1.7646258594414403e-47
+      y: 5.462494762016799e-47
+      z: 4.059617448987446e-47
+    torque:
+      x: 4.480480642896249e-48
+      y: -6.884974768638024e-49
+      z: 2.873986530214047e-48
+  contact_positions:
+  - x: -0.27756259561151847
+    y: 0.9853062186320513
+    z: -1.951416618916485e-06
+  - x: -0.22414861129284405
+    y: 1.0126365365688843
+    z: -1.1292114960575217e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.9514166189130155e-06
+  - 1.1292114960540523e-06
+---
+header:
+  stamp:
+    sec: 1448
+    nanosec: 738000000
+  frame_id: world
+states: []
+---
+header:
+  stamp:
+    sec: 1449
+    nanosec: 740000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/3)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -2.88872845051815e-46
+      y: -9.334760723060802e-47
+      z: 2.1466574750290262e-46
+    torque:
+      x: 1.2226174108284959e-47
+      y: 1.5106157776641516e-47
+      z: 2.3021527370545307e-47
+  - force:
+      x: -6.325722048489638
+      y: -2.0441208903747654
+      z: 4.700739011280383
+    torque:
+      x: 0.26772810407838415
+      y: 0.04874949111627722
+      z: 0.3814769166830318
+  total_wrench:
+    force:
+      x: -6.325722048489638
+      y: -2.0441208903747654
+      z: 4.700739011280383
+    torque:
+      x: 0.26772810407838415
+      y: 0.04874949111627722
+      z: 0.3814769166830318
+  contact_positions:
+  - x: -0.27746333879961055
+    y: 0.9852532358714008
+    z: -2.399061736574337e-06
+  - x: -0.22404812100656435
+    y: 1.0125811429609237
+    z: -9.064656434220701e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.399061736574337e-06
+  - 9.064656434220701e-07
+- info: 'Debug:  i: (2/3)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 6.551937312700941
+      y: -20.264276608325346
+      z: 15.05668540343307
+    torque:
+      x: 0.4460396799905543
+      y: 0.25514244272196424
+      z: 0.14929268636069498
+  - force:
+      x: 0.46420344011897424
+      y: -1.4357199197971706
+      z: 1.0667631308855599
+    torque:
+      x: 0.03160182156807407
+      y: -0.04592899713013601
+      z: -0.07556583840224329
+  total_wrench:
+    force:
+      x: 7.016140752819916
+      y: -21.69999652812252
+      z: 16.12344853431863
+    torque:
+      x: 0.4776415015586284
+      y: 0.20921344559182822
+      z: 0.07372684795845169
+  contact_positions:
+  - x: -0.27744260262745696
+    y: 0.985267272822838
+    z: -2.0427919230209257e-06
+  - x: -0.22402170425434964
+    y: 1.0125840737599185
+    z: -1.5227466908528152e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.0427919230209257e-06
+  - 1.5227466908528152e-07
+- info: 'Debug:  i: (3/3)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 5.359618468130199e-35
+      y: 1.725396303876942e-35
+      z: 3.981802860488066e-35
+    torque:
+      x: -2.2696431111785644e-36
+      y: -2.802426398585481e-36
+      z: 4.269351818854222e-36
+  total_wrench:
+    force:
+      x: 5.359618468130199e-35
+      y: 1.725396303876942e-35
+      z: 3.981802860488066e-35
+    torque:
+      x: -2.2696431111785644e-36
+      y: -2.802426398585481e-36
+      z: 4.269351818854222e-36
+  contact_positions:
+  - x: -0.16021436994881724
+    y: 0.887982131544078
+    z: -1.5655269904359115e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.5655269904359115e-06
+---
+header:
+  stamp:
+    sec: 1450
+    nanosec: 745000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/3)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -1.6824478497318371
+      y: 5.210714067008084
+      z: 3.872172292540288
+    torque:
+      x: 0.42737348248806284
+      y: -0.06569173328425353
+      z: 0.2740927714914712
+  - force:
+      x: -4.9895530853466875e-96
+      y: 1.5453159189477123e-95
+      z: 1.148351148733543e-95
+    torque:
+      x: 1.2674405797977938e-96
+      y: 4.941919371804634e-97
+      z: -1.143260597100458e-97
+  total_wrench:
+    force:
+      x: -1.6824478497318371
+      y: 5.210714067008084
+      z: 3.872172292540288
+    torque:
+      x: 0.42737348248806284
+      y: -0.06569173328425353
+      z: 0.2740927714914712
+  contact_positions:
+  - x: -0.22383207646513895
+    y: 1.012417753530984
+    z: -7.467918055267808e-07
+  - x: -0.2772418647597381
+    y: 0.9850792364841677
+    z: -6.629002623808998e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 7.467918055267808e-07
+  - 6.629002623808998e-07
+- info: 'Debug:  i: (2/3)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 2.3923369720530516
+      y: -7.4089294933788
+      z: 5.50454776786223
+    torque:
+      x: 0.16305045894899195
+      y: -0.23690654219745838
+      z: -0.3897314728450776
+  total_wrench:
+    force:
+      x: 2.3923369720530516
+      y: -7.4089294933788
+      z: 5.50454776786223
+    torque:
+      x: 0.16305045894899195
+      y: -0.23690654219745838
+      z: -0.3897314728450776
+  contact_positions:
+  - x: -0.22382835182866487
+    y: 1.0124139033347839
+    z: -1.0324749262734245e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.0324749262734245e-06
+- info: 'Debug:  i: (3/3)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -7.221606783352466
+      y: -2.6507781193817306
+      z: 5.6489270011890955
+    torque:
+      x: 0.3159015465017841
+      y: 0.04718039346490158
+      z: 0.4259891312532201
+  total_wrench:
+    force:
+      x: -7.221606783352466
+      y: -2.6507781193817306
+      z: 5.6489270011890955
+    torque:
+      x: 0.3159015465017841
+      y: 0.04718039346490158
+      z: 0.4259891312532201
+  contact_positions:
+  - x: -0.22384480573898077
+    y: 1.0124172867668606
+    z: -7.724766526787108e-08
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 7.724766526787108e-08
+---
+header:
+  stamp:
+    sec: 1451
+    nanosec: 742000000
+  frame_id: world
+states: []
+---
+header:
+  stamp:
+    sec: 1452
+    nanosec: 741000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/1)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 2.0091638478936323e-51
+      y: -6.232678279472258e-51
+      z: 4.6297575286530843e-51
+    torque:
+      x: 1.3710267862154806e-52
+      y: 7.8617810422783635e-53
+      z: 4.633887903161363e-53
+  total_wrench:
+    force:
+      x: 2.0091638478936323e-51
+      y: -6.232678279472258e-51
+      z: 4.6297575286530843e-51
+    torque:
+      x: 1.3710267862154806e-52
+      y: 7.8617810422783635e-53
+      z: 4.633887903161363e-53
+  contact_positions:
+  - x: -0.2773416008431998
+    y: 0.9849875494243141
+    z: -6.01565919345487e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 6.015659193420175e-07
+---
+header:
+  stamp:
+    sec: 1453
+    nanosec: 745000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/1)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -1.7893609469923056e-19
+      y: 5.543997415914274e-19
+      z: 4.1202621706065005e-19
+    torque:
+      x: 4.5473827441988336e-20
+      y: 1.7728869352796387e-20
+      z: -4.106465618796637e-21
+  total_wrench:
+    force:
+      x: -1.7893609469923056e-19
+      y: 5.543997415914274e-19
+      z: 4.1202621706065005e-19
+    torque:
+      x: 4.5473827441988336e-20
+      y: 1.7728869352796387e-20
+      z: -4.106465618796637e-21
+  contact_positions:
+  - x: -0.2775960089312284
+    y: 0.9850818172463552
+    z: -2.8702765480781434e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.870276548074674e-06
+---
+header:
+  stamp:
+    sec: 1454
+    nanosec: 741000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -28.869514447366775
+      y: -11.796402641246281
+      z: 23.66259373782335
+    torque:
+      x: -2.010273640885021
+      y: 0.15620762128630145
+      z: -2.3747580905530605
+  total_wrench:
+    force:
+      x: -28.869514447366775
+      y: -11.796402641246281
+      z: 23.66259373782335
+    torque:
+      x: -2.010273640885021
+      y: 0.15620762128630145
+      z: -2.3747580905530605
+  contact_positions:
+  - x: -0.16014006013402454
+    y: 0.8878841533608677
+    z: -4.730174426422623e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 4.730174426422623e-06
+- info: 'Debug:  i: (2/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -7.515588704028208
+      y: 23.30271123354052
+      z: 17.31294776318576
+    torque:
+      x: 1.9109876804292187
+      y: -0.29392077177472653
+      z: 1.2251725462881906
+  - force:
+      x: 8.579616074494202e-23
+      y: 2.766863756870201e-23
+      z: 6.374975681705076e-23
+    torque:
+      x: -3.632423850132493e-24
+      y: -4.486377526859781e-24
+      z: 6.835790379207002e-24
+  total_wrench:
+    force:
+      x: -7.515588704028208
+      y: 23.30271123354052
+      z: 17.31294776318576
+    torque:
+      x: 1.9109876804292187
+      y: -0.29392077177472653
+      z: 1.2251725462881906
+  contact_positions:
+  - x: -0.22391986798353158
+    y: 1.0124872396699824
+    z: -1.3991215371197963e-06
+  - x: -0.16008648820729848
+    y: 0.887886679374568
+    z: -7.572570307248456e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.3991215371197963e-06
+  - 7.572570307248456e-07
+- info: 'Debug:  i: (3/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -1.3684172422601075
+      y: 4.241420744804845
+      z: 3.1516729076793566
+    torque:
+      x: 0.3478597258817006
+      y: -0.05349766996257771
+      z: 0.22303182930235335
+  total_wrench:
+    force:
+      x: -1.3684172422601075
+      y: 4.241420744804845
+      z: 3.1516729076793566
+    torque:
+      x: 0.3478597258817006
+      y: -0.05349766996257771
+      z: 0.22303182930235335
+  contact_positions:
+  - x: -0.22390942248313264
+    y: 1.0124822254288206
+    z: -1.2979796707029978e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.2979796707029978e-06
+- info: 'Debug:  i: (4/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -9.854247472771208
+      y: -3.1799193733790694
+      z: 7.321544790005386
+    torque:
+      x: 0.4171105540990051
+      y: 0.5152737678832973
+      z: 0.7851949042953569
+  - force:
+      x: -5.693860497484734e-47
+      y: -1.837382038080451e-47
+      z: 4.2304452750518754e-47
+    torque:
+      x: 2.4100970811121748e-48
+      y: 4.390245667298578e-49
+      z: 3.434487736815176e-48
+  total_wrench:
+    force:
+      x: -9.854247472771208
+      y: -3.1799193733790694
+      z: 7.321544790005386
+    torque:
+      x: 0.4171105540990051
+      y: 0.5152737678832973
+      z: 0.7851949042953569
+  contact_positions:
+  - x: -0.27731070033691174
+    y: 0.9851301166643125
+    z: -8.009822991088267e-07
+  - x: -0.22390703751116048
+    y: 1.0124805973972675
+    z: -1.1561792356593533e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 8.009822991088267e-07
+  - 1.1561792356593533e-07
+- info: 'Debug:  i: (5/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 0.9685989253267345
+      y: -3.001923643857155
+      z: 2.230001981714661
+    torque:
+      x: 0.06604242940431157
+      y: 0.03784209169163774
+      z: 0.022255784542843184
+  total_wrench:
+    force:
+      x: 0.9685989253267345
+      y: -3.001923643857155
+      z: 2.230001981714661
+    torque:
+      x: 0.06604242940431157
+      y: 0.03784209169163774
+      z: 0.022255784542843184
+  contact_positions:
+  - x: -0.27730985671540936
+    y: 0.9851389383003237
+    z: -6.368157684198683e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 6.368157684163989e-07
+- info: 'Debug:  i: (6/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -4.209232907069401
+      y: 13.049973125294258
+      z: 9.696022863248974
+    torque:
+      x: 1.0702207941862576
+      y: -0.16460369868538793
+      z: 0.6861454972536879
+  total_wrench:
+    force:
+      x: -4.209232907069401
+      y: 13.049973125294258
+      z: 9.696022863248974
+    torque:
+      x: 1.0702207941862576
+      y: -0.16460369868538793
+      z: 0.6861454972536879
+  contact_positions:
+  - x: -0.22393561947062868
+    y: 1.0125262792273095
+    z: -1.4123780204058911e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.4123780204058911e-06
+---
+header:
+  stamp:
+    sec: 1455
+    nanosec: 742000000
+  frame_id: world
+states: []
+---
+header:
+  stamp:
+    sec: 1456
+    nanosec: 741000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/1)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 5.2084091684586616e-21
+      y: 1.6823172965987112e-21
+      z: 3.871006646368318e-21
+    torque:
+      x: -2.20500946347821e-22
+      y: -2.7238247444480954e-22
+      z: 4.150581606900678e-22
+  total_wrench:
+    force:
+      x: 5.2084091684586616e-21
+      y: 1.6823172965987112e-21
+      z: 3.871006646368318e-21
+    torque:
+      x: -2.20500946347821e-22
+      y: -2.7238247444480954e-22
+      z: 4.150581606900678e-22
+  contact_positions:
+  - x: -0.16029771199480394
+    y: 0.8878422404874272
+    z: -6.682824943669841e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 6.682824943669841e-07
+---
+header:
+  stamp:
+    sec: 1457
+    nanosec: 748000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/1)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -7.156765341430901
+      y: -20.05104952419851
+      z: 21.110487538811263
+    torque:
+      x: -2.0792656134427436
+      y: -0.41861166592141147
+      z: -1.1025050596261186
+  - force:
+      x: 4.602528281594484
+      y: -14.232739304803008
+      z: 10.57802701753595
+    torque:
+      x: 0.3134797120834263
+      y: -0.4554166589739133
+      z: -0.7491591588557045
+  - force:
+      x: -8.543679578641603e-67
+      y: -2.7629815014137905e-67
+      z: 6.348530772322926e-67
+    torque:
+      x: -5.272865991050183e-68
+      y: 4.467663105289354e-68
+      z: -5.151681254624983e-68
+  total_wrench:
+    force:
+      x: -2.5542370598364172
+      y: -34.28378882900152
+      z: 31.688514556347215
+    torque:
+      x: -1.7657859013593173
+      y: -0.8740283248953248
+      z: -1.851664218481823
+  contact_positions:
+  - x: -0.16019361398362983
+    y: 0.8879940455538524
+    z: -5.930139759850739e-06
+  - x: -0.22392108803419847
+    y: 1.0126488049727964
+    z: -3.6194490976335808e-06
+  - x: -0.2136170821534642
+    y: 0.8606822709615877
+    z: -1.7674469357815555e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.930139759847269e-06
+  - 3.6194490976301113e-06
+  - 1.767446935778086e-06
+---
+header:
+  stamp:
+    sec: 1458
+    nanosec: 741000000
+  frame_id: world
+states: []
+---
+header:
+  stamp:
+    sec: 1459
+    nanosec: 744000000
+  frame_id: world
+states: []
+---
+header:
+  stamp:
+    sec: 1460
+    nanosec: 743000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/3)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -1.274447831565541e-19
+      y: 3.9482234379184437e-19
+      z: 2.9340517943452027e-19
+    torque:
+      x: 3.2383032874171757e-20
+      y: 1.262549887773222e-20
+      z: -2.923535492796528e-21
+  total_wrench:
+    force:
+      x: -1.274447831565541e-19
+      y: 3.9482234379184437e-19
+      z: 2.9340517943452027e-19
+    torque:
+      x: 3.2383032874171757e-20
+      y: 1.262549887773222e-20
+      z: -2.923535492796528e-21
+  contact_positions:
+  - x: -0.2774605935513828
+    y: 0.9851885878870369
+    z: -2.1418915830892504e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.1418915830892504e-07
+- info: 'Debug:  i: (2/3)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -0.23509520870054837
+      y: 0.728670583270923
+      z: 0.5412689478127716
+    torque:
+      x: -0.016028708848766296
+      y: -0.009185212173366713
+      z: 0.005403452889089335
+  total_wrench:
+    force:
+      x: -0.23509520870054837
+      y: 0.728670583270923
+      z: 0.5412689478127716
+    torque:
+      x: -0.016028708848766296
+      y: -0.009185212173366713
+      z: 0.005403452889089335
+  contact_positions:
+  - x: -0.1603156559370067
+    y: 0.8879591074347867
+    z: -5.350784116297386e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.350784116293916e-06
+- info: 'Debug:  i: (3/3)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 4.585988703531106
+      y: -14.19356170585438
+      z: 10.547838728849191
+    torque:
+      x: -1.1641555621950757
+      y: -0.45401482297140827
+      z: -0.1047876419284527
+  total_wrench:
+    force:
+      x: 4.585988703531106
+      y: -14.19356170585438
+      z: 10.547838728849191
+    torque:
+      x: -1.1641555621950757
+      y: -0.45401482297140827
+      z: -0.1047876419284527
+  contact_positions:
+  - x: -0.16035913718019834
+    y: 0.887880596475541
+    z: -7.071071886355362e-08
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 7.071071886355362e-08
+---
+header:
+  stamp:
+    sec: 1461
+    nanosec: 744000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/1)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    torque:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  total_wrench:
+    force:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    torque:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  contact_positions:
+  - x: -0.27750121017596147
+    y: 0.9851519644724643
+    z: -2.1624410765849755e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.1624410765849755e-07
+---
+header:
+  stamp:
+    sec: 1462
+    nanosec: 743000000
+  frame_id: world
+states: []
+---
+header:
+  stamp:
+    sec: 1463
+    nanosec: 743000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/1)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 0.7186796370774142
+      y: -9.855077571719784
+      z: 8.450557789586407
+    torque:
+      x: -0.8871913724226423
+      y: -0.2750771227999147
+      z: -0.24534475255617452
+  total_wrench:
+    force:
+      x: 0.7186796370774142
+      y: -9.855077571719784
+      z: 8.450557789586407
+    torque:
+      x: -0.8871913724226423
+      y: -0.2750771227999147
+      z: -0.24534475255617452
+  contact_positions:
+  - x: -0.1604793458003409
+    y: 0.8880064299470591
+    z: -7.551173191282234e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 7.551173191282234e-07
+---
+header:
+  stamp:
+    sec: 1464
+    nanosec: 741000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/2)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -2.6171310825712197
+      y: 8.07870984453109
+      z: 6.003808019652973
+    torque:
+      x: -0.1779052660397754
+      y: -0.10160030811245263
+      z: 0.05916211955594746
+  total_wrench:
+    force:
+      x: -2.6171310825712197
+      y: 8.07870984453109
+      z: 6.003808019652973
+    torque:
+      x: -0.1779052660397754
+      y: -0.10160030811245263
+      z: 0.05916211955594746
+  contact_positions:
+  - x: -0.16067436799695453
+    y: 0.8879612048515797
+    z: -2.619786208617886e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.619786208617886e-06
+- info: 'Debug:  i: (2/2)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -3.230545409957434
+      y: -4.853027448491707
+      z: 5.791331363277747
+    torque:
+      x: -0.5509840188841936
+      y: -0.07682357859960942
+      z: -0.3717290021517717
+  total_wrench:
+    force:
+      x: -3.230545409957434
+      y: -4.853027448491707
+      z: 5.791331363277747
+    torque:
+      x: -0.5509840188841936
+      y: -0.07682357859960942
+      z: -0.3717290021517717
+  contact_positions:
+  - x: -0.1606624439010341
+    y: 0.8879950918097254
+    z: -2.8551537190751874e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.8551537190751874e-07
+---
+header:
+  stamp:
+    sec: 1465
+    nanosec: 743000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/1)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 0.17171105431732084
+      y: 0.055579838573695084
+      z: 0.1276318242029363
+    torque:
+      x: -0.007266832536994698
+      y: -0.00898028635560771
+      z: 0.013687168959423316
+  total_wrench:
+    force:
+      x: 0.17171105431732084
+      y: 0.055579838573695084
+      z: 0.1276318242029363
+    torque:
+      x: -0.007266832536994698
+      y: -0.00898028635560771
+      z: 0.013687168959423316
+  contact_positions:
+  - x: -0.16046765249021525
+    y: 0.8878636804429128
+    z: -1.8318746991714818e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.8318746991680124e-06
+---
+header:
+  stamp:
+    sec: 1466
+    nanosec: 741000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/1)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 3.764640231894803e-23
+      y: 1.2176609769026477e-23
+      z: 2.7982245150810284e-23
+    torque:
+      x: -1.5934588674859251e-24
+      y: -1.9688594240927496e-24
+      z: 3.000546455397156e-24
+  total_wrench:
+    force:
+      x: 3.764640231894803e-23
+      y: 1.2176609769026477e-23
+      z: 2.7982245150810284e-23
+    torque:
+      x: -1.5934588674859251e-24
+      y: -1.9688594240927496e-24
+      z: 3.000546455397156e-24
+  contact_positions:
+  - x: -0.16050866384355944
+    y: 0.8879181405239006
+    z: -5.308584139183947e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.308584139183947e-07
+---
+header:
+  stamp:
+    sec: 1467
+    nanosec: 742000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/2)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -8.106681354851099e-42
+      y: 2.5081435212653645e-41
+      z: 1.8642024548529388e-41
+    torque:
+      x: 2.057384774776667e-42
+      y: 8.024611771014147e-43
+      z: -1.8497536154003247e-43
+  total_wrench:
+    force:
+      x: -8.106681354851099e-42
+      y: 2.5081435212653645e-41
+      z: 1.8642024548529388e-41
+    torque:
+      x: 2.057384774776667e-42
+      y: 8.024611771014147e-43
+      z: -1.8497536154003247e-43
+  contact_positions:
+  - x: -0.2775477147115072
+    y: 0.9853255216509801
+    z: -1.7010909497336413e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.7010909497336413e-06
+- info: 'Debug:  i: (2/2)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -2.739559555122233e-98
+      y: 8.456310725596813e-98
+      z: 6.286616651236017e-98
+    torque:
+      x: 6.937524873544255e-99
+      y: 2.7078528619074732e-99
+      z: -6.192015290934803e-100
+  total_wrench:
+    force:
+      x: -2.739559555122233e-98
+      y: 8.456310725596813e-98
+      z: 6.286616651236017e-98
+    torque:
+      x: 6.937524873544255e-99
+      y: 2.7078528619074732e-99
+      z: -6.192015290934803e-100
+  contact_positions:
+  - x: -0.2774370539363881
+    y: 0.9854470428833144
+    z: -1.0168402509377894e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.0168402509377894e-06
+---
+header:
+  stamp:
+    sec: 1468
+    nanosec: 742000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 2.5505987152440258e-49
+      y: -7.88752480032958e-49
+      z: 5.862602380655731e-49
+    torque:
+      x: -6.470079106557887e-50
+      y: -2.5239603287699266e-50
+      z: -5.808383394280531e-51
+  total_wrench:
+    force:
+      x: 2.5505987152440258e-49
+      y: -7.88752480032958e-49
+      z: 5.862602380655731e-49
+    torque:
+      x: -6.470079106557887e-50
+      y: -2.5239603287699266e-50
+      z: -5.808383394280531e-51
+  contact_positions:
+  - x: -0.1603882832161141
+    y: 0.8879765338081229
+    z: -2.728519858004319e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.7285198580390135e-07
+- info: 'Debug:  i: (2/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -8.332247963519247
+      y: 25.722533198986365
+      z: 19.119595427452758
+    torque:
+      x: 2.1100476758912845
+      y: -0.3236204239180057
+      z: 1.3549333534159385
+  - force:
+      x: -1.5432251984087472e-32
+      y: -4.9986748085590245e-33
+      z: 1.146955489071787e-32
+    torque:
+      x: 6.5290859809348046e-34
+      y: 8.070542062441601e-34
+      z: 1.230217883142894e-33
+  total_wrench:
+    force:
+      x: -8.332247963519247
+      y: 25.722533198986365
+      z: 19.119595427452758
+    torque:
+      x: 2.1100476758912845
+      y: -0.3236204239180057
+      z: 1.3549333534159385
+  contact_positions:
+  - x: -0.22411404941472962
+    y: 1.0127213734387286
+    z: -2.8084639712711024e-06
+  - x: -0.27754929031149417
+    y: 0.985432639002309
+    z: -1.029893417458287e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.8084639712711024e-06
+  - 1.029893417458287e-06
+- info: 'Debug:  i: (3/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 6.526048275639903
+      y: -20.145191778279212
+      z: 14.972090721319345
+    torque:
+      x: 0.4436905971439791
+      y: -0.6449441699087779
+      z: -1.061179132643171
+  total_wrench:
+    force:
+      x: 6.526048275639903
+      y: -20.145191778279212
+      z: 14.972090721319345
+    torque:
+      x: 0.4436905971439791
+      y: -0.6449441699087779
+      z: -1.061179132643171
+  contact_positions:
+  - x: -0.2241081830233416
+    y: 1.0127141150616956
+    z: -1.2467593811203714e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.2467593811203714e-06
+- info: 'Debug:  i: (4/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -6.551529597221055
+      y: 14.302090491140994
+      z: 29.984937534214726
+    torque:
+      x: 2.528008342129264
+      y: -0.7030022381098117
+      z: 0.887669786539705
+  - force:
+      x: -0.6047984653930001
+      y: 1.6246544871872228
+      z: 1.4841986280149582
+    torque:
+      x: 0.15263353857666392
+      y: 0.06266991280223863
+      z: -0.006403742038106474
+  total_wrench:
+    force:
+      x: -7.1563280626140555
+      y: 15.926744978328218
+      z: 31.469136162229685
+    torque:
+      x: 2.680641880705928
+      y: -0.640332325307573
+      z: 0.8812660445015985
+  contact_positions:
+  - x: -0.22412521053305415
+    y: 1.0127203126672681
+    z: -6.217580905135828e-06
+  - x: -0.27756318833763305
+    y: 0.9854369381462319
+    z: -4.513996913168886e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 6.217580905135828e-06
+  - 4.513996913168886e-06
+- info: 'Debug:  i: (5/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 1.992926641243998e-17
+      y: -6.150465850373445e-17
+      z: 4.571256185970207e-17
+    torque:
+      x: 1.3547395750671126e-18
+      y: 7.73498863417864e-19
+      z: 4.50091106241236e-19
+  total_wrench:
+    force:
+      x: 1.992926641243998e-17
+      y: -6.150465850373445e-17
+      z: 4.571256185970207e-17
+    torque:
+      x: 1.3547395750671126e-18
+      y: 7.73498863417864e-19
+      z: 4.50091106241236e-19
+  contact_positions:
+  - x: -0.2775633485161164
+    y: 0.9854372530109883
+    z: -4.706879410884546e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 4.706879410884546e-07
+- info: 'Debug:  i: (6/6)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -1.1406153907180446e-47
+      y: 3.5234699774137346e-47
+      z: 2.6194488736987443e-47
+    torque:
+      x: 2.89065520481324e-48
+      y: 1.128019279325037e-48
+      z: -2.586102197214901e-49
+  total_wrench:
+    force:
+      x: -1.1406153907180446e-47
+      y: 3.5234699774137346e-47
+      z: 2.6194488736987443e-47
+    torque:
+      x: 2.89065520481324e-48
+      y: 1.128019279325037e-48
+      z: -2.586102197214901e-49
+  contact_positions:
+  - x: -0.27762513394239074
+    y: 0.9854547744656225
+    z: -3.1530098425040787e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 3.1530098425006092e-06
+---
+header:
+  stamp:
+    sec: 1469
+    nanosec: 744000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/4)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -6.279214369788305
+      y: 2.2294123178673133
+      z: 6.605602286726182
+    torque:
+      x: 0.5292745296068527
+      y: -0.009791637508136511
+      z: 0.5064273754212015
+  total_wrench:
+    force:
+      x: -6.279214369788305
+      y: 2.2294123178673133
+      z: 6.605602286726182
+    torque:
+      x: 0.5292745296068527
+      y: -0.009791637508136511
+      z: 0.5064273754212015
+  contact_positions:
+  - x: -0.22433749192262242
+    y: 1.0125995847547622
+    z: -1.3820148104387586e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.3820148104387586e-06
+- info: 'Debug:  i: (2/4)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 5.151729130672796
+      y: 1.6650982912873047
+      z: 3.8292569663595244
+    torque:
+      x: -0.21809503890654747
+      y: -0.26942958291096974
+      z: 0.41057398788571475
+  total_wrench:
+    force:
+      x: 5.151729130672796
+      y: 1.6650982912873047
+      z: 3.8292569663595244
+    torque:
+      x: -0.21809503890654747
+      y: -0.26942958291096974
+      z: 0.41057398788571475
+  contact_positions:
+  - x: -0.1605619935230698
+    y: 0.8879807673847231
+    z: -2.052550499696826e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.0525504996933563e-06
+- info: 'Debug:  i: (3/4)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -8.246713505052186
+      y: -2.6655032200780977
+      z: 6.126882578086761
+    torque:
+      x: -0.5088468770684168
+      y: 0.06359492780896292
+      z: -0.6572350419559966
+  total_wrench:
+    force:
+      x: -8.246713505052186
+      y: -2.6655032200780977
+      z: 6.126882578086761
+    torque:
+      x: -0.5088468770684168
+      y: 0.06359492780896292
+      z: -0.6572350419559966
+  contact_positions:
+  - x: -0.16060243683874087
+    y: 0.8879668162739535
+    z: -3.0557178928511397e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 3.0557178928511397e-07
+- info: 'Debug:  i: (4/4)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -1.4278600587182466e-63
+      y: 4.418129343874191e-63
+      z: 3.2835160447132826e-63
+    torque:
+      x: 3.623900034461556e-64
+      y: 1.413412831029459e-64
+      z: -3.259367620594853e-65
+  - force:
+      x: -2.6752033898217628e-05
+      y: 8.277698171635393e-05
+      z: 6.151914677994675e-05
+    torque:
+      x: 6.789649726086891e-06
+      y: -1.043013386451873e-06
+      z: 4.3559518243658505e-06
+  total_wrench:
+    force:
+      x: -2.6752033898217628e-05
+      y: 8.277698171635393e-05
+      z: 6.151914677994675e-05
+    torque:
+      x: 6.789649726086891e-06
+      y: -1.043013386451873e-06
+      z: 4.3559518243658505e-06
+  contact_positions:
+  - x: -0.2776233284700664
+    y: 0.9852220841102588
+    z: -1.2028725624967096e-06
+  - x: -0.2242059197948969
+    y: 1.0125457085045106
+    z: -5.769524996531188e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.2028725624967096e-06
+  - 5.769524996531188e-07
+---
+header:
+  stamp:
+    sec: 1470
+    nanosec: 743000000
+  frame_id: world
+states: []
+---
+header:
+  stamp:
+    sec: 1471
+    nanosec: 743000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/1)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -1.411925330475948e-36
+      y: 4.358362148208317e-36
+      z: 3.239654697111346e-36
+    torque:
+      x: 3.575266932440438e-37
+      y: -5.483188099906204e-38
+      z: 2.29585637579566e-37
+  total_wrench:
+    force:
+      x: -1.411925330475948e-36
+      y: 4.358362148208317e-36
+      z: 3.239654697111346e-36
+    torque:
+      x: 3.575266932440438e-37
+      y: -5.483188099906204e-38
+      z: 2.29585637579566e-37
+  contact_positions:
+  - x: -0.22379855631730278
+    y: 1.0127973088695035
+    z: -5.313379745561231e-08
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 5.313379745561231e-08
+---
+header:
+  stamp:
+    sec: 1472
+    nanosec: 745000000
+  frame_id: world
+states:
+- info: 'Debug:  i: (1/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -12.155453776380803
+      y: 7.536329979300128
+      z: 14.249229873468963
+    torque:
+      x: -0.7713561917638229
+      y: -0.0628132829126454
+      z: -0.6247918649676513
+  total_wrench:
+    force:
+      x: -12.155453776380803
+      y: 7.536329979300128
+      z: 14.249229873468963
+    torque:
+      x: -0.7713561917638229
+      y: -0.0628132829126454
+      z: -0.6247918649676513
+  contact_positions:
+  - x: -0.16022764536646433
+    y: 0.8879433043534118
+    z: -7.289204329158361e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 7.289204329158361e-07
+- info: 'Debug:  i: (2/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -4.790647147752088
+      y: 27.870791060385415
+      z: 22.6286911164546
+    torque:
+      x: -0.747884646340257
+      y: -0.5351413190610764
+      z: 0.5007784314689184
+  total_wrench:
+    force:
+      x: -4.790647147752088
+      y: 27.870791060385415
+      z: 22.6286911164546
+    torque:
+      x: -0.747884646340257
+      y: -0.5351413190610764
+      z: 0.5007784314689184
+  contact_positions:
+  - x: -0.1602232598325349
+    y: 0.8879432754823992
+    z: -1.7956062154170227e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 1.7956062154517172e-07
+- info: 'Debug:  i: (3/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -7.414675113567281
+      y: -21.132402447613998
+      z: 34.68605130530314
+    torque:
+      x: -3.0619956647996416
+      y: -0.818141285752075
+      z: -1.1529993313781295
+  total_wrench:
+    force:
+      x: -7.414675113567281
+      y: -21.132402447613998
+      z: 34.68605130530314
+    torque:
+      x: -3.0619956647996416
+      y: -0.818141285752075
+      z: -1.1529993313781295
+  contact_positions:
+  - x: -0.16023389397902085
+    y: 0.8879511294963509
+    z: -4.565185188737386e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 4.565185188737386e-06
+- info: 'Debug:  i: (4/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -3.514269887329159
+      y: 8.342516746910674
+      z: 6.927952320825671
+    torque:
+      x: -0.23468116005047723
+      y: -0.1024104730048951
+      z: 0.004276610294278478
+  - force:
+      x: -9.632127793279011
+      y: 29.814194705465027
+      z: 22.15339247621387
+    torque:
+      x: 2.4451633144989184
+      y: -0.3756379404880438
+      z: 1.5686747866934776
+  total_wrench:
+    force:
+      x: -13.146397680608171
+      y: 38.1567114523757
+      z: 29.08134479703954
+    torque:
+      x: 2.2104821544484414
+      y: -0.47804841349293886
+      z: 1.572951396987756
+  contact_positions:
+  - x: -0.16021219043299428
+    y: 0.8879313290658951
+    z: -2.7045089639674003e-06
+  - x: -0.22398305617724312
+    y: 1.0125638957499785
+    z: -7.129080650223658e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 2.7045089639674003e-06
+  - 7.129080650223658e-07
+- info: 'Debug:  i: (5/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -3.7551098585760987
+      y: -6.8958641699059715
+      z: 7.849095373836712
+    torque:
+      x: -0.7563126012657493
+      y: -0.12281956545781841
+      z: -0.4697336151975062
+  total_wrench:
+    force:
+      x: -3.7551098585760987
+      y: -6.8958641699059715
+      z: 7.849095373836712
+    torque:
+      x: -0.7563126012657493
+      y: -0.12281956545781841
+      z: -0.4697336151975062
+  contact_positions:
+  - x: -0.16017495683692115
+    y: 0.8879263228477939
+    z: -8.957250160340768e-08
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 8.957250160340768e-08
+- info: 'Debug:  i: (6/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: -13.138216971836496
+      y: -5.223608534965861
+      z: 10.634629256847004
+    torque:
+      x: -0.9011323040282668
+      y: 0.07510763144968546
+      z: -1.0763834440775313
+  - force:
+      x: 3.9123874757299305e-77
+      y: -1.2113328813951839e-76
+      z: 9.001915218149046e-77
+    torque:
+      x: -9.93533929688989e-78
+      y: 1.5268583227257414e-78
+      z: 6.372669877196515e-78
+  total_wrench:
+    force:
+      x: -13.138216971836496
+      y: -5.223608534965861
+      z: 10.634629256847004
+    torque:
+      x: -0.9011323040282668
+      y: 0.07510763144968546
+      z: -1.0763834440775313
+  contact_positions:
+  - x: -0.16016900592050845
+    y: 0.8879682808180602
+    z: -3.390382306438927e-06
+  - x: -0.21358221917917874
+    y: 0.860636456113484
+    z: -6.151115351605753e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 3.390382306438927e-06
+  - 6.151115351605753e-07
+- info: 'Debug:  i: (7/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 1.4355734642230178
+      y: 0.4640054529344269
+      z: 1.0668736654555726
+    torque:
+      x: -0.06076099299385735
+      y: -0.07507341389035772
+      z: 0.11441030608364414
+  - force:
+      x: 4.741561782787271
+      y: 1.5325656105168766
+      z: 3.523781628217984
+    torque:
+      x: 0.2926416822907648
+      y: -0.24796030233015748
+      z: -0.28593235647960236
+  - force:
+      x: 3.129426199261116
+      y: 1.0114918234427854
+      z: 2.3256924728581763
+    torque:
+      x: -0.13245371839678888
+      y: -0.024112011792088165
+      z: 0.18871507924499473
+  - force:
+      x: 1.2432941955260641e-27
+      y: 4.018570283604756e-28
+      z: 9.239776776860694e-28
+    torque:
+      x: 7.67341482888391e-29
+      y: -9.57949553519985e-30
+      z: -9.908630453763872e-29
+  total_wrench:
+    force:
+      x: 9.306561446271406
+      y: 3.0080628868940886
+      z: 6.916347766531732
+    torque:
+      x: 0.0994269709001186
+      y: -0.34714572801260335
+      z: 0.017193028849036507
+  contact_positions:
+  - x: -0.16021303581628976
+    y: 0.8879390907402537
+    z: -3.555905592915465e-06
+  - x: -0.22396440734841125
+    y: 1.012581630138974
+    z: -3.4471223218554994e-06
+  - x: -0.21363126696369256
+    y: 0.8606170743798202
+    z: -1.800100878954615e-06
+  - x: -0.277382638495814
+    y: 0.9852596137785407
+    z: -1.69131760789465e-06
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 3.555905592915465e-06
+  - 3.4471223218554994e-06
+  - 1.800100878954615e-06
+  - 1.69131760789465e-06
+- info: 'Debug:  i: (8/8)     my_geom: [my_bot::link_4::link_4_collision_collision]  other_geom: [ground_plane::link::collision]        t...'
+  collision1_name: my_bot::link_4::link_4_collision_collision
+  collision2_name: ground_plane::link::collision
+  wrenches:
+  - force:
+      x: 1.5797687191882503e-73
+      y: 5.1062003580642595e-74
+      z: 1.1739924048391947e-73
+    torque:
+      x: -6.686086726455093e-75
+      y: -8.261283372082333e-75
+      z: 1.2590241141737035e-74
+  total_wrench:
+    force:
+      x: 1.5797687191882503e-73
+      y: 5.1062003580642595e-74
+      z: 1.1739924048391947e-73
+    torque:
+      x: -6.686086726455093e-75
+      y: -8.261283372082333e-75
+      z: 1.2590241141737035e-74
+  contact_positions:
+  - x: -0.16022240494871734
+    y: 0.8879290685379032
+    z: -4.7251931669517466e-07
+  contact_normals:
+  - x: 0.0
+    y: 0.0
+    z: 1.0
+  depths:
+  - 4.7251931669517466e-07
+---

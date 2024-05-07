@@ -27,7 +27,9 @@ setup(
     entry_points={
         'console_scripts': [
             'talker = snake_bot.joint:main',
-            'sensor = snake_bot.allsens:main',
+            'sensor10sec = snake_bot.graph10sec:main',
+            'sensoralltime = snake_bot.graphalltime:main',
+            'sensorcontact = snake_bot.graphcontact:main',
         ],
     },
 )

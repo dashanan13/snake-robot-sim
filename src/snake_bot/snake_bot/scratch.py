@@ -31,22 +31,27 @@ class SnakeRobotController(Node):
         #self.obstacle_forces.clear()
         
         print(f"******************Header time '{msg.header.stamp.sec}'******************")
-
+        print(f">>>>>>>>>>>>>>>>>>Total states: '{len(msg.states)}'")
         # Check if any contact occurred with an obstacle
-        for contact in msg.states:
+
+        # Iterate over the list based on its length
+        for i in range(len(msg.states)):
+
+            contact = msg.states[i]
             
             collision1_name = contact.collision1_name.split('::')[1]
             collision2_name = contact.collision2_name.split('::')[1]
 
             link_name = collision1_name if collision1_name.startswith('link') else collision2_name
-            print(link_name)
-            print(f"Link '{collision1_name}' has contact with '{collision2_name}'")
             
             if collision1_name.startswith('obstacle') or collision2_name.startswith('obstacle'):
                 
                 force = math.sqrt(contact.total_wrench.force.x**2 + contact.total_wrench.force.y**2 + contact.total_wrench.force.z**2)
                 link_name = collision1_name if collision1_name.startswith('link') else collision2_name
                 obstacle_name = collision2_name if collision2_name.startswith('obstacle') else collision1_name
+                
+                #print("Working with state:", i)
+                #print(f"Link '{collision1_name}' has contact with '{collision2_name}'")
                 
                 self.obstacle_forces[link_name] = (obstacle_name, force)
 
@@ -55,33 +60,44 @@ class SnakeRobotController(Node):
     def apply_torque_to_push_obstacle(self):
         
         if not self.obstacle_forces:
-            print("No contact with obstacles detected.")
+            print("No contact with obstacles detected, can not act!")
             return
-        
-        print("---------------------------INTERRUPTED---------------------------")
+        elif len(self.obstacle_forces) < 3:
+            print("Length of obstacle_forces:", len(self.obstacle_forces))
+            print(self.obstacle_forces)
+            return
+        else: 
+            print("Length of obstacle_forces:", len(self.obstacle_forces))
+            print(self.obstacle_forces)
+            
 
-        # Calculate total force experienced by the robot due to contact with obstacles
-        total_force = sum([force for (_, force) in self.obstacle_forces.values()])
+            # Calculate total force experienced by the robot due to contact with obstacles
+            # Calculate total force experienced by the robot due to contact with obstacles
+            total_force = sum([force for (_, force) in self.obstacle_forces.values()])
 
-        # Apply torque to the specified joint to push the obstacle behind
-        torque_msg = Float64()
-        # Assuming simple proportional control law: torque = K * total_force
-        K = 1.0  # Proportional gain
-        torque = K * total_force
-        # Apply torque in the positive direction to move forward
-        if self.joint_number_to_control % 2 == 0:
-            torque_msg.data = torque
-        else:
-            torque_msg.data = -torque  # Invert torque for odd numbered joints
-        self.joint_torque_publishers[f'joint_{self.joint_number_to_control}'].publish(torque_msg)
+            # Apply torque to the specified joint to push the obstacle behind
+            torque_msg = Float64()
+            # Assuming simple proportional control law: torque = K * total_force
+            K = 1.0  # Proportional gain
+            torque = K * total_force
+            # Apply torque in the positive direction to move forward
+            if self.joint_number_to_control % 2 == 0:
+                torque_msg.data = torque
+            else:
+                torque_msg.data = -torque  # Invert torque for odd numbered joints
+            self.joint_torque_publishers[f'joint_{self.joint_number_to_control}'].publish(torque_msg)
 
-        # Print out information for each link that has contact with an obstacle
-"""         if self.obstacle_forces:
-            print("Contact with obstacles detected:")
-            for link_name, (obstacle_name, force) in self.obstacle_forces.items():
-                print(f"Link '{link_name}' has contact with obstacle '{obstacle_name}', force: {force}, applied torque: {torque}")
-        else:
-            print("No contact with obstacles detected.") """
+            # Print out information for each link that has contact with an obstacle
+            if self.obstacle_forces:
+                    print("Contact with obstacles detected:")
+                    for link_name, (obstacle_name, force) in self.obstacle_forces.items():
+                        print(f"Link '{link_name}' has contact with obstacle '{obstacle_name}', force: {force}, applied torque: {torque}")
+            else:
+                print("No contact with obstacles detected.") 
+
+            self.obstacle_forces.clear()
+            
+                
 
 def main(args=None):
     rclpy.init(args=args)

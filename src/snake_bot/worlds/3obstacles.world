@@ -35,8 +35,8 @@
             </contact>
             <friction>
               <ode>
-                <mu>100</mu>
-                <mu2>50</mu2>
+                <mu>0</mu>
+                <mu2>0</mu2>
               </ode>
               <torsional>
                 <ode/>
@@ -118,7 +118,7 @@
           </inertia>
           <pose>0 0 0 0 -0 0</pose>
         </inertial>
-        <pose>-0.609 0.1 0 0 0 0</pose>
+        <pose>-0.609 0.05 0 0 0 0</pose>
         <gravity>1</gravity>
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
@@ -161,8 +161,8 @@
           <surface>
             <friction>
               <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
+                <mu>0</mu>
+                <mu2>0</mu2>
                 <fdir1>0 0 0</fdir1>
                 <slip1>0</slip1>
                 <slip2>0</slip2>
@@ -220,7 +220,7 @@
           </inertia>
           <pose>0 0 0 0 -0 0</pose>
         </inertial>
-        <pose>-0.298 0.6 0 0 0 0</pose>
+        <pose>-0.33 0.52 0 0 0 0</pose>
         <gravity>1</gravity>
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
@@ -263,8 +263,8 @@
           <surface>
             <friction>
               <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
+                <mu>0</mu>
+                <mu2>0</mu2>
                 <fdir1>0 0 0</fdir1>
                 <slip1>0</slip1>
                 <slip2>0</slip2>
@@ -322,7 +322,7 @@
           </inertia>
           <pose>0 0 0 0 -0 0</pose>
         </inertial>
-        <pose>-0.365 1.1 0 0 0 0</pose>
+        <pose>-0.365 1.05 0 0 0 0</pose>
         <gravity>1</gravity>
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
@@ -365,8 +365,8 @@
           <surface>
             <friction>
               <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
+                <mu>0</mu>
+                <mu2>0</mu2>
                 <fdir1>0 0 0</fdir1>
                 <slip1>0</slip1>
                 <slip2>0</slip2>
@@ -467,8 +467,8 @@
           <surface>
             <friction>
               <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
+                <mu>0</mu>
+                <mu2>0</mu2>
                 <fdir1>0 0 0</fdir1>
                 <slip1>0</slip1>
                 <slip2>0</slip2>
@@ -513,7 +513,7 @@
       </link>
 
 
-<link name='obstacle_5'>
+      <link name='obstacle_5'>
         <inertial>
           <mass>0.00442567</mass>
           <inertia>
@@ -569,8 +569,8 @@
           <surface>
             <friction>
               <ode>
-                <mu>1</mu>
-                <mu2>1</mu2>
+                <mu>0</mu>
+                <mu2>0</mu2>
                 <fdir1>0 0 0</fdir1>
                 <slip1>0</slip1>
                 <slip2>0</slip2>

@@ -203,6 +203,7 @@
                 <param name="min">0</param>
                 <param name="max">200</param>
             </command_interface>
+            <state_interface name="effort"/>
             <state_interface name="position"/>
         </joint>
         
@@ -212,6 +213,7 @@
                 <param name="min">0</param>
                 <param name="max">200</param>
             </command_interface>
+            <state_interface name="effort"/>
             <state_interface name="position"/>
 
         </joint>
@@ -221,6 +223,7 @@
                 <param name="min">0</param>
                 <param name="max">200</param>
             </command_interface>
+            <state_interface name="effort"/>
             <state_interface name="position"/>
 
         </joint>
@@ -231,6 +234,7 @@
                 <param name="min">0</param>
                 <param name="max">200</param>
             </command_interface>
+            <state_interface name="effort"/>
             <state_interface name="position"/>
 
         </joint>
@@ -240,6 +244,7 @@
                 <param name="min">0</param>
                 <param name="max">200</param>
             </command_interface>
+            <state_interface name="effort"/>
             <state_interface name="position"/>
 
         </joint>
@@ -249,6 +254,7 @@
                 <param name="min">0</param>
                 <param name="max">200</param>
             </command_interface>
+            <state_interface name="effort"/>
             <state_interface name="position"/>
 
         </joint>
@@ -259,6 +265,7 @@
                 <param name="min">0</param>
                 <param name="max">200</param>
             </command_interface>
+            <state_interface name="effort"/>
             <state_interface name="position"/>
 
         </joint>
@@ -269,6 +276,7 @@
                 <param name="min">0</param>
                 <param name="max">200</param>
             </command_interface>
+            <state_interface name="effort"/>
             <state_interface name="position"/>
 
         </joint>
@@ -279,6 +287,7 @@
                 <param name="min">0</param>
                 <param name="max">200</param>
             </command_interface>
+            <state_interface name="effort"/>
             <state_interface name="position"/>
         </joint>
     </ros2_control>

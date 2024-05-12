@@ -16,12 +16,12 @@ class Joints(Node):
         self.joint_8_pub_ = self.create_publisher(Float64MultiArray,'/joints8_controllers/commands',10)
         self.joint_9_pub_ = self.create_publisher(Float64MultiArray,'/joints9_controllers/commands',10)
 
-        timer_period =  20
+        timer_period =  5
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.count = 0
-        self.phase_shift=-30
+        self.phase_shift=1
     def timer_callback(self):
-        a = 20
+        a = 40
         msg1= Float64MultiArray()
         msg2= Float64MultiArray()
         msg3= Float64MultiArray()
@@ -31,6 +31,7 @@ class Joints(Node):
         msg7= Float64MultiArray()
         msg8= Float64MultiArray()
         msg9= Float64MultiArray() 
+        
         msg1.data = [math.sin(self.count)]
         self.joint_1_pub_.publish(msg1)
 
@@ -58,7 +59,7 @@ class Joints(Node):
         msg9.data = [a*math.sin(self.count+8*self.phase_shift)]
         self.joint_9_pub_.publish(msg9)
 
-        self.count +=1
+        self.count +=0.5
     
     
 def main(args=None):

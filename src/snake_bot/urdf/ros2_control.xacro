@@ -310,6 +310,11 @@
         
         <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
             <parameters>$(find snake_bot)/config/controllers.yaml</parameters>    
+            <robot_sim_type>gazebo_ros2_control/GazeboSystem</robot_sim_type>
+            <type>controller_manager/ControllerManager</type>
+            <!-- Add joint state publishing -->
+            <publish_joint_states>true</publish_joint_states>
+            <joint_state_topic>joint_states</joint_state_topic>
         </plugin>
 
 

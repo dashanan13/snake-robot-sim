@@ -4,34 +4,34 @@ controller_manager:
     
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
-     
-    
+
     joints1_controllers:
-      type: forward_command_controller/ForwardCommandController
+      type: effort_controllers/JointGroupEffortController
 
     joints2_controllers:
-      type: forward_command_controller/ForwardCommandController
+      type: effort_controllers/JointGroupEffortController
 
     joints3_controllers:
-      type: forward_command_controller/ForwardCommandController
+      type: effort_controllers/JointGroupEffortController
 
     joints4_controllers:
-      type: forward_command_controller/ForwardCommandController
+      type: effort_controllers/JointGroupEffortController
 
     joints5_controllers:
-      type: forward_command_controller/ForwardCommandController
+      type: effort_controllers/JointGroupEffortController
 
     joints6_controllers:
-      type: forward_command_controller/ForwardCommandController
+      type: effort_controllers/JointGroupEffortController
 
     joints7_controllers:
-      type: forward_command_controller/ForwardCommandController
+      type: effort_controllers/JointGroupEffortController
 
     joints8_controllers:
-      type: forward_command_controller/ForwardCommandController
+      type: effort_controllers/JointGroupEffortController
 
     joints9_controllers:
-      type: forward_command_controller/ForwardCommandController
+      type: effort_controllers/JointGroupEffortController
+
 # forward_command_controller/ForwardCommandController
 # position_controllers/JointGroupPositionController
   # Position Controllers ---------------------------------------
@@ -48,7 +48,6 @@ joint_state_broadcaster:
       - link_8_9_joint  
       - link_9_10_joint  
     
-
 
 
 joints1_controllers:
@@ -122,5 +121,3 @@ joints9_controllers:
     interface_name: effort
     command_interfaces:
       - effort  
-  
-  

@@ -27,7 +27,7 @@ setup(
     entry_points={
         'console_scripts': [
             'talker = snake_bot.joint:main',
-            'talker1 = snake_bot.joint1:main',
+            'twist = snake_bot.joint2:main',
             'anglecontrol = snake_bot.jointanglecontroller:main',
             'sensor10sec = snake_bot.graph10sec:main',
             'sensoralltime = snake_bot.graphalltime:main',

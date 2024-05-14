@@ -1,0 +1,2 @@
+Time,Acceleration,PositionSetpoint,PositionSetpointError,VelocitySetpoint,VelocitySetpointError
+0,-0.0,0.0,-4.8392802733089e-310,29.25,29.25
